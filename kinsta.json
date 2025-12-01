@@ -1,0 +1,7 @@
+{
+  "buildCommand": "hugo --minify",
+  "outputDirectory": "public",
+  "devCommand": "hugo server -D",
+  "installCommand": "echo 'No dependencies to install'"
+}
+

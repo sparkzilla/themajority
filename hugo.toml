@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
+
+# Uncomment and update when you know your site URL
+# baseURL = 'https://yourusername.github.io/'
+# baseURL = 'https://yoursite.kinsta.app/'
