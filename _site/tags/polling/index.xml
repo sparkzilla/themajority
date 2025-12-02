@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polling on The Majority</title>
+    <link>http://localhost:1313/tags/polling/</link>
+    <description>Recent content in Polling on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2024 17:52:50 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/polling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The SNP has never had a mandate</title>
+      <link>http://localhost:1313/articles/the-snp-has-never-had-a-mandate/</link>
+      <pubDate>Sat, 10 Feb 2024 17:52:50 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-snp-has-never-had-a-mandate/</guid>
+      <description>It is a commonly touted assertion of the SNP that all elections, Westminster or devolved, will be referendums on independence and if they achieve a majority of some kind then this will give them a mandate for independence. But what does ‘mandate’ actually mean?&amp;nbsp;&#xA;A standard definition (via Google) of a mandate is:&#xA;The authority to carry out a policy, regarded as given by the electorate to a party or candidate that wins an election.</description>
+    </item>
+    <item>
+      <title>The Silent Majority</title>
+      <link>http://localhost:1313/articles/the-silent-majority/</link>
+      <pubDate>Thu, 05 Nov 2020 12:11:58 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-silent-majority/</guid>
+      <description>Once thing is certain: the polls were wrong, again. There was no Blue Wave. There was no Biden landslide. Despite being a &#39;racist&#39;, Trump increased his vote among Latinos and Blacks.&#xA;One would think that the media would know better by now. In 2016, The New York Times&#39; favourite pollster, Nate Silver, famously predicted that there was only an 8% chance of Trump winning. It was in the bag for Clinton.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview on The Majority</title>
+    <link>http://localhost:1313/categories/interview/</link>
+    <description>Recent content in Interview on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jan 2021 13:02:34 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galloway Straight Answers</title>
+      <link>http://localhost:1313/articles/galloway-straight-answers/</link>
+      <pubDate>Thu, 21 Jan 2021 13:02:34 +0000</pubDate>
+      <guid>http://localhost:1313/articles/galloway-straight-answers/</guid>
+      <description>In collaboration with Scotland Matters, The Majority presents a video interview series with George Galloway, covering his return to Scottish politics, his plans for Alliance For Unity, tactical voting and his views on Nicola Sturgeon. Watch them all.&#xA;#1 - Why have you come back to Scottish Politics? https://youtu.be/iSLyTD9Cu1Q #2 - Why is the UK important to you? https://youtu.be/skM3XRzmCVc #3 - Given your past causes why should people support you now?</description>
+    </item>
+    <item>
+      <title>John Mortimer: It&#39;s time to abolish Holyrood</title>
+      <link>http://localhost:1313/articles/john-mortimer-its-time-to-abolish-holyrood/</link>
+      <pubDate>Sun, 15 Nov 2020 20:24:10 +0000</pubDate>
+      <guid>http://localhost:1313/articles/john-mortimer-its-time-to-abolish-holyrood/</guid>
+      <description>With six months to go to the Holyrood elections, Mark Devlin talks to John Mortimer, of the Abolish The Scottish Parliament Party, about the party’s progress and goals. What is the aim of the party?&#xA;The party’s flagship policy, of course, is to abolish the Scottish Parliament, which we consider to be a divisive waste of money. We believe that the £100 million running costs each year would be better spent on health and education, and that the powers and funding that the Scottish Government has centralised in Edinburgh, should be returned back to local authorities.</description>
+    </item>
+  </channel>
+</rss>

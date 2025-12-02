@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brexit on The Majority</title>
+    <link>http://localhost:1313/categories/brexit/</link>
+    <description>Recent content in Brexit on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 20:09:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/brexit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run away! Run away!</title>
+      <link>http://localhost:1313/articles/run-away-run-away/</link>
+      <pubDate>Sat, 05 Dec 2020 20:09:40 +0000</pubDate>
+      <guid>http://localhost:1313/articles/run-away-run-away/</guid>
+      <description>On Thursday, I read an article by Adam Morris in the Independent (If Boris Johnson wants to save the Union, he should stay far away from Scotland) which seems to encapsulate the appeasement and cowardice of the so-called Scottish Conservative &amp;amp; Unionist Party. So, I thought I’d go through it line-by-line and highlight the loserthink it embodies.&amp;nbsp;&#xA;Morris starts by trying to claim that the departure of Michelle Ballantyne is a gain for the party.</description>
+    </item>
+    <item>
+      <title>The uncomfortable power of precedent</title>
+      <link>http://localhost:1313/articles/the-uncomfortable-power-of-precedent/</link>
+      <pubDate>Tue, 24 Nov 2020 21:35:25 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-uncomfortable-power-of-precedent/</guid>
+      <description>In a recent speech to the Irish Dáil (parliament), Heather Humphreys, TD of the Fine Gael party, reproached Sinn Fein, saying that with Sinn Fein &#34;it is always a case of do as we say and not do as we do&#34;. The masterful speech echoes in the current debate on nationalism within Scotland, for with the SNP it is also always a case of &#34;do as we say and not as we do&#34;</description>
+    </item>
+  </channel>
+</rss>

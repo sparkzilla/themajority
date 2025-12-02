@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugh Pennington on The Majority</title>
+    <link>http://localhost:1313/categories/hugh-pennington/</link>
+    <description>Recent content in Hugh Pennington on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2020 13:42:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/hugh-pennington/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>‘Five out of Ten’: Health experts slam Sturgeon’s COVID response</title>
+      <link>http://localhost:1313/articles/five-out-of-ten-health-experts-slam-sturgeons-covid-response/</link>
+      <pubDate>Thu, 23 Jul 2020 13:42:26 +0000</pubDate>
+      <guid>http://localhost:1313/articles/five-out-of-ten-health-experts-slam-sturgeons-covid-response/</guid>
+      <description>In a video interview, conducted for Scotland Matters, on how an independent Scotland would have dealt with the Coronavirus crisis, leading health experts have slammed Nicola Sturgeon and the Scottish Government, rating their efforts as only ‘five out of ten’.&#xA;Due to constant TV exposure, the general public has a mostly positive view of Sturgeon’s handling of the crisis, and is favorably comparing Scotland’s perceived performance with that in England, despite similar infections and death rates.</description>
+    </item>
+  </channel>
+</rss>

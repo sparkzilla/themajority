@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Troubles on The Majority</title>
+    <link>http://localhost:1313/tags/the-troubles/</link>
+    <description>Recent content in The Troubles on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jun 2020 21:10:47 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/the-troubles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ireland&#39;s past is not Scotland&#39;s future</title>
+      <link>http://localhost:1313/articles/irelands-past-is-not-scotlands-future/</link>
+      <pubDate>Tue, 23 Jun 2020 21:10:47 +0000</pubDate>
+      <guid>http://localhost:1313/articles/irelands-past-is-not-scotlands-future/</guid>
+      <description>This is a guest editorial by Damien Scott, founder of Scottish Opposition Forum. It has been 22 years since the Good Friday Agreement was reached. After the 1997 General Election and the subsequent referendum on reconvening the Scottish Parliament for the first time in nearly 300 years, the April 1998 event was probably the third earliest political moment that I remember. At my tender age, I didn’t fully understand the details of the peace accord, but I knew it was a significant moment in the history of our country.</description>
+    </item>
+  </channel>
+</rss>

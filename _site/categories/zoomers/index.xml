@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zoomers on The Majority</title>
+    <link>http://localhost:1313/categories/zoomers/</link>
+    <description>Recent content in Zoomers on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jun 2020 22:50:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/zoomers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All Under One Braincell</title>
+      <link>http://localhost:1313/articles/all-under-one-braincell/</link>
+      <pubDate>Wed, 17 Jun 2020 22:50:31 +0000</pubDate>
+      <guid>http://localhost:1313/articles/all-under-one-braincell/</guid>
+      <description>On our daily trawl through the nether regions of Scottish twitter we came across this thread by @AOUBAlba. As you may recall, All Under One Banner organise pro-Separation marches for 99.99% of the Scottish population who stay home.&#xA;I&#39;ve been in chats with quite a few of these marchers who claim their Nationalism is &#34;civic and joyous&#34;. Yet is that really true? Yesterday, AUOB asked the question, &#34;What&#39;s the first thing that should be changed once Scotland regains independence?</description>
+    </item>
+  </channel>
+</rss>

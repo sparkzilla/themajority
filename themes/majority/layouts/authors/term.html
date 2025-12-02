@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $authorUsername := .Data.Term }}
+{{ $authorName := index .Site.Data.authors $authorUsername }}
+{{ if not $authorName }}{{ $authorName = $authorUsername }}{{ end }}
+
+{{ $authorPosts := where (where .Site.RegularPages "Type" "posts") "Params.author" $authorUsername }}
+{{ $authorPosts = where $authorPosts "Draft" false }}
+{{ $authorPosts = sort $authorPosts "Date" "desc" }}
+
+<div class="list-page author-page">
+    <header class="list-header">
+        <h1>Articles by {{ $authorName }}</h1>
+        {{ if gt (len $authorPosts) 0 }}
+        <div class="list-description">
+            <p>{{ len $authorPosts }} {{ if eq (len $authorPosts) 1 }}article{{ else }}articles{{ end }}</p>
+        </div>
+        {{ end }}
+    </header>
+    
+    {{ if gt (len $authorPosts) 0 }}
+    <div class="posts-list">
+        {{ range $authorPosts }}
+        <article class="post-item">
+            <a href="{{ .Permalink }}">
+                {{ if .Params.featuredImage }}
+                <div class="post-item-image">
+                    <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+                <div class="post-item-content">
+                    <h2>{{ .Title }}</h2>
+                    {{ if .Date }}
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ end }}
+                    {{ if .Summary }}
+                    <div class="post-excerpt">{{ .Summary }}</div>
+                    {{ else if .Description }}
+                    <p class="post-excerpt">{{ .Description }}</p>
+                    {{ end }}
+                </div>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+    {{ else }}
+    <div class="list-description">
+        <p>No articles found for this author.</p>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+

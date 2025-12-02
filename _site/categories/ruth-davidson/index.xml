@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruth Davidson on The Majority</title>
+    <link>http://localhost:1313/categories/ruth-davidson/</link>
+    <description>Recent content in Ruth Davidson on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Nov 2020 15:40:28 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ruth-davidson/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apples and Oranges</title>
+      <link>http://localhost:1313/articles/apples-and-oranges/</link>
+      <pubDate>Tue, 03 Nov 2020 15:40:28 +0000</pubDate>
+      <guid>http://localhost:1313/articles/apples-and-oranges/</guid>
+      <description>Imagine two salespeople at your door. One sells apples, the other oranges. Both fruits cost the same.&#xA;The apple salesperson says, ‘Buy this apple, it’s tasty!’. The orange salesperson, worried at this simple message, tries a different approach, ‘You like apples? This orange is just like an apple’.&amp;nbsp;&#xA;Which one are you most likely to choose?&#xA;If the orange salesperson doesn’t believe in their product, why should we? There are many selling strategies, but dissing your own product never works.</description>
+    </item>
+  </channel>
+</rss>

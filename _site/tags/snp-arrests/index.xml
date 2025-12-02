@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNP Arrests on The Majority</title>
+    <link>http://localhost:1313/tags/snp-arrests/</link>
+    <description>Recent content in SNP Arrests on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Apr 2023 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/snp-arrests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>After the earthquake, a tsunami</title>
+      <link>http://localhost:1313/articles/after-the-earthquake-a-tsunami/</link>
+      <pubDate>Wed, 26 Apr 2023 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/after-the-earthquake-a-tsunami/</guid>
+      <description>It’s said that before a tsunami strikes there are major warning signs to look out for that should alert the public to the forthcoming catastrophe. Warning signs such as an earthquake at sea, or the tide suddenly going out, are usually enough to galvanise the inhabitants of neighbouring coastal towns to immediately head for the high ground.&#xA;Political tsunamis have striking similarities to the real thing. For example, there were many early warning signs before the 2015 General Election that alerted all pro-UK parties in Scotland to the very real possibility that they were going to be swept away by a gigantic nationalist tidal wave.</description>
+    </item>
+  </channel>
+</rss>

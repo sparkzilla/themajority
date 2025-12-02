@@ -1,0 +1,18 @@
+{{- $tweetId := .Get "id" -}}
+{{- $tweetUrl := .Get "url" -}}
+
+{{- if $tweetUrl -}}
+  {{- $urlParts := split $tweetUrl "/" -}}
+  {{- $tweetId = index $urlParts (sub (len $urlParts) 1) -}}
+{{- end -}}
+
+{{- if $tweetId -}}
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="{{ if $tweetUrl }}{{ $tweetUrl }}{{ else }}https://twitter.com/statuses/{{ $tweetId }}{{ end }}?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
+{{- else -}}
+  {{- errorf "Tweet shortcode requires either 'id' or 'url' parameter" -}}
+{{- end -}}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mary Devlin on The Majority</title>
+    <link>http://localhost:1313/categories/mary-devlin/</link>
+    <description>Recent content in Mary Devlin on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Oct 2020 20:22:25 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/mary-devlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standing up for Scottish business</title>
+      <link>http://localhost:1313/articles/standing-up-for-scottish-business/</link>
+      <pubDate>Thu, 22 Oct 2020 20:22:25 +0000</pubDate>
+      <guid>http://localhost:1313/articles/standing-up-for-scottish-business/</guid>
+      <description>https://www.youtube.com/watch?v=IBstNm-ESs8 This article is an edited version of the above video, first broadcast on Monday, 19th October.&#xA;Having spent most of my life running my own businesses, in Japan, the United States and now in Scotland, it makes me really angry to see how the Scottish Government treats businesses here in Scotland.&amp;nbsp;&#xA;I remember starting my first business in Tokyo, making what became Japan’s number one English magazine. Like a lot of business owners, we used all our savings to get started.</description>
+    </item>
+  </channel>
+</rss>

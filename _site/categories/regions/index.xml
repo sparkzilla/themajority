@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regions on The Majority</title>
+    <link>http://localhost:1313/categories/regions/</link>
+    <description>Recent content in Regions on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jul 2020 15:32:36 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/regions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freedom for Galloway</title>
+      <link>http://localhost:1313/articles/freedom-for-galloway/</link>
+      <pubDate>Sun, 19 Jul 2020 15:32:36 +0000</pubDate>
+      <guid>http://localhost:1313/articles/freedom-for-galloway/</guid>
+      <description>Commentary by Jamie Blackett&#xA;Do you know the Mull of Galloway? The chances are that you don’t; even people who live in Galloway have probably never been there, unless they have a passion for sea birds, or lighthouses. I can recommend it for these two things, plus the seascape, but mainly as a way of exploring one’s inner sense of Britishness. There, standing on the southern-most tip of Scotland, gazing across an empty Irish Sea, once the nexus of trade in these islands for early Britons, you get the sense that, having travelled miles to be somewhere really isolated, you have actually located the centre point of the United Kingdom.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cult on The Majority</title>
+    <link>http://localhost:1313/tags/cult/</link>
+    <description>Recent content in Cult on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 21:09:47 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cult/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cult of St. Nicola</title>
+      <link>http://localhost:1313/articles/the-cult-of-st.-nicola/</link>
+      <pubDate>Mon, 15 Jun 2020 21:09:47 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-cult-of-st.-nicola/</guid>
+      <description>The camera shakes. A young child comes into view, the first of many, their gleaming eyes open and eager. They start talking in the coached manner of totalitarian regimes: The children of North Korea would like to say ‘thank you’ to our Dear Leader. We are so grateful, thank you for always keeping us safe, working so hard, for being strong for us. Thank you for caring for every individual life and for always thinking about the children.</description>
+    </item>
+  </channel>
+</rss>

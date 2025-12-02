@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angus MacNeil on The Majority</title>
+    <link>http://localhost:1313/tags/angus-macneil/</link>
+    <description>Recent content in Angus MacNeil on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Dec 2020 22:27:14 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/angus-macneil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vote SNP or else</title>
+      <link>http://localhost:1313/articles/vote-snp-or-else/</link>
+      <pubDate>Mon, 07 Dec 2020 22:27:14 +0000</pubDate>
+      <guid>http://localhost:1313/articles/vote-snp-or-else/</guid>
+      <description>In my last commentary for The Majority, I spoke about how the SNP, and Nicola Sturgeon, in particular, treat us — the Scottish electorate — as nothing more than stepping stones towards the realisation of their immature, teenage dreams. There is nothing, and no one, they would not sacrifice, take advantage of, exploit or attack in this all-encompassing obsession. An obsession that has divided our country, communities and families for the last decade.</description>
+    </item>
+  </channel>
+</rss>

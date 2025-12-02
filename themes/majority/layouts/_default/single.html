@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article class="article">
+    <header class="article-header">
+        {{ if .Params.author }}
+        {{ $authorUsername := .Params.author }}
+        {{ $authorName := index .Site.Data.authors $authorUsername }}
+        {{ if not $authorName }}{{ $authorName = $authorUsername }}{{ end }}
+        <div class="article-byline">
+            By <a href="/authors/{{ $authorUsername }}/" class="author-link">{{ $authorName }}</a> • {{ if .Date }}{{ .Date.Format "January 2, 2006" }}{{ end }}
+        </div>
+        {{ else if .Date }}
+        <div class="article-byline">
+            {{ .Date.Format "January 2, 2006" }}
+        </div>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+    </header>
+    
+    {{ if .Params.featuredImage }}
+    <div class="article-featured-image">
+        <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    
+    <div class="article-content">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Params.tags }}
+    <footer class="article-footer">
+        <div class="tags">
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+    </footer>
+    {{ end }}
+</article>
+{{ end }}
+

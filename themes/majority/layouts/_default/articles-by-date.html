@@ -1,0 +1,67 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="list-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+        <div class="list-description">
+            {{ .Content }}
+        </div>
+        {{ end }}
+    </header>
+    
+    <div class="posts-list">
+        {{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+        {{ $sortedPosts := sort $allPosts "Date" "asc" }}
+        {{ range $sortedPosts }}
+        {{ $isMarkedForDeletion := and (isset .Params "deleted") (eq .Params.deleted true) }}
+        <article class="post-item" {{ if $isMarkedForDeletion }}style="border-left: 4px solid #dc3545; background: #fff5f5;"{{ end }}>
+            <div class="post-item-content" style="display: flex; justify-content: space-between; align-items: start; gap: 20px;">
+                <div style="flex: 1;">
+                    <h2 style="margin-bottom: 8px;">
+                        <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a>
+                        {{ if and (isset .Params "deleted") (eq .Params.deleted true) }}
+                        <span style="background: #dc3545; color: white; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: normal; margin-left: 10px;">MARKED FOR DELETION</span>
+                        {{ end }}
+                        {{ if .Draft }}
+                        <span style="background: #6c757d; color: white; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: normal; margin-left: 10px;">DRAFT</span>
+                        {{ end }}
+                    </h2>
+                    {{ if .Date }}
+                    <time datetime="{{ .Date.Format "2006-01-02" }}" style="display: block; color: var(--text-light); font-size: 14px; margin-bottom: 8px;">
+                        {{ .Date.Format "January 2, 2006" }} ({{ .Date.Format "2006-01-02" }})
+                    </time>
+                    {{ end }}
+                    {{ if .Summary }}
+                    <div class="post-excerpt" style="margin-top: 8px;">{{ .Summary }}</div>
+                    {{ else if .Description }}
+                    <p class="post-excerpt" style="margin-top: 8px;">{{ .Description }}</p>
+                    {{ end }}
+                    <div style="margin-top: 8px; font-size: 12px; color: var(--text-light);">
+                        <strong>File:</strong> <code style="background: #f0f0f0; padding: 2px 6px; border-radius: 3px;">content/posts/{{ .File.LogicalName }}</code>
+                    </div>
+                </div>
+                {{ if .Params.featuredImage }}
+                <div class="post-item-image" style="width: 150px; flex-shrink: 0;">
+                    <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 4px;">
+                </div>
+                {{ end }}
+            </div>
+        </article>
+        {{ end }}
+    </div>
+    
+    <div style="margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+        <h3 style="margin-top: 0;">Summary</h3>
+        <p><strong>Total Articles:</strong> {{ len $sortedPosts }}</p>
+        {{ $markedForDeletion := where $sortedPosts ".Params.deleted" true }}
+        <p><strong>Marked for Deletion:</strong> <span style="color: #dc3545; font-weight: bold;">{{ len $markedForDeletion }}</span></p>
+        {{ $drafts := where $sortedPosts "Draft" true }}
+        <p><strong>Draft Articles:</strong> {{ len $drafts }}</p>
+        {{ if $sortedPosts }}
+        <p><strong>Oldest Article:</strong> {{ (index $sortedPosts 0).Date.Format "January 2, 2006" }}</p>
+        <p><strong>Newest Article:</strong> {{ (index (last 1 $sortedPosts) 0).Date.Format "January 2, 2006" }}</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+

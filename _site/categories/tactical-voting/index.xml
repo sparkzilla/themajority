@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tactical Voting on The Majority</title>
+    <link>http://localhost:1313/categories/tactical-voting/</link>
+    <description>Recent content in Tactical Voting on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2020 15:23:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/tactical-voting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tactical voting 2021: The basics</title>
+      <link>http://localhost:1313/articles/tactical-voting-2021-the-basics/</link>
+      <pubDate>Mon, 23 Nov 2020 15:23:32 +0000</pubDate>
+      <guid>http://localhost:1313/articles/tactical-voting-2021-the-basics/</guid>
+      <description>The SNP are a MINORITY party that wins because the anti-Nationalist opposition vote is split three ways. Of the 73 constituency seats in the Scottish Parliament Elections, 59 are currently held by the SNP. That’s an astonishing 81% of seats from just 46.5% of the vote.&amp;nbsp;&#xA;Talk about not getting the government you vote for! But how will tactical voting help? First we need to discard the two sets of seats where tactical voting won&#39;t make a difference.</description>
+    </item>
+  </channel>
+</rss>

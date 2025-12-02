@@ -1,0 +1,51 @@
+<header class="site-header">
+    <div class="header-container">
+        <div class="logo">
+            <a href="{{ "/" | relURL }}">
+                {{ if .Site.Params.logo }}
+                <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}" class="logo-image">
+                {{ else }}
+                <img src="{{ "images/logo.png" | relURL }}" alt="{{ .Site.Title }}" class="logo-image">
+                {{ end }}
+            </a>
+        </div>
+        <nav class="site-nav">
+            <div class="search-container">
+                <button class="search-toggle" aria-label="Search" id="search-toggle">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <div class="search-box" id="search-box">
+                    <input type="text" id="search-input" placeholder="Search posts..." autocomplete="off">
+                    <div class="search-results" id="search-results"></div>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}" {{ if hasPrefix .URL "http" }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+            <button class="menu-toggle" aria-label="Menu" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+        
+        <!-- Mobile Menu Slide-out -->
+        <div class="mobile-menu" id="mobile-menu">
+            <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">×</button>
+            <ul class="nav-menu">
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}" {{ if hasPrefix .URL "http" }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</header>
+

@@ -47,3 +47,4 @@ if ($hugoExe) {
     Write-Host "`nHugo update complete!" -ForegroundColor Green
 }
 
+

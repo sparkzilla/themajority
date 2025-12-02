@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polls on The Majority</title>
+    <link>http://localhost:1313/tags/polls/</link>
+    <description>Recent content in Polls on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Nov 2020 12:11:58 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/polls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Silent Majority</title>
+      <link>http://localhost:1313/articles/the-silent-majority/</link>
+      <pubDate>Thu, 05 Nov 2020 12:11:58 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-silent-majority/</guid>
+      <description>Once thing is certain: the polls were wrong, again. There was no Blue Wave. There was no Biden landslide. Despite being a &#39;racist&#39;, Trump increased his vote among Latinos and Blacks.&#xA;One would think that the media would know better by now. In 2016, The New York Times&#39; favourite pollster, Nate Silver, famously predicted that there was only an 8% chance of Trump winning. It was in the bag for Clinton.</description>
+    </item>
+    <item>
+      <title>Vote Indy, Get Tory</title>
+      <link>http://localhost:1313/articles/vote-indy-get-tory/</link>
+      <pubDate>Tue, 01 Sep 2020 21:17:50 +0000</pubDate>
+      <guid>http://localhost:1313/articles/vote-indy-get-tory/</guid>
+      <description>A few months ago, a little-noticed poll by Wings over Scotland caught my attention. The headline result of the poll was that there was a 50-50 split in support for the question ‘Should Scotland be an independent country’. In fact, the results were:&#xA;Yes: 46%&amp;nbsp; No: 46%&amp;nbsp; Don’t Know 8%&#xA;While I’m sure many of you will take issue with the question wording, the fun starts when the following question is asked:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polls on The Majority</title>
+    <link>http://localhost:1313/categories/polls/</link>
+    <description>Recent content in Polls on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Feb 2021 21:57:14 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/polls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Six ways Nationalists manipulate polls</title>
+      <link>http://localhost:1313/articles/six-ways-nationalists-manipulate-polls/</link>
+      <pubDate>Thu, 11 Feb 2021 21:57:14 +0000</pubDate>
+      <guid>http://localhost:1313/articles/six-ways-nationalists-manipulate-polls/</guid>
+      <description>Another new poll! It seems that almost every week there&#39;s a new poll on Scottish &#39;independence&#39;. But, what&#39;s the deal? Why are there so many, and do they really mean we&#39;re on the inevitable road to &#39;independence&#39;? Short answer -- Nope. Here&#39;s how Nationalists manipulate polls, and why.&#xA;#1 Choose a pollster that gives them the result they want James Kelly (@JamesKelly) of Pop Goes Scot admits that he uses Panelbase polls to get a better result for Yes.</description>
+    </item>
+    <item>
+      <title>93% of NO voters back tactical voting to beat the SNP</title>
+      <link>http://localhost:1313/articles/93-of-no-voters-back-tactical-voting-to-beat-the-snp/</link>
+      <pubDate>Mon, 09 Nov 2020 21:32:29 +0000</pubDate>
+      <guid>http://localhost:1313/articles/93-of-no-voters-back-tactical-voting-to-beat-the-snp/</guid>
+      <description>This article was originally published in Think Scotland.&#xA;Two years ago, a few Aberdeen City and Shire Better Together veterans, including the two chairmen, Ian Lakin and Professor Hugh Pennington (better known as Nicola Sturgeon’s COVID bête noire), got together to create Scotland Matters. We were all agreed that the 2021 Scottish Parliament elections would be the Scexit High Noon and unless Labour, Lib Dem and the Conservatives started looking like an effective opposition and alternative government, the SNP/Greens would again win a majority of seats with a minority of the total vote.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sport on The Majority</title>
+    <link>http://localhost:1313/categories/sport/</link>
+    <description>Recent content in Sport on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2020 20:47:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/sport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A British Premiership? It&#39;s a match-winner</title>
+      <link>http://localhost:1313/articles/a-british-premiership-its-a-match-winner/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:19 +0000</pubDate>
+      <guid>http://localhost:1313/articles/a-british-premiership-its-a-match-winner/</guid>
+      <description>This article was originally published in Think Scotland.&#xA;The biggest single thing that could be done to cement the union between Scotland and England would be for Celtic and Rangers to join The Premiership. I have pressed this case upon every Prime Minister since Tony Blair.&#xA;You may say I have a taste for hyperbole from time to time. It is true I have sometimes hailed a starling as an eagle or even denounced a blackbird as a vulture but this time I&#39;m not exaggerating.</description>
+    </item>
+  </channel>
+</rss>

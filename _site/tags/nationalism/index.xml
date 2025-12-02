@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nationalism on The Majority</title>
+    <link>http://localhost:1313/tags/nationalism/</link>
+    <description>Recent content in Nationalism on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Sep 2025 17:25:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nationalism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Independence Is Dead</title>
+      <link>http://localhost:1313/articles/independence-is-dead/</link>
+      <pubDate>Sat, 06 Sep 2025 17:25:26 +0000</pubDate>
+      <guid>http://localhost:1313/articles/independence-is-dead/</guid>
+      <description>This week, John Swinney launched yet another desperate push to try to break up the UK, this time fronted by a glossy poster declaring:&#xA;“Scotland is a nation. We affirm that every nation has the right to choose its own future. We choose a future where Scotland decides its own government…This is our plea, our right, and our opportunity: To place who live here at the heart of our national opportunity: democracy.</description>
+    </item>
+  </channel>
+</rss>

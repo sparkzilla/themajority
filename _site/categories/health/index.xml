@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health on The Majority</title>
+    <link>http://localhost:1313/categories/health/</link>
+    <description>Recent content in Health on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Nov 2020 20:17:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/health/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The SNP has failed our doctors</title>
+      <link>http://localhost:1313/articles/the-snp-has-failed-our-doctors/</link>
+      <pubDate>Tue, 10 Nov 2020 20:17:05 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-snp-has-failed-our-doctors/</guid>
+      <description>It’s worth reminding ourselves that the SNP have had complete control over Scotland’s Health Service for the past 13-and-a-half years, and that prior to becoming First Minister, Nicola Sturgeon was Health Secretary. In that time, the number of GP and consultant vacancies has increased dramatically.&amp;nbsp;&#xA;As a GP, I have seen firsthand the effect of how the SNP’s chronic underfunding, higher taxation and lack of university spaces have combined to create desperate shortages in Scotland&#39;s health service.</description>
+    </item>
+  </channel>
+</rss>

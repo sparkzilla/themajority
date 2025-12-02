@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQA on The Majority</title>
+    <link>http://localhost:1313/tags/sqa/</link>
+    <description>Recent content in SQA on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Aug 2020 17:21:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sqa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When will we ever learn?</title>
+      <link>http://localhost:1313/articles/when-will-we-ever-learn/</link>
+      <pubDate>Tue, 04 Aug 2020 17:21:10 +0000</pubDate>
+      <guid>http://localhost:1313/articles/when-will-we-ever-learn/</guid>
+      <description>This morning, like many parents in Scotland, I was up early for results day. A few minutes after 8am, my daughter appeared to relay the news. But, something didn’t seem right. Instead of As, two of her results, for Physics and Computing Science, were Bs.&#xA;My mind went back to her last parent-teacher conference, just as the Coronavirus crisis was starting. Her Computing Science teacher was effusive in praise. ‘I’ll be recommending an A,’ he said.</description>
+    </item>
+  </channel>
+</rss>

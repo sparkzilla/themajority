@@ -1,0 +1,485 @@
++++
+title = "Scotland's devolution disaster"
+featuredImage = "images/restored/Scotlands-Devolution-Disaster-Final.jpg"
+date = 2023-04-29T14:02:23Z
+draft = false
+author = "stephenbailey"
+categories = ["Commentary"]
+tags = ["Devolution"]
+aliases = ["/blog/2023/04/29/scotlands-devolution-disaster/"]
++++
+<p>It’s been 25 years since the devolution experiment was inflicted on Scotland, and the result is an unspeakable disaster. It’s a disaster because The Scottish Parliament, which was set up to stop Scottish Nationalism, is now being abused by the SNP to promote a separatist agenda, while Scotland’s services decline daily and scandal mounts up. And it is ‘unspeakable’ because few want to discuss whether the source problem is devolution itself, even its natural opponents.</p>
+
+
+
+<p>When, a few days ago, Lord Frost published an article (<em><a href="https://www.telegraph.co.uk/news/2023/04/19/snp-implosion-is-a-chance-to-put-devolution-in-reverse/">The SNP’s implosion is a chance to put failing devolution into reverse</a></em>) that said...</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>In particular, Scotland does not need to be an independent actor on the world stage; it should not be able to legislate to disrupt free trade within the UK; and it does not need to have most tax-raising powers currently available to it. These powers are embryonic, independent government powers. They aren’t necessary to run an effective local administration, which is what devolution should be about.</p>
+</blockquote>
+
+
+
+<p>Just like when Boris Johnson dared to say that ‘Devolution is a disaster’, The Scottish Tory establishment was aghast, with list-MSP Murdo Fraser calling the comments “nonsense”, adding: “Devolution has allowed us to shine a light on SNP failures. The Conservatives will not be rolling it back.”</p>
+
+
+
+<p>A very dim light indeed. But, it could, and should, be argued that Scots would not need to ‘shine a light’ on SNP tax, free trade, or foreign embassies, if they did not have the platform to make these decisions. Or even to go as far as saying that the abolition of the Parliament would halt the SNP’s separatist pretensions.</p>
+
+
+
+<p>But why wouldn’t the Tories want to roll it back? What advantage has it given them? The reality is that <em>none</em> of the major parties wants The Scottish Parliament.</p>
+
+
+
+<p>Mealy-mouthed Scottish Tory MSPs aside, grassroots Tories never wanted it. They voted against its establishment because they knew, and were proved right, that it was a way for nationalists to promote separation.</p>
+
+
+
+<p>Labour doesn’t want it. Despite being set up to secure Labour rule in Scotland, it has had the opposite effect. It allowed the SNP to falsely claim they were socialists and usurp their position. Labour would rather power be further devolved to local authorities.</p>
+
+
+
+<p>And the SNP don’t even want it. They want ‘independence’. They can never make devolution a success because, if it was, it would undermine their case for a separate state. And then there's the cost, both real and opportunity.</p>
+
+
+
+<p>So the unspeakable truth is that no-one actually wants The Scottish Parliament, but the Scottish political establishment will not say so. It will use all kinds of fabrications and misdirections to try to tell ordinary people that the failed system they see all around them is actually deserving of their love.</p>
+
+
+
+<p>It isn’t. When any system fails its purpose, it must be reassessed.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p>This series aims to prompt a discussion into the reality of devolution: Why does it exist? Why does it have the powers it currently has? What have Scots gained and what have they lost? What do they stand to gain or lose in future if the current system continues? Is the Scottish Government giving Scots good value? How do we judge that value? What could the money, time and effort be better spent on? Can the Scottish Government be reformed? Should it be abolished? If so, what would replace it? </p>
+
+
+
+<p>There are no simple answers to these questions. Anyone who thinks there are is encouraged to enter the debate to discover its nuances. Perhaps, some readers will think these questions shouldn't be asked at all. But we have to start somewhere.</p>
+
+
+
+<p>The focus of these articles is primarily on devolution as it affects Scotland. We are not experts in Welsh or Northern Irish devolution, and they are mentioned primarily for context. However, it is important to note that devolution across the UK, not only affects Scots, Welsh and people from Northern Ireland, but affects everyone in the UK, because the potential breakup of our country and the good governance of its constituent parts affects us all.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>How things worked before devolution</strong></h2>
+
+
+
+<p>Before the advent of legislative devolution in the late 1990s, the local matters of Scotland, Wales and Northern Ireland were managed by a series of different Government Cabinet positions:</p>
+
+
+
+<p><strong>In Scotland during the period 1707 to 1999</strong></p>
+
+
+
+<p>After the Union with England Act, the Parliament of Scotland was abolished on 25th March 1707, and the United Kingdom of Great Britain was created on 1st May 1707, represented by a single Parliament of Great Britain located at Westminster in London. The post of Secretary of State for Scotland was set up until the Jacobite rising of 1745, after which, responsibility for Scotland lay primarily with the office of the Secretary of State for the Northern Department, usually exercised by the Lord Advocate. The Secretaries of State were reorganised in 1782 and the duties then came under the Secretary of State for the Home Department.</p>
+
+
+
+<p><strong>From 1885 to 1999 - Administrative devolution</strong></p>
+
+
+
+<p>1885 saw the creation of the Scottish Office and the post of Secretary for Scotland and from 1892 the Secretary for Scotland sat in the cabinet, but the position was not officially recognised as a full member of the cabinet of the United Kingdom, until the Secretary for Scotland post was upgraded to full Secretary of State rank as Secretary of State for Scotland in 1926.</p>
+
+
+
+<p>The Scottish Office was a department of&nbsp; the United Kingdom Government from 1885 until the advent of legislative devolution in 1999, and exercised a wide range of government functions in relation to Scotland under the management of the Secretary of State for Scotland. Following the establishment of legislative devolution in 1999, most of its functions were transferred to the newly-established Scottish Executive (the Scottish ‘Government’), with a small residue of functions retained by the Scotland Office.</p>
+
+
+
+<p><strong>Since 1999 - Legislative Devolution</strong></p>
+
+
+
+<p>After the 1999 Scottish devolution, the powers of the Scottish Office were divided, with most transferred to the Scottish Government or to other British government departments, leaving only a limited role for the Scotland Office.</p>
+
+
+
+<p>In Wales, the secretary of State for Wales and the Welsh Office (created in 1964) was responsible for many functions regarding the governance of Wales, until the advent of legislative devolution when the Wales office replaced the Welsh Office, still headed by the Secretary of State for Wales.</p>
+
+
+
+<p>Before legislative devolution (from 1972-1998) in Northern Ireland, the Secretary of State for NI handled the functions of the governance of that part of the UK. After 1998, most of these functions were hived off to the control of the Stormont devolved executive and the role of the Secretary of State for NI has been severely reduced.</p>
+
+
+
+<p>Before the introduction of legislative devolution in the late 1990s, the Houses of Parliament at Westminster were the primary source of all legislation within the UK. Acts of the UK Parliament were the main method by which Parliament created binding law, and the process by which a legislative proposal became law followed a rigorous system of checks and balances. An Act of Parliament may also allow a government minister or other public authority to legislate further via secondary (subordinate or delegated) legislation.</p>
+
+
+
+<p>After legislative devolution, the newly created devolved legislatures (Holyrood, the Welsh ‘parliament’ and Stormont) were given the task of passing legislation on devolved matters and some areas (reserved matters) were retained for Westminster’s consideration only.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>A brief history of devolution</strong></h2>
+
+
+
+<p>There had been calls for setting up a Scottish parliament since the 1930s, but the idea was very unpopular with the Scottish public and never built up any significant head of steam, until the 1970s, when the Labour Party adopted the cause after becoming concerned with the apparent rise in popularity of the Scottish National Party, which had began to pick up some seats in Parliament. Consequently, the Scotland Act 1978 was passed, which was intended to establish a Scottish Assembly as a devolved legislature for Scotland.&nbsp;</p>
+
+
+
+<p>At a referendum held in the following year, the Act failed to gain the necessary 40% level of approval required by an amendment, and was never put into effect. The idea of a Scottish parliament then fell to the wayside during the 1980s.</p>
+
+
+
+<p>(A referendum on establishing a Welsh assembly returned an overwhelming 79.74% against to 20.26% in favour and so the idea was not implemented in Wales).</p>
+
+
+
+<p>After the referendum, The Campaign for a Scottish Assembly (CSA) was launched at a rally in Edinburgh on 1st March 1980, and led by Jack Brand (later headed by Jim Boyack). Four months later, in July, the Labour Party set up a campaign for a Scottish assembly.</p>
+
+
+
+<p>The CSA came to adopt the stance that the cause of a Scottish parliament would be best advanced&nbsp; by a convention with more democratic legitimacy, and set up a committee, chaired by Professor Sir Robert Grieve. This committee published the Claim of Right for Scotland, which employed several constitutionally spurious arguments, based on a misrepresentation of the 1698 Scottish Claim of Right.</p>
+
+
+
+<p>The role of the CSA was then superseded by the Scottish Constitutional Convention, established in 1989, after prominent Scottish individuals signed the Claim of Right, headed by Canon Kenyon Wright. David Steel and Harry Ewing were co-chairmen. Various organisations participated in the Convention, such as the Labour Party, the Liberal Democrats, the Scottish Green Party, the Communist Party, the Scottish Trades Union Congress. Initially, the Scottish National Party participated, but then withdrew, owing to the convention's unwillingness to discuss Scottish independence as a constitutional option.</p>
+
+
+
+<p>The Convention then published its blueprint for devolution, ‘Scotland's Parliament, Scotland's Right’, on 30th November 1995. This provided the basis for the structure of the Scottish Parliament, established in 1999.</p>
+
+
+
+<p>The Labour Party adopted the idea of a Scottish Parliament, Welsh and NI assemblies in the early 1990s, under the leadership of John Smith, once again in the extremely questionable belief that it was necessary due to a small upturn in the popularity of the SNP.</p>
+
+
+
+<p>On 11th September 1997, The Scottish devolution referendum was held, giving voters two questions: should there be a Scottish Parliament and should it have tax-varying powers. The result was a majority in favour of both proposals, and the Parliament was established following an election in 1999.&nbsp;</p>
+
+
+
+<p>The referendum asked the following questions:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em>Do you agree that there should be a Scottish Parliament as proposed by the Government?</em></p>
+</blockquote>
+
+
+
+<p>and</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em>Do you agree that a Scottish Parliament should have tax-raising powers as proposed by the Government?</em></p>
+</blockquote>
+
+
+
+<p>It returned the following results:</p>
+
+
+
+<p>To the first question:</p>
+
+
+
+<ul>
+<li>Yes: 1,775,045 (74.29%)</li>
+
+
+
+<li>No: 614,400 (25.71%)</li>
+
+
+
+<li>Valid votes: 2,389,445 (99.92%)</li>
+
+
+
+<li>Total votes: 2,391,268 (100.00%)</li>
+
+
+
+<li>Registered voters/turnout: 3,973,673 (60.18%)</li>
+</ul>
+
+
+
+<p>To the second question:</p>
+
+
+
+<ul>
+<li>Yes: 1,512,889 (63.48%)</li>
+
+
+
+<li>No: 870,263 (36.52%)</li>
+
+
+
+<li>Valid votes: 2,383,152 (99.66%)</li>
+
+
+
+<li>Invalid or blank votes: 19,013 (0.80%)</li>
+
+
+
+<li>Total votes: 2,391,268 (100.00%)</li>
+
+
+
+<li>Registered voters/turnout:3,973,673 (60.18%)</li>
+</ul>
+
+
+
+<p>Similar polls in Wales and NI established devolved assemblies in these two parts of the UK. In the case of Wales, the proposition passed by only 0.6%: 50.30% for, 49.70% against.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Warnings unheeded</strong></h2>
+
+
+
+<p>The proponents of legislative devolution vehemently insisted that it posed ‘no threat whatsoever’ to the integrity of the UK, as there was absolutely no way that it could be used to break up the UK.&nbsp;</p>
+
+
+
+<p>The Labour politician Tam Dalyell was sceptical: during the debates on devolution in the House of Commons in the mid–late 1970s, he became synonymous with a forceful opposition to the devolution of power from Westminster to the constituent parts of the UK.</p>
+
+
+
+<p>Dalyell correctly foresaw that the creation of devolved legislatures in these parts of the UK would achieve nothing of any real value and simply significantly fuel the separatist nationalist cause, which, he predicted, would inevitably lead to the complete dissolution of the United Kingdom.</p>
+
+
+
+<p>He also foresaw that such constitutional arrangements were intrinsically flawed and would lead to a constitutional crisis as Westminster and the devolved legislatures clashed over who had authority over what, and to what degree.</p>
+
+
+
+<p>Most famously, he illustrated an example of this with his ‘West Lothian Question’, which highlighted that more than one legislature in any single (unitary) country (the United Kingdom of Great Britain and Northern Ireland in this case) would only cause administrative confusion. He summed up devolution as being:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>A one-way motorway to independence with no turn-offs or roundabouts.</p>
+</blockquote>
+
+
+
+<p>Dalyell has been vindicated on all the above views by the events of the last twenty-plus years of legislative devolution.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/images/posts/Tam-Dayell-1.jpg" alt="" class="wp-image-12974"/></figure>
+
+
+
+<p>Throughout these years, the citizens of the UK have had the constitutional fiction that devolution would strengthen the UK fed to them by pro-legislative devolution politicians and the media. Devolutionists insisted time and time again that their plans would be the ‘thing that saved the United Kingdom from nationalism and from being broken up’. Indeed, Labour politician George Robertson even claimed, in 1995, that it would ‘kill off nationalism forever’ — something that must be near the top of the list of statements that have later proved to be completely wrong (perhaps only beaten by Neville Chamberlain’s ‘peace in our time’ statement in 1938).</p>
+
+
+
+<p>It’s been claimed, over and over again, that legislative devolution is just ‘autonomy within the UK’ and that its powers are limited. The devolved administrations were simply supposed to deal with local matters only, with national issues strictly reserved for the UK Parliament at Westminster.</p>
+
+
+
+<p>Take the Constitution of the UK, for example. It’s a reserved matter, but the SNP (as well as Plaid Cymru and the Irish nationalists) simply ignore this and keep pushing for independence/re-unification referendums, despite the supposed constitutional bar on them getting involved in such matters, and despite the judgement of the UK’s Supreme Court, which has ruled that the devolved administrations have no right to run referendums on the constitution.&nbsp;</p>
+
+
+
+<p>Yet, nationalists persist, with increasingly bizarre and unconstitutional schemes, such as ‘de facto’ referendums (using a General or Scottish Government election as a proxy referendum) or even claiming that independence can be claimed unilaterally.</p>
+
+
+
+<p>As Dayell predicted, devolution has enabled Scottish, Welsh and Irish nationalism to rise to political dominance (or given them much more prominence in the case of Wales), displacing UK-wide parties and allowed those nationalisms to use the devolved legislatures as a platform to advance their independence/reunification agendas.&nbsp;</p>
+
+
+
+<p>The SNP’s antics have emboldened nationalists in other parts of the UK. Plaid have recently publicly stated that they will ask for an independence referendum if Scotland asks for a second one, and Irish nationalists have made one public call after another for reunification. A federal UK does not solve this problem: It’s easy to imagine each region fighting to leave the UK, aided and abetted by other regions, against the centre.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Continuous and unnecessary appeasement</strong></h2>
+
+
+
+<p>This continuous capitulation to nationalist narratives culminated in Alex Salmond managing to push the inept David Cameron into holding a referendum on Scottish independence in 2014. Cameron surrendered to the SNP in 2012, despite only 28% of Scots supporting the issue at that time.&nbsp;</p>
+
+
+
+<p>As the vote grew closer, some in the pro-UK side panicked, leading to the ‘The Vow’, a joint statement from the leaders of the three main pro-UK parties, being published in <em>The Daily Record</em>, one of the main tabloid newspapers in Scotland, that also backed a ‘No’ vote in the referendum. David Cameron, Ed Miliband and Nick Clegg promised more powers for Scotland in the event of a ‘No’ vote in the Scottish independence referendum of 2014:</p>
+
+
+
+<ul>
+<li>The Scottish parliament would be permanent</li>
+
+
+
+<li>Extensive new devolved powers would be delivered</li>
+
+
+
+<li>The Barnett formula for funding Scottish Government expenditure would continue</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img src="/images/posts/The-Vow-Front-Page.jpg" alt="" class="wp-image-12971"/></figure>
+
+
+
+<p>Ultimately, the nationalists lost the September 2014 referendum, gaining only 45% of the vote. Later analysis by Lord Ashcroft showed the Vow to have made little difference to the final result, yet it had been promised.</p>
+
+
+
+<p>Cameron’s belief that a referendum loss for the SNP would put the issue to bed, was also sorely mistaken. Nationalists had just increased their vote share to 45% and they would spend the following years desperately trying to increase that. They now had the myth of inevitability on their side and inconvenient pre-referendum assertions that it would be ‘once in a generation’ were swept aside. Meanwhile, the UK Government did nothing to rein this in, acting out of fear that any action they took, despite a majority of Scots supporting it, would be seen to be provoking nationalists and increase their support.</p>
+
+
+
+<p>In effect, Nationalists acted as though they had won the referendum, while the UK Government acted as though it had lost.</p>
+
+
+
+<p>To fulfil the promises of The Vow, The Smith Commission was set up on 18th September 2014. The Commission’s recommendations were the result of cross-party talks by Holyrood’s five political parties, the Conservatives, Labour, the Liberal Democrats, the Green Party and the Scottish National Party, as well as submissions from the public and organisations. Approximately 14,000 emails and letters were received from the public, with another 250 contributions from groups.</p>
+
+
+
+<p>The SNP called for full control over fiscal and tax policy to be devolved from Westminster. They also called for powers over welfare and broadcasting in their submission to the body looking into strengthening Holyrood.</p>
+
+
+
+<p>Other SNP proposals included calls for a wide range of other powers to be transferred from Westminster to Holyrood, including control over income tax, national insurance, corporation tax, capital gains tax, fuel duty, air passenger duty and inheritance tax. They also demanded that welfare and employment policy must be devolved, as well as other areas like energy and broadcasting.</p>
+
+
+
+<p>The Conservatives, Labour and Liberal Democrats, who had all supported a ‘no’ vote in the referendum, each submitted proposals which were similar to the findings of commissions they had each held before the referendum.</p>
+
+
+
+<p>The Labour Party said it wanted powers which would allow the Scottish government to raise 40% of its own budget and increase the top rate of tax, as well as control over housing benefit and attendance allowance, but said other areas, like VAT, should remain with Westminster.</p>
+
+
+
+<p>The Conservatives said Holyrood must be responsible for setting the rates and bands of personal income tax as well as a share of VAT.</p>
+
+
+
+<p>The Liberal Democrats said Scotland must raise most of the money it spends, but issues like welfare and defence should remain with the UK government.</p>
+
+
+
+<p>The pro-independence Greens called for the Scottish Parliament to be given wide economic powers, including borrowing and taxation, control over most of the welfare system and further energy powers.</p>
+
+
+
+<p>The SNP and Scottish Greens, who had supported a ‘yes’ vote, also called for ‘devo max’ – full fiscal autonomy from Westminster.</p>
+
+
+
+<p>These recommendations would form the basis of draft legislation, eventually passed in March 2016. The commission published its recommendations on 27th November 2014, giving a host of new powers to the Parliament, without giving the public a chance to vote on the recommendations.</p>
+
+
+
+<p>They included:</p>
+
+
+
+<ul>
+<li>Complete power to set income tax rates and bands except for the Personal Allowance and administration (which is still carried out by HMRC.)</li>
+
+
+
+<li>The allocation of a proportion of the VAT collected in Scotland, amounting to the first ten percent of the standard rate (so with the current standard VAT rate of 20%, Scotland would receive 50% of the receipts). However, the Scottish Parliament would not have power to influence the UK's overall VAT rate and would not be a devolved tax.</li>
+
+
+
+<li>Increased borrowing powers to support capital investment and ensure budgetary stability. These powers are to be agreed with the UK government.</li>
+
+
+
+<li>UK legislation to state that the Holyrood and Scottish Government are <em>permanent</em> institutions.</li>
+
+
+
+<li>Powers to legislate over how Holyrood is elected and run.</li>
+
+
+
+<li>The power to extend the vote to 16 and 17-year-olds, allowing them to vote in the 2016, and later, Scottish Parliament elections.</li>
+
+
+
+<li>Control over a number of benefits including disability payments, winter fuel payments and the housing elements of Universal Credit.</li>
+
+
+
+<li>Powers to make discretionary payments in any area of welfare.</li>
+
+
+
+<li>Control over Air Passenger Duty charged to passengers flying from airports within Scotland.</li>
+
+
+
+<li>Responsibility for the management of the Crown Estate's economic assets in Scotland, including the Crown Estate's seabed and mineral and fishing rights, and the net surplus revenue generated from these assets, to be transferred to the Scottish Parliament.</li>
+
+
+
+<li>Power to allow public sector operators to bid for rail franchises, funded and specified by Scottish ministers.</li>
+
+
+
+<li>The continuation of the Barnett formula. New rules to define how it will be adjusted at the point when powers are transferred and thereafter to be agreed by the Scottish and UK governments and put in place prior to the powers coming into force. These rules will ensure that neither the Scottish nor UK governments will lose or gain financially from the act of transferring a power.</li>
+
+
+
+<li>MPs representing constituencies across the whole of the UK would continue to decide the UK's budget, including income tax.&nbsp;</li>
+
+
+
+<li>The Scottish and UK governments to draw up and agree on a memorandum of understanding to ensure that devolution is not detrimental to UK-wide critical national infrastructure in relation to matters such as defence and security, immigration, trade and energy.</li>
+</ul>
+
+
+
+<p>The commission considered devolving power to vary all elements of Universal Credit (rather than just its housing element) but this was not adopted as a recommendation.</p>
+
+
+
+<p>Reaction to the report’s findings was generally negative or muted. The SNP thought they didn’t go far enough, claiming that too little power would be devolved to Scotland. Former Labour First Minister Jack McConnell described Smith as a ‘shambles’ and called on Cameron to lead a new constitutional convention. Malcolm Rifkind, a former Conservative Secretary of State for Scotland, also expressed support for the idea of a new commission. Prime Minister David Cameron responded to these suggestions by promising to look into any new proposals at a later date, whilst pressing on with implementing the Commission’s recommendations first.</p>
+
+
+
+<p>The Smith Commision was an answer to a problem that didn’t exist. After their defeat, Nationalists should have been told that they lost and that the people of Scotland did not want further powers transferred to the devolved assembly. In Ruth Davidson’s words, the UK Government should have ‘put the boot in’. </p>
+
+
+
+<p>But instead, the UK Government gave separatists more powers to use and abuse, and those who wanted to break up the UK were given a clear signal that more agitation, more division, more grievance, would give them more powers, <em>even if they were in a minority.&nbsp;</em>This resulted in eight years of further division and declining standards, as nationalists and their appeasers contined to use the  Scottish Government to promote separation. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p><em>Part two of this three-part series, highlighting the real costs of devolution, will be published on Monday, May 1. The third and final part will be published on Wednesday, May 3, and will ask 'where do we go from here?</em></p>
+
+
+
+<p>Stephen Bailey is pro-UK author who has written over 150 articles on the Constitution, especially as it concerns Scotland and the abolition of legislative devolution. His website is <a href="https://ukunionism.wordpress.com/">here.</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Year in Review on The Majority</title>
+    <link>http://localhost:1313/categories/year-in-review/</link>
+    <description>Recent content in Year in Review on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Dec 2020 19:09:07 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/year-in-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Majority: 2020 in review</title>
+      <link>http://localhost:1313/articles/the-majority-2020-in-review/</link>
+      <pubDate>Thu, 31 Dec 2020 19:09:07 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-majority-2020-in-review/</guid>
+      <description>Hi, welcome to my review of The Majority&#39;s highlights of 2020, AKA The year of staying at home and arguing with people on the internet.&#xA;In May, after seeing the frustration and anger of NO voters, as the SNP continued to defy the 2014 referendum result and the lack of effective opposition, I decided to start The Majority.&#xA;I contacted Ian Lakin (@HighlandChief) through Twitter, to ask advice on my plan to create a new anti-Nationalist media.</description>
+    </item>
+  </channel>
+</rss>

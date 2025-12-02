@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quebec on The Majority</title>
+    <link>http://localhost:1313/tags/quebec/</link>
+    <description>Recent content in Quebec on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Feb 2021 16:52:52 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quebec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oh, Canada!</title>
+      <link>http://localhost:1313/articles/oh-canada/</link>
+      <pubDate>Mon, 01 Feb 2021 16:52:52 +0000</pubDate>
+      <guid>http://localhost:1313/articles/oh-canada/</guid>
+      <description>Nationalists, the world over, love to think of themselves and their causes as unique, special and a product of their own &#34;glorious&#34; history. Still, as always, reality is far from their fevered imaginations.&#xA;For example, Separatist claims that &#34;independence is normal&#34; are easily dismissed by pointing out that many of the countries they claim to admire are, in fact, political unions, often far more recent than the UK.&#xA;As time goes on, and their desperate cries for secession are revealed as a gargantuan political squirrel, I am reminded more and more of other Separatist movements that have done exactly what the SNP have done and got just about as far as the SNP will.</description>
+    </item>
+  </channel>
+</rss>

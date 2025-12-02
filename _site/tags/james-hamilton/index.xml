@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Hamilton on The Majority</title>
+    <link>http://localhost:1313/tags/james-hamilton/</link>
+    <description>Recent content in James Hamilton on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Mar 2021 20:04:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/james-hamilton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Don’t Like Mondays</title>
+      <link>http://localhost:1313/articles/i-dont-like-mondays/</link>
+      <pubDate>Mon, 22 Mar 2021 20:04:24 +0000</pubDate>
+      <guid>http://localhost:1313/articles/i-dont-like-mondays/</guid>
+      <description>Like Bob Geldof and the Boomtown Rats, I don’t like Mondays, but today has been more depressing than usual. The first setback was hearing the BBC describe Nicola Sturgeon being cleared by an ‘independent’ inquiry. The second was reading an op-ed in The Times by Alex Massie, the Spectator’s Scottish editor, describing the SNP as “exhausted but irreplaceable.”&#xA;The riposte to the first has to be that if this was an inquiry into Donald Trump or Vladimir Putin, or almost anyone else, the BBC would not use the word ‘independent’ about an inquiry by an inquisitor carefully selected by the accused and limited by very delicately confined terms of reference before delivering a report that is at odds even with the leaked conclusions of the Kafkaesque Parliamentary Inquiry, which is then so heavily redacted as to be meaningless.</description>
+    </item>
+  </channel>
+</rss>

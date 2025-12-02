@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karl Marx on The Majority</title>
+    <link>http://localhost:1313/tags/karl-marx/</link>
+    <description>Recent content in Karl Marx on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Nov 2020 22:39:09 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/karl-marx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untrue faith</title>
+      <link>http://localhost:1313/articles/untrue-faith/</link>
+      <pubDate>Fri, 27 Nov 2020 22:39:09 +0000</pubDate>
+      <guid>http://localhost:1313/articles/untrue-faith/</guid>
+      <description>Karl Marx famously stated that &#34;religion is the opiate of the people&#34;, claiming that the ruling elite used religion to subdue the proletariat into accepting their place in society, in the mines and in the factories, by convincing them that God had ordained their lot in life.&amp;nbsp;&#xA;If they did not upset the social order, they, the meek, would inherit the Earth in the afterlife. If they resisted, they would be punished with eternal damnation for questioning the will of God.</description>
+    </item>
+  </channel>
+</rss>

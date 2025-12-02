@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Majority Show on The Majority</title>
+    <link>http://localhost:1313/categories/the-majority-show/</link>
+    <description>Recent content in The Majority Show on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Sep 2022 14:55:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/the-majority-show/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Majority Show</title>
+      <link>http://localhost:1313/articles/the-majority-show/</link>
+      <pubDate>Wed, 07 Sep 2022 14:55:20 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-majority-show/</guid>
+      <description>Scotland&#39;s No. 1 Anti-Nationalist show Hosted by Mark Devlin, David Griffiths and Mary Devlin, The Majority Show (formerly The Majority Podcast) is Scotland&#39;s No. 1 anti-Nationalist politics show. We broadcast LIVE to hundreds of simultaneous viewers EVERY WEDNESDAY at 7PM, across YouTube, Facebook and Twitter. The show is then watched by thousands more on-demand during the week. We love your comments, please tune in live to add them and they may be selected for the show!</description>
+    </item>
+  </channel>
+</rss>

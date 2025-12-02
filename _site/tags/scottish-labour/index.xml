@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scottish Labour on The Majority</title>
+    <link>http://localhost:1313/tags/scottish-labour/</link>
+    <description>Recent content in Scottish Labour on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Sep 2020 13:32:55 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scottish-labour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Will ye go, laddie, go</title>
+      <link>http://localhost:1313/articles/will-ye-go-laddie-go/</link>
+      <pubDate>Thu, 03 Sep 2020 13:32:55 +0000</pubDate>
+      <guid>http://localhost:1313/articles/will-ye-go-laddie-go/</guid>
+      <description>Richard Leonard, Scottish Labour’s leader, has now been in the job for three years, during which time he has presided over multiple election defeats. In the European elections in May 2019, the party slumped to fifth in Scotland, polling less than 10% of the vote. The party then fell from seven seats to one in November’s General Election.&#xA;A YouGov poll for The Times puts support for Labour at 14 per cent in Holyrood’s constituency and list vote.</description>
+    </item>
+  </channel>
+</rss>

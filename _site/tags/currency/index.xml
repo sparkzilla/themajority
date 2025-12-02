@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Currency on The Majority</title>
+    <link>http://localhost:1313/tags/currency/</link>
+    <description>Recent content in Currency on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Dec 2020 18:45:09 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/currency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Russia, with love</title>
+      <link>http://localhost:1313/articles/from-russia-with-love/</link>
+      <pubDate>Sun, 27 Dec 2020 18:45:09 +0000</pubDate>
+      <guid>http://localhost:1313/articles/from-russia-with-love/</guid>
+      <description>For those who, unfortunately, spend their time trawling through the endless toxic abuse and conspiracy theories that make up secessionist Twitter, you may have, aside from the usual whataboutery and false comparisons, noticed a common retort to questions on how exactly a separated Scotland would establish its organs of state. Many of these supposed “examples” reference the nations which were established after the collapse of the USSR between 1989 and 1992.</description>
+    </item>
+    <item>
+      <title>Andrew&#39;s road to nowhere</title>
+      <link>http://localhost:1313/articles/andrews-road-to-nowhere/</link>
+      <pubDate>Tue, 01 Dec 2020 18:03:29 +0000</pubDate>
+      <guid>http://localhost:1313/articles/andrews-road-to-nowhere/</guid>
+      <description>If, as we are told, Andrew Wilson, ex-RBS PR man, is the SNP’s ‘leading economist’ and &#39;the Yes movement’s leading intellectual&#39;, the SNP is not in good shape at all. Wilson has been given air space in the public prints recently, no doubt at the behest of Nicola Sturgeon, who gave his latest article, in the Spectator of 21 November 2020, a puff on Twitter, saying it was ‘on the case for independence – and the paucity of the case against – excellent and well worth a read’.</description>
+    </item>
+  </channel>
+</rss>

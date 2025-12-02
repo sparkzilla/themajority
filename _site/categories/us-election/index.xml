@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>US Election on The Majority</title>
+    <link>http://localhost:1313/categories/us-election/</link>
+    <description>Recent content in US Election on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2020 12:56:36 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/us-election/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beware strangers bearing gifts</title>
+      <link>http://localhost:1313/articles/beware-strangers-bearing-gifts/</link>
+      <pubDate>Wed, 11 Nov 2020 12:56:36 +0000</pubDate>
+      <guid>http://localhost:1313/articles/beware-strangers-bearing-gifts/</guid>
+      <description>I want to be a part of an America that continues to stand up for all of us, not bail on all our friends across the country.&#xA;Mayor of Los Angeles, Eric Garcetti.&amp;nbsp; In the wake of the American elections, there has been increasing talk about where a Biden presidency would stand on Scottish secession. The short answer: it will be unchanged from Obama in 2014 and all modern US presidents.</description>
+    </item>
+  </channel>
+</rss>

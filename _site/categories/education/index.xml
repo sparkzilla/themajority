@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on The Majority</title>
+    <link>http://localhost:1313/categories/education/</link>
+    <description>Recent content in Education on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2020 22:06:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Great Education Blame Game</title>
+      <link>http://localhost:1313/articles/the-great-education-blame-game/</link>
+      <pubDate>Wed, 05 Aug 2020 22:06:26 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-great-education-blame-game/</guid>
+      <description>The heart-breaking stories flooding social media yesterday, demonstrated a scandalous truth: that the life chances of many Scottish children are doomed, regardless of individual effort and ability. They evaporated the illusion of free will, the idea that through grit and determination you can transcend the disadvantages of multiple deprivation and poor schooling. The outcry has been predictable, from individual pupils and parents, politicians on all sides, and educationalists. The latter group warned months ago that the SQA moderation process was dodgy.</description>
+    </item>
+    <item>
+      <title>When will we ever learn?</title>
+      <link>http://localhost:1313/articles/when-will-we-ever-learn/</link>
+      <pubDate>Tue, 04 Aug 2020 17:21:10 +0000</pubDate>
+      <guid>http://localhost:1313/articles/when-will-we-ever-learn/</guid>
+      <description>This morning, like many parents in Scotland, I was up early for results day. A few minutes after 8am, my daughter appeared to relay the news. But, something didn’t seem right. Instead of As, two of her results, for Physics and Computing Science, were Bs.&#xA;My mind went back to her last parent-teacher conference, just as the Coronavirus crisis was starting. Her Computing Science teacher was effusive in praise. ‘I’ll be recommending an A,’ he said.</description>
+    </item>
+    <item>
+      <title>Nicola Sturgeon is ‘socially-distancing’ herself from Scottish parents</title>
+      <link>http://localhost:1313/articles/nicola-sturgeon-is-socially-distancing-herself-from-scottish-parents/</link>
+      <pubDate>Mon, 22 Jun 2020 15:39:10 +0000</pubDate>
+      <guid>http://localhost:1313/articles/nicola-sturgeon-is-socially-distancing-herself-from-scottish-parents/</guid>
+      <description>In a previous contribution I wrote how the SNP have failed schoolchildren of all ages and stages of progress, with slipping standards. The Scottish Survey of Literacy and Numeracy (SSLN) found that only 49% of 13/14 year olds were performing &#34;very well&#34; or &#34;well&#34; in 2016, down from 55% in 2014 and 64% in 2012. It is against that backdrop that the SNP need a bolder drive and ambition to get Scottish school children all of the classroom time they can.</description>
+    </item>
+  </channel>
+</rss>

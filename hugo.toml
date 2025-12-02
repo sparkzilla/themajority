@@ -1,4 +1,50 @@
-baseURL = 'https://sparkzilla.github.io/themajority/'
+baseURL = 'https://sparkzilla.github.io/'
 languageCode = 'en-us'
 title = 'The Majority'
-theme = 'ananke'
+theme = 'majority'
+publishDir = '_site'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  pageSize = 10
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  posts = "/articles/:slug/"
+  authors = "/authors/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[params]
+  description = "A Voice for Scotland's Anti-Nationalist Majority"
+  tagline = "A Voice for Scotland's Anti-Nationalist Majority"
+  showRecentPosts = true
+  # heroImage = "/images/hero.jpg"  # Uncomment and add your hero image path
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "donate"
+    name = "Donate"
+    url = "/donate-to-the-majority/"
+    weight = 20
+  [[menu.main]]
+    identifier = "newsquest-petition"
+    name = "Newsquest Petition"
+    url = "https://www.change.org/p/henry-faure-walker-ceo-of-newsquest-media-group-and-mike-reed-stop-newsquest-and-gannett-publishing-the-national-s-anti-english-hate-in-scotland?utm_source=share_petition&utm_medium=custom_url&recruited_by_id=5fef26d0-e84a-11e4-a365-639c32215d8c"
+    weight = 30

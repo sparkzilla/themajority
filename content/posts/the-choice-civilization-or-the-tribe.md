@@ -1,0 +1,108 @@
++++
+title = "The Choice: Civilization or the Tribe"
+featuredImage = "images/restored/National-Monument-Calton_Hil-Edinburgh.jpg"
+date = 2020-08-22T18:44:40Z
+draft = false
+author = "tomgallagher"
+categories = ["Alan Sked", "Alliance For Unity", "David Griffiths", "George Galloway", "Jamie Blackett"]
+aliases = ["/blog/2020/08/22/the-choice-civilization-or-the-tribe/"]
++++
+<p>Four of the candidates who will be standing for the Alliance for Unity, in a bid to maximise the anti-Separatist vote in next May’s crucial Scottish Parliament elections, have delivered Monday evening broadcasts which can be found on You Tube.</p>
+
+
+
+<p><a href="https://www.youtube.com/watch?v=1CrBG4jZqM8">George Galloway</a>, <a href="https://www.youtube.com/watch?v=MN2mOIHYzpo">Jamie Blackett</a>, <a href="https://www.youtube.com/watch?v=ikM0IcUOubs">David Griffiths</a> and <a href="https://www.youtube.com/watch?v=SNV7DH4_EBA">Alan Sked</a> spoke with clarity and conviction about their formative experiences. An ardent socialist, a conservative-minded businessman, a Leaver and a Remainer, as well as two supporters of Glasgow’s highly competitive football clubs, can be found among the four.</p>
+
+
+
+<p>What do they have in common beyond a sense of disbelief at the huge harm the SNP has done to Scotland and a wish to move the country out of the dark valley of permanent friction with the rest of Britain?</p>
+
+
+
+<p>I would venture the opinion that their shared commitment to rescuing the country they love from some of the world’s most disagreeable exponents of identity politics, stems from the different ways they have engaged with the world. A campaigner, a soldier, an educator and a hi-tech entrepreneur have reinforced their characters and intellects by formative experiences beyond Scotland. It has enabled them to place Scotland’s problems in comparative perspective. They can see that the narrative of grudge and grievance tirelessly promoted by the SNP is based on the flimsiest of foundations. In the past few centuries, it is hard to think of another country which has benefited so much from peacefully uniting with a larger neighbour.</p>
+
+
+
+<p>A parliamentary union voluntarily entered into in 1707, replaced a weak, introspective state with daunting policy failures, with a union allocating Scotland major autonomy and enabling it to develop far more effectively than if it had remained aloof from the rest of the British Isles. Rather than being a check on Scottish capabilities, the union allowed hitherto dormant traits to flourish. Gradually, expanding freedoms, secure property rights, and institutional autonomy provided the basis for an effective partnership.</p>
+
+
+
+<p>Today, the SNP and its allies in the world of arts and culture, argue that the Union has been a time of humiliation and lost opportunities. Various historical personalities championed by nationalists are bathed in magical aura, from Wallace and Mary Queen of Scots to Prince Charles Edward Stuart. It is never explained how the people living in Scotland when they were alive would have benefited in practical terms if they had succeeded politically. Their plans were bound up with their own personal ambitions and frustrations. This is true of their successors Alex Salmond and Nicola Sturgeon. They have shown the same flair for messy personal feuds and vendettas which characterised the Anglo-Norman barons in the era of Wallace and Robert the Bruce.</p>
+
+
+
+<p>Local parliamentarians in the North-West Highlands, Ian Blackford and Maree Blackford, instead of showing respect for the British Prime Minister holidaying in their midst, have instead, reacted with glee when a local supporter in Applecross, allowed himself to be used in a cheap stunt which obliged Johnson to cut short his holiday this week.</p>
+
+
+
+<p>A compliant media usually plays down the intimidation which members of the SNP can at times use against those who stand in their way. It has preferred to sprinkle stardust, first on Salmond and then on Sturgeon, because they stood for risk, excitement and novelty. A changing popular culture, not just in Scotland but across much of the West, has thrust previously fringe movements into power because they offer emotional fulfillment to people who, more often than not, don’t have much happening in their lives.</p>
+
+
+
+<p>But, for three-quarters of its existence, the SNP’s appeal to the Scots to live dangerously and allow it to lead them on some mysterious political excursion towards a fabled independence, fell flat. Most Scots were not impressed by having dimly-recalled medieval personalities as contemporary heroes. Their level of education was at that time a high one. They failed to see how the SNP's heroes rated above the inventors, engineers, medics, scientists, educators, explorers and even quite a few of the Scots who had made their mark in politics, the bureaucracy and the military.</p>
+
+
+
+<p class="has-medium-font-size"><strong>For several centuries, far more Scots than now were used to going out into the world. Their energy intellect, ingenuity, their aggression veering into cruelty at times, but also their idealism and dedication to improvement in the lands where they settled, made a big difference to the world.</strong></p>
+
+
+
+<p>Nationalist politicians and media allies make much of Scottish freebooters who helped instigate the Opium war against China which gave Britain a 150-year lease over Hong Kong. But, they forget the great development of the territory under British rule and how it became a magnet for a unique Chinese democratic civilization. Jamie Blackett served as a soldier in Hong Kong and he referred <a href="https://www.youtube.com/watch?v=uOhdWmcU9nA">in his broadcast </a>to the role of the Scottish economist Sir John Copperthwaite in making the colony one of the most go-ahead places on the planet. </p>
+
+
+
+<p>In the 1980s, Margaret Thatcher failed to hold out for terms that would have reinforced the ability of Hong Kong to remain free, even as a new relationship was forged with communist China after the 150 year colonial lease expired. More recently, London displayed its naivety when David Cameron granted the SNP an independence referendum on terms that massively reinforced the advantage of the SNP.</p>
+
+
+
+<p>16-year-olds were able to vote but, the three-quarter million Scots living elsewhere in Britain, were denied a vote, as were Scottish soldiers serving outside Scotland. The SNP got the civil service to draw up a White Paper on Independence which made fanciful claims about how cheap, smooth and unruffled a transition to independence would be. Oil revenues would ensure a continuity of essential public services. Scotland’s induction into the EU would be swift and effortless.</p>
+
+
+
+<p>The claims in the White Paper have been quietly ditched by the SNP. But its insistence that independence is essential however daunting the economic challenges, has grown even stronger. Support for the party has also grown in this year of the Covid pandemic. The British government’s generous furlough scheme, far from proving the value of the Union, has been brushed aside by a confrontational Sturgeon and a largely subservient local media. The conditions which incubated the growth of the SNP – the rise of a parochial, self-referential, and introspective Scotland – have intensified during the months of lockdown when the only politician to appear day after day has been Nicola Sturgeon. Information has been elusive in her daily media briefings about her administration’s exact role in combating the pandemic. But these presidential-style outings have been a heaven-sent opportunity for a clever populist to influence hearts and minds with regular attacks directed at London and barely concealed encouragement to militant supporters to discourage English visitors from coming to Scotland.</p>
+
+
+
+<p>If Sturgeon seeks to take advantage of a looming difficult decade to remove Scotland from the United Kingdom, it is likely not much will be heard thereafter of the EU. Brussels will most certainly not replicate the fiscal transfer of £2,000 per head which Scotland receives from the rest of Britain, over £10bn annually. Scotland will not go from being an integrated part of a single monetary and fiscal British entity to being part of the EU, because the sheer size of the Scottish deficit means it falls far short of entry requirements.</p>
+
+
+
+<p>How would a post-UK Scottish state facing an annual budget deficit of £13 billion, seek to keep services afloat at least to a minimum degree? The likelihood is that it would gravitate towards unlovely regimes ready to prop up a rickety economy in return for political services. This is not science fiction. Under both the SNP’s First Ministers, the devolved regime has assiduously courted Middle Eastern as well as East Asian regimes whose track records on human rights are deplorable.</p>
+
+
+
+<p>In 1994, it was likely that very few inhabitants of newly-independent Belarus imagined they would be embarking on a 26-year-long dictatorship when they elected a rather thuggish state and party bureaucrat, Alexander Lukashenko, as President. But that is what happened. Belarus has endured a limited form of independence courtesy of much stronger Russia. It is not inconceivable that Scotland, finding itself an economic basket case and with even less natural resources than Belarus, would enter into a new dependency relationship which would make the British link a shattered golden dream.</p>
+
+
+
+<p>Scots who could, would leave in massive numbers. There is already a brain drain and a flight of high earners. The exodus of far larger numbers, many of them young supporters of the SNP, would inevitably follow an unplanned exit from the UK and a crash in fortunes that would likely be as severe as what was seen in many parts of the Soviet Union following its break up.</p>
+
+
+
+<p>What is the sense of a country beating itself up in such a foolish manner. Scotland is now a land of grievances. But they are virtual grievances stoked up by the clever propaganda machine of a governing party. Perhaps most people in multinational states would envy the good terms which Scots enjoy within the devolved United Kingdom.</p>
+
+
+
+<p>The Alliance for Unity has worldy-wise Scots, whose experiences far and near, have woken them up to the dangers their country faces if the hold over emotions of a dominant campaigning platform, leads to separation. George Galloway and Jamie Blackett are building up a political movement which aims to persuade Scots to stop and think.</p>
+
+
+
+<p>It is folly to allow blood and soil to override common sense. Their goal of uniting the anti-separatist majority and peacefully removing the SNP from office next May is not utopian, but what a situation full of menace calls for. Let’s hope 2021 ushers in a revolution in common sense and Scotland once again will be known to the world for its practicality and not its small-minded and foolish political posturing.</p>
+
+
+
+<p><em>Tom Gallagher taught European politics for over thirty years at the University of Bradford. His latest book '<a href="https://www.amazon.co.uk/Salazar-Dictator-Who-Refused-Die/dp/1787383881#">Salazar, the Dictator who Refused to Die</a>' was published last month by Hurst. Follow him on Twitter:&nbsp;<a href="https://twitter.com/cultfree54">@cultfree54</a></em></p>
+
+
+
+<h2 id="block-ec996cd2-abc0-4822-a4fa-6247bf0d6244">Help The Majority fight back</h2>
+
+
+
+<p id="block-c75ebb82-36d4-4227-afa8-196d0c957c7c">In just a few weeks, <em>The Majority</em> has grown to over 6000 social media followers and hundreds of thousands of article views. But, we still have a long way to go to beat Nationalist media, like <em>The National</em> newspaper, which pumps out ugly propaganda to over 100,000 followers.</p>
+
+
+
+<p id="block-8359953d-6c32-4ce0-b636-c8799acd4557">If you can, please <strong>pledge a monthly donation</strong> so that we can grow and be an even stronger voice against the ugly Nationalism that has engulfed Scotland. Thank you.</p>
+
+

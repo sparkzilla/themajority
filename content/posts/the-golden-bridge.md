@@ -1,0 +1,279 @@
++++
+title = "The Golden Bridge"
+featuredImage = "/images/restored/Sun-Tzu-Golden-Bridge.jpg"
+date = 2022-04-18T21:01:57Z
+draft = false
+author = "sparkzilla"
+categories = ["Commentary"]
+tags = ["Anas Sarwar", "Douglas Ross", "Keir Starmer"]
+aliases = ["/blog/2022/04/18/the-golden-bridge/"]
++++
+<p>This is a topic that many of you don't want to hear. But, as committed as we are to destroying nationalist delusions, we must also assess anti-nationalist delusions as well, of which the main one is that the <em>only</em> strategy to beat the SNP is a Labour-Tory alliance.</p>
+
+
+
+<p>Not only is an alliance not going to happen, Labour’s strategy of not forming an alliance with the Scottish Tories is correct. This also means that recent attacks on Tories by Labour are also correct.</p>
+
+
+
+<h3>Way Back in 2021</h3>
+
+
+
+<p>The Majority was formed because there was, and still is, widespread frustration in Scotland, that the anti-nationalist majority is under the thumb of a nationalist minority. Surely, if the anti-nationalist majority would only work together, we could beat toxic nationalists?</p>
+
+
+
+<p>There was a possibility last year, if Labour had grasped the nettle, that an electoral pact to break this situation could have happened. In that case, Tories and Labour would have stood down candidates in constituencies where they split the vote. According to our calculations at the time, if they had done this in just 15 constituencies, they would have regained power.&nbsp;</p>
+
+
+
+<p>As the victors, they could then have opened the books and created all kinds of mayhem for the SNP. And who cares if the SNP, the opponents you’ve beaten, keep calling you ‘Red Tories’? Surely winning is its own reward?</p>
+
+
+
+<p>To try to force the issue, a single-purpose party, All For Unity (A4U), was formed to pressure the main parties to work together. Many tactical voting guides were created and, to some extent, it worked. The retention of Jackie Ballie’s seat through individual tactical voting, denied the SNP their majority.</p>
+
+
+
+<p>But numerical logic isn't political logic. As much as we pushed for this strategy, it wasn’t the only path forward. Labour party leadership assessed that the cost of working with the Tories was too great, even to win that way. Why?</p>
+
+
+
+<h3>The Art of War</h3>
+
+
+
+<p>The disappointment regarding an alliance not happening is based on the feeling that we need a solution r<em>ight now</em>. It’s a form of defeatism: the feeling that the SNP are so strong that we must do <em>something, anything,</em> to beat them. But we have time. It’s a long way to the next elections.&nbsp;</p>
+
+
+
+<p>Labour is playing that longer game. There are two elections coming up that are actually important. The next General Election and the Scottish elections in 2026.&nbsp;</p>
+
+
+
+<p>The SNP have no momentum and, with no hope of a second referendum, they will eventually, through all of our efforts, reach a tipping point, when their support realises they’ve been taken for mugs. Where will those disillusioned voters go then?&nbsp;</p>
+
+
+
+<p>Every day, on social media, we see nationalists asking why the SNP isn’t giving them the referendum they so desperately hope for (Spoiler alert: because they can’t — there is no path to a second referendum). And when they start to realise there is no path forward, they start looking around at the wreckage around them, and think, maybe, just maybe, they’ve been led down the wrong path.</p>
+
+
+
+<p>But where do they go next?</p>
+
+
+
+<h3>What Becomes of the Brokenhearted?</h3>
+
+
+
+<p>The SNP’s entire reason for its existence is to propose a new country, free of Tories. But after losing the 2014 referendum, and with no prospect of a second one, the party has nowhere to go. Voting for the SNP is a wasted vote: They cannot get rid of the Tories by making a separate country, and they can’t get rid of the Tories at Westminster, because they only stand candidates in 59 out of 650 seats.</p>
+
+
+
+<p>Every day, we see Nationalists complaining about the Tories. The recent SNP party political broadcast didn’t mention a single SNP achievement and simply asked how far you could ‘trust a Tory’.&nbsp;</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+https://twitter.com/theSNP/status/1511032230012928006
+</div></figure>
+
+
+
+<p>But if you really don’t like the Tories, if you really hate Boris, if you really think he’s a criminal, and if you really think he should be put out of office, why would you support a party that can't get independence to get away from them? Why would you support a party that can’t form a government to get him out?</p>
+
+
+
+<h3>A Bridge of Gold</h3>
+
+
+
+<p>Aside from the idea that Labour should work with the Tories in Scotland — an idea that, if we’re honest, is led by Scottish conservatives — the reality is that Labour is an anti-Tory party. Scottish conservatives can’t see that Labour voters don’t think the SNP is their biggest enemy; they think the Tories are their biggest enemy. The question for any anti-Tory voter is; out of all the Tory opposition, who can actually beat them?</p>
+
+
+
+<p>For disillusioned SNP voters to return, Labour has to show that they are a <em>more effective </em>anti-Tory party than the SNP. It can't attract votes from ex-SNP or from young socialist-minded people if they are seen to be working with the Tories.&nbsp;</p>
+
+
+
+<p>In the <em>Art of War,</em> Sun-Tzu said:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Build your enemy a Golden Bridge to retreat&nbsp;across</p></blockquote>
+
+
+
+<p>Labour has to build a Golden Bridge, paved with anti-Tory messages, so that ex-SNP voters can come back. Labour’s message is simple: You tried that: it didn’t work. Now, we are the only party that can get rid of the Tories. That is why it can’t countenance any alliance with the Tories, and that means they <em>must</em> attack them.</p>
+
+
+
+<h3>It's Already Happening</h3>
+
+
+
+<p>Will voters return to the SNP? Not right away. They have to go through the five stages of grief: denial (we’re getting our referendum, aren’t we?), anger (Why can’t Sturgeon deliver a referendum?), bargaining (I can be a socialist <em>and</em> a nationalist, right?), depression (I’ve been taken for a mug) and acceptance (that Anas Sarwar seems nice). Most are in the denial stage, trending towards anger, so there’s a way to go. But the path is clear.</p>
+
+
+
+<p>In May last year, we asked the question: who will be the first well-known nationalist to return to labour? Mike Dailly, the well-known nationalist Glasgow lawyer, dismayed by lack of support, said he wouldn't vote for the SNP in August. And just last week he declared for Labour.&nbsp;</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+https://twitter.com/themajorityscot/status/1513946883013713920
+</div></figure>
+
+
+
+<p>And last week, two polls showed a drop in SNP support and a rise in Labour support.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+https://twitter.com/themajorityscot/status/1513872300596203521
+</div></figure>
+
+
+
+<p>Given the issues in the Conservative party in the UK and in Scotland, the likelihood of a Labour-led UK government is increasing. SNP voters have to ask themselves if they want to continue on a losing path, or hop onto a rising trend.</p>
+
+
+
+<h3>Can Labour Be Trusted?</h3>
+
+
+
+<p>Every day, I see lots of comments that Labour can’t be trusted with the Union. But what’s the reasoning behind this? Labour has never been a pro-independence party. They were an integral part of Better Together and fought strongly for the UK in the 2014 referendum. What changed?</p>
+
+
+
+<p>In a widely shared report, <em>The Daily Mail</em> said that <a href="https://www.pressreader.com/uk/scottish-daily-mail/20220412/281651078642148">25 Labour candidates in the upcoming election expressed&nbsp; pro-independence views.</a> Sadly, that was fake news. On closer reading, it appears that the writer used out-of-date quotes and that only four were in doubt (we have asked for clarification on those). To put that in perspective, there are 1200 Labour candidates standing in Scotland in May.&nbsp;</p>
+
+
+
+<p>Certainly, working with SNP councils is a problem: Even though Labour is currently in coalition with six SNP councils, <a href="https://www.dailyrecord.co.uk/news/politics/keir-starmer-firmly-rejects-any-26694381">Starmer and Sarwar have both said that they won't form an alliance with the SNP</a> (or the Tories) to get power, either in the UK or in Scotland.&nbsp;</p>
+
+
+
+<p>Contrary to the lies on the front-page of The National, at The Majority Meetup this month, Malcolm Cunning, Labour councillor for Glasgow’s Linn Ward, made Labour’s position very clear.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>There will be no alliances with the Tories or the SNP after these elections.</p></blockquote>
+
+
+
+<p>Councillor Cunning also said he had talked to 2000 people on the doorstep, the vast majority of whom were more interested in the real issues of getting their bins collected every two weeks than any abstract constitutional question.</p>
+
+
+
+<p>Logically, Labour can't form an SNP alliance. If voters want separation then a nationalist party is a better choice. Labour can never be more separatist than the SNP, but they can be <em>more authentically socialist</em>. A vote for the SNP isn’t only a wasted vote. <a href="https://www.dailyrecord.co.uk/news/politics/snp-not-progressive-party-labour-24777569">It’s not a progressive vote.&nbsp;</a></p>
+
+
+
+<p>The distinction between Labour and the SNP is the social power of the UK. Labour can say that it will deliver social justice through a bigger pool to share from, and, to do that, they will start attacking selfish and divisive nationalist ideology more. Nationalism is fake socialism.</p>
+
+
+
+<p>In any case, if Labour have already taken back already-demoralised SNP voters then they have no incentive to offer them a referendum.</p>
+
+
+
+<h3>Stop the Appeasers</h3>
+
+
+
+<p>But there is a danger, from buffoons like Gordon Brown, lumbering in to fix the devolution mess they made, by giving even more power to nationalists who want to break up the UK. It’s time Brown stopped his continual constitutional meddling. We’ve had enough pain already.</p>
+
+
+
+<p>We also need to call out dangerous appeasers like the <a href="https://themajority.scot/2022/02/07/breaking-up-the-uk-is-not-a-respectable-cause/">Times Appeasement Division’s</a> Kenny Farquharson, fake Tory Andy Maciver and those in the media, who constantly invoke a constitutional clash for profit and power. By keeping the hope of a referendum alive, they maintain nationalist support. Disillusioned nationalists simply won’t come back to Labour if their illusions are being shored up.</p>
+
+
+
+<p>Similarly, some deluded pro-UK voters think that we should vote for Alba to split the nationalist vote. But this simply gives another avenue for hope. Instead, it should be made plain that a vote for the SNP or Alba or the Greens, is a dead-end vote for a referendum that will never happen.&nbsp;</p>
+
+
+
+<p>The Scottish Tory party should particularly pay heed to this and stop using the ‘danger of a referendum’ to try to get votes. ‘Vote Tory to stop an SNP referendum’ should be reframed as, ‘A vote for the SNP is a vote for a referendum that won't happen. Vote for us for better local services.’</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+https://twitter.com/themajorityscot/status/1507378075473960966
+</div></figure>
+
+
+
+<h3>Righteous Anger</h3>
+
+
+
+<p>It seems as much as Labour keep saying they’re a pro-UK party, many Tories don’t want to believe them.&nbsp;</p>
+
+
+
+<p>I think much of this is misplaced anger about Labour refusing to form an alliance. If you believe that an alliance is the only way to beat the SNP, then you would feel righteous anger each time you see Labour attacking the Tories instead of the SNP. But, if, instead, you realise that the best way to destroy the SNP is for its voters to go back to Labour (minus the hardcore flag wavers who’ll never go back), and the cost of that is that <em>Labour has to act like Labour, and make anti-Tory statements and policies,</em> then perhaps that anger is midirected.</p>
+
+
+
+<p>Ultimately, if you're a Tory who’s prepared to tactically vote for Labour to beat the SNP in individual constituencies, shouldn’t you be prepared to understand their current strategy to beat the SNP, even if it means <em>the cost of it is criticising the Tories?</em> Wishful thinking on an alliance doesn't help. Getting annoyed because Labour is making anti-Tory statements doesn’t help. Time spent wishing for an alliance that can't happen is time not spent on more productive efforts.</p>
+
+
+
+<h3>A Return to Normal Politics</h3>
+
+
+
+<p>Don't be sad about an alliance that isn't going to happen. This is good news, because it signals the return of normal party politics, where we vote, based not on a fantasy, but on what parties can actually deliver. When Labour fights as Labour against the Tories and Tories fight as Tories against Labour to see who can best deliver what voters want in the UK, it makes them both stronger, and nationalists weaker. A resurgent Labour will squeeze the SNP even more and give the excellent attack line that voting SNP is keeping the Tories in power.</p>
+
+
+
+<p>And it also means that there will be less need for tactical voting. We get to vote for who we want.</p>
+
+
+
+<p>Going forward, our job, as a media, a movement, and as individual voters, is to make sure that Labour (and the other pro-UK parties) keep their promises. And to keep demoralising nationalist support.</p>
+
+
+
+<p>Time is our friend.&nbsp;Once Sturgeon leaves, it’s all over. In the meantime, stop thinking we have to do s<em>omething, anything, right now</em>, to beat an ‘unbeatable’ SNP,&nbsp; and stop, please stop, fantasising about an alliance that won't happen.</p>
+
+
+
+<p>Instead: Demoralise the SNP. Close every avenue of hope. Let Labour be Labour and watch ex-SNP come back across their anti-Tory Golden Bridge.&nbsp;</p>
+
+
+
+<p><em>Mark Devlin is the publisher of The Majority</em>. </p>
+
+
+
+<p>Please leave your comments below.</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-background has-vivid-cyan-blue-background-color has-vivid-cyan-blue-color is-style-default"/>
+
+
+
+<h2 id="block-6804b78f-0a74-4f3b-b38c-dc7003609a66">Help us put SNP COUNCILS ARE RUBBISH billboards up across Scotland</h2>
+
+
+
+<p>Thanks to you, we’ve reached our £3000 target to put&nbsp;<strong>SNP COUNCILS ARE RUBBISH</strong>&nbsp;billboards up in Glasgow, Edinburgh and Aberdeen.</p>
+
+
+
+<p>If you want us to expand the campaign to add billboards in other cities, please&nbsp;<strong>donate now</strong>&nbsp;as&nbsp;<strong>time is short</strong>. Every donation, big or small, helps!</p>
+
+
+
+<p><a href="https://scot.us10.list-manage.com/track/click?u=5669f2659c144249c0c8fa61a&amp;id=cb5be0a62b&amp;e=2c40abc817" target="_blank" rel="noreferrer noopener">Click this link</a>,&nbsp;or the image below, to&nbsp;<strong>donate NOW</strong>&nbsp;and together we can&nbsp;<a href="https://scot.us10.list-manage.com/track/click?u=5669f2659c144249c0c8fa61a&amp;id=64ba8446b7&amp;e=2c40abc817" target="_blank" rel="noreferrer noopener"><strong>#BinTheSNP</strong></a><strong>!</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://donorbox.org/2022-council-election-billboards"><img src="/images/posts/The-Majority-SNP-COUNCILS-ARE-RUBBISH-Billboard-design.jpg" alt="" class="wp-image-9273"/></a></figure>

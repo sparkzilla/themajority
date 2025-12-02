@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="list-header">
+        <h1>Authors</h1>
+    </header>
+    
+    {{ $allPosts := where (where .Site.RegularPages "Type" "posts") "Draft" false }}
+    {{ $authors := dict }}
+    {{ range $allPosts }}
+        {{ if .Params.author }}
+            {{ $authorUsername := .Params.author }}
+            {{ $authorName := index $.Site.Data.authors $authorUsername }}
+            {{ if not $authorName }}{{ $authorName = $authorUsername }}{{ end }}
+            {{ if not (index $authors $authorUsername) }}
+                {{ $authorPosts := where $allPosts "Params.author" $authorUsername }}
+                {{ $authors = merge $authors (dict $authorUsername (dict "name" $authorName "count" (len $authorPosts))) }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    
+    <div class="posts-list">
+        {{ range $authorUsername, $authorData := $authors }}
+        <article class="post-item">
+            <a href="/authors/{{ $authorUsername }}/">
+                <div class="post-item-content">
+                    <h2>{{ $authorData.name }}</h2>
+                    <time datetime="">{{ $authorData.count }} {{ if eq $authorData.count 1 }}article{{ else }}articles{{ end }}</time>
+                </div>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+

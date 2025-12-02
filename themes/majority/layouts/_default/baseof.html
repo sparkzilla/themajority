@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    {{- $hasTwitter := false -}}
+    {{- if eq .Kind "page" -}}
+      {{- if or (findRE `twitter-tweet` .RawContent) (findRE `twitter\.com` .RawContent) (findRE `wp-block-embed.*twitter` .RawContent) (findRE `tweet` .RawContent) -}}
+        {{- $hasTwitter = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $hasTwitter -}}
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {{- end -}}
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main>
+        <div class="main-wrapper">
+            <div class="main-content">
+                {{ block "main" . }}{{ end }}
+            </div>
+            {{ partial "sidebar.html" . }}
+        </div>
+    </main>
+    
+    {{ partial "footer.html" . }}
+    
+    <script src="{{ "js/search.js" | relURL }}"></script>
+    {{ if .IsHome }}
+    <script src="{{ "js/pagination.js" | relURL }}"></script>
+    {{ end }}
+    <script>
+        // Initialize search UI immediately
+        if (typeof setupSearchUI !== 'undefined') {
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', setupSearchUI);
+            } else {
+                setupSearchUI();
+            }
+        }
+        
+        // Load search index data
+        if (typeof initSearch !== 'undefined') {
+            const searchIndexUrl = '{{ "search-index.json" | relURL }}';
+            console.log('Fetching search index from:', searchIndexUrl);
+            fetch(searchIndexUrl)
+                .then(response => {
+                    console.log('Search index response:', response.status, response.statusText);
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch search index: ' + response.status + ' ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Search index data received:', Array.isArray(data) ? data.length + ' items' : typeof data);
+                    initSearch(data);
+                })
+                .catch(err => {
+                    console.error('Failed to load search index:', err);
+                    // Show error to user
+                    const searchResults = document.getElementById('search-results');
+                    if (searchResults) {
+                        searchResults.innerHTML = '<div class="search-no-results">Error loading search. Please refresh the page.</div>';
+                    }
+                });
+        }
+        
+        // Header scroll shrink
+        (function() {
+            const siteHeader = document.querySelector('.site-header');
+            let lastScroll = 0;
+            
+            function handleScroll() {
+                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (currentScroll > 50) {
+                    if (siteHeader) siteHeader.classList.add('scrolled');
+                } else {
+                    if (siteHeader) siteHeader.classList.remove('scrolled');
+                }
+                
+                lastScroll = currentScroll;
+            }
+            
+            // Throttle scroll events for better performance
+            let ticking = false;
+            window.addEventListener('scroll', function() {
+                if (!ticking) {
+                    window.requestAnimationFrame(function() {
+                        handleScroll();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            });
+            
+            // Check initial scroll position
+            handleScroll();
+        })();
+        
+        // Mobile menu toggle
+        (function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+            const mobileMenuClose = document.getElementById('mobile-menu-close');
+            
+            function openMenu() {
+                mobileMenu.classList.add('active');
+                mobileMenuOverlay.classList.add('active');
+                if (menuToggle) menuToggle.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closeMenu() {
+                mobileMenu.classList.remove('active');
+                mobileMenuOverlay.classList.remove('active');
+                if (menuToggle) menuToggle.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+            
+            if (menuToggle) {
+                menuToggle.addEventListener('click', openMenu);
+            }
+            
+            if (mobileMenuClose) {
+                mobileMenuClose.addEventListener('click', closeMenu);
+            }
+            
+            if (mobileMenuOverlay) {
+                mobileMenuOverlay.addEventListener('click', closeMenu);
+            }
+            
+            // Close menu when clicking on a link
+            if (mobileMenu) {
+                const menuLinks = mobileMenu.querySelectorAll('a');
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        // Only close if it's not an external link (let external links open)
+                        if (!this.target || this.target !== '_blank') {
+                            closeMenu();
+                        }
+                    });
+                });
+            }
+        })();
+    </script>
+    
+    {{- $hasTwitterFooter := false -}}
+    {{- if eq .Kind "page" -}}
+      {{- if or (findRE `twitter-tweet` .RawContent) (findRE `twitter\.com` .RawContent) (findRE `wp-block-embed.*twitter` .RawContent) (findRE `tweet` .RawContent) -}}
+        {{- $hasTwitterFooter = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $hasTwitterFooter -}}
+    <script>
+        window.addEventListener('load', function() {
+            if (window.twttr && window.twttr.ready) {
+                window.twttr.ready(function() {
+                    window.twttr.widgets.load();
+                });
+            } else {
+                // Fallback: check periodically for Twitter widgets
+                var checkTwitter = setInterval(function() {
+                    if (window.twttr && window.twttr.ready) {
+                        clearInterval(checkTwitter);
+                        window.twttr.ready(function() {
+                            window.twttr.widgets.load();
+                        });
+                    }
+                }, 100);
+                // Stop checking after 5 seconds
+                setTimeout(function() { clearInterval(checkTwitter); }, 5000);
+            }
+        });
+    </script>
+    {{- end -}}
+</body>
+</html>
+

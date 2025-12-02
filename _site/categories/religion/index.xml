@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Religion on The Majority</title>
+    <link>http://localhost:1313/categories/religion/</link>
+    <description>Recent content in Religion on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Nov 2020 22:39:09 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/religion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untrue faith</title>
+      <link>http://localhost:1313/articles/untrue-faith/</link>
+      <pubDate>Fri, 27 Nov 2020 22:39:09 +0000</pubDate>
+      <guid>http://localhost:1313/articles/untrue-faith/</guid>
+      <description>Karl Marx famously stated that &#34;religion is the opiate of the people&#34;, claiming that the ruling elite used religion to subdue the proletariat into accepting their place in society, in the mines and in the factories, by convincing them that God had ordained their lot in life.&amp;nbsp;&#xA;If they did not upset the social order, they, the meek, would inherit the Earth in the afterlife. If they resisted, they would be punished with eternal damnation for questioning the will of God.</description>
+    </item>
+    <item>
+      <title>Religion should guide, not divide</title>
+      <link>http://localhost:1313/articles/religion-should-guide-not-divide/</link>
+      <pubDate>Mon, 06 Jul 2020 15:13:47 +0000</pubDate>
+      <guid>http://localhost:1313/articles/religion-should-guide-not-divide/</guid>
+      <description>A guest editorial by James Bundy. In a recent commentary, ‘Ireland’s past is not Scotland’s future’, Damien Scott talks about his upbringing in a mixed Catholic-Protestant home. Damien says he is now an atheist and that as religious belief has dwindled in Scotland, politics has replaced it as an article of faith. In effect, he says politics is Scotland’s new religion.&#xA;However, as a practising Catholic, I believe my faith does play a fundamental role in shaping my political beliefs, including my view that Scotland is better off as part of the United Kingdom, and that the world is better off because of the United Kingdom.</description>
+    </item>
+  </channel>
+</rss>

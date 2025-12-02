@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Counterfactual on The Majority</title>
+    <link>http://localhost:1313/tags/counterfactual/</link>
+    <description>Recent content in Counterfactual on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2020 09:45:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/counterfactual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>If Scotland Votes Yes</title>
+      <link>http://localhost:1313/articles/if-scotland-votes-yes/</link>
+      <pubDate>Tue, 21 Jul 2020 09:45:26 +0000</pubDate>
+      <guid>http://localhost:1313/articles/if-scotland-votes-yes/</guid>
+      <description>This article was written on September 11, 2014, a few days before the Scottish Independence Referendum. It is just one of many possible pasts or futures. Let me know what you think would have happened in the comments.&#xA;On September 18, 2014, Scotland votes &#39;yes&#39; to independence by 51%. Independence supporters claimed they wanted a more democratic system, but now 49% of the country is living under a system they don&#39;t want.</description>
+    </item>
+  </channel>
+</rss>

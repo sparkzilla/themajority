@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>US Politics on The Majority</title>
+    <link>http://localhost:1313/tags/us-politics/</link>
+    <description>Recent content in US Politics on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 18:23:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/us-politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenido a la Unión</title>
+      <link>http://localhost:1313/articles/bienvenido-a-la-uni%C3%B3n/</link>
+      <pubDate>Fri, 06 Nov 2020 18:23:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/bienvenido-a-la-uni%C3%B3n/</guid>
+      <description>Nationalists love to tell us that ‘independence is normal’. They will use false equivalences, manufacture grievances and exaggerate the most minute things, including chocolate bars, all in an attempt to further their narrative that they are singularly oppressed and that the cure for all lies in independence, even if that “cure” leads to even greater suffering.&#xA;They point to other countries, demanding to be like them, “independent”, without the slightest realisation of the errors or ironies of the comparison.</description>
+    </item>
+    <item>
+      <title>The Silent Majority</title>
+      <link>http://localhost:1313/articles/the-silent-majority/</link>
+      <pubDate>Thu, 05 Nov 2020 12:11:58 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-silent-majority/</guid>
+      <description>Once thing is certain: the polls were wrong, again. There was no Blue Wave. There was no Biden landslide. Despite being a &#39;racist&#39;, Trump increased his vote among Latinos and Blacks.&#xA;One would think that the media would know better by now. In 2016, The New York Times&#39; favourite pollster, Nate Silver, famously predicted that there was only an 8% chance of Trump winning. It was in the bag for Clinton.</description>
+    </item>
+  </channel>
+</rss>

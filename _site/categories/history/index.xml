@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on The Majority</title>
+    <link>http://localhost:1313/categories/history/</link>
+    <description>Recent content in History on The Majority</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Feb 2021 21:33:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The old Scots parliament - as crooked as the new one</title>
+      <link>http://localhost:1313/articles/the-old-scots-parliament-as-crooked-as-the-new-one/</link>
+      <pubDate>Fri, 26 Feb 2021 21:33:17 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-old-scots-parliament-as-crooked-as-the-new-one/</guid>
+      <description>Scotland’s new parliament is revealing itself as a weak institution, incapable of holding the executive to account, and not good at representing the citizen against the state. How does this performance compare with its predecessor, the old Scots parliament?&#xA;When the new Scottish parliament first met, on 12 May 1999, Dr Winifred Ewing, the “mother of the house”, opened the proceedings by saying, “The Scottish parliament, adjourned on the 25th day of March, 1707, is hereby reconvened.</description>
+    </item>
+  </channel>
+</rss>

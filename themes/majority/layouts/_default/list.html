@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="list-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+        <div class="list-description">
+            {{ .Content }}
+        </div>
+        {{ end }}
+    </header>
+    
+    <div class="posts-list">
+        {{ range .Paginator.Pages }}
+        <article class="post-item">
+            <a href="{{ .Permalink }}">
+                {{ if .Params.featuredImage }}
+                <div class="post-item-image">
+                    <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+                <div class="post-item-content">
+                    <h2>{{ .Title }}</h2>
+                    {{ if .Date }}
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ end }}
+                    {{ if .Summary }}
+                    <div class="post-excerpt">{{ .Summary }}</div>
+                    {{ else if .Description }}
+                    <p class="post-excerpt">{{ .Description }}</p>
+                    {{ end }}
+                </div>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+    
+    {{ if gt .Paginator.TotalPages 1 }}
+    <div class="pagination">
+        {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="pagination-link pagination-prev">← Previous</a>
+        {{ else }}
+        <span class="pagination-link pagination-disabled">← Previous</span>
+        {{ end }}
+        
+        <div class="pagination-numbers">
+            {{ $currentPage := .Paginator.PageNumber }}
+            {{ $totalPages := .Paginator.TotalPages }}
+            {{ $delta := 2 }}
+            
+            {{ range $pageNum := (seq 1 $totalPages) }}
+                {{ if or (le $pageNum (add $delta 1)) (and (ge $pageNum (sub $currentPage $delta)) (le $pageNum (add $currentPage $delta))) (ge $pageNum (sub $totalPages $delta)) }}
+                    {{ if eq $pageNum $currentPage }}
+                        <span class="pagination-number pagination-current">{{ $pageNum }}</span>
+                    {{ else if or (eq $pageNum 1) (eq $pageNum $totalPages) (and (gt $pageNum (sub $currentPage $delta)) (lt $pageNum (add $currentPage $delta))) }}
+                        <a href="{{ $.Paginator.URL | relURL }}page/{{ $pageNum }}/" class="pagination-number">{{ $pageNum }}</a>
+                    {{ else if or (eq $pageNum (add $delta 2)) (eq $pageNum (sub $totalPages (add $delta 1))) }}
+                        <span class="pagination-ellipsis">...</span>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="pagination-link pagination-next">Next →</a>
+        {{ else }}
+        <span class="pagination-link pagination-disabled">Next →</span>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+

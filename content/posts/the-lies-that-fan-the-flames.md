@@ -1,0 +1,85 @@
++++
+title = "The lies that fan the flames"
+featuredImage = "images/restored/Burn-The-National-Fake-News.jpg"
+date = 2020-08-18T14:04:16Z
+draft = false
+author = "jillstevenston"
+categories = ["Commentary", "Media"]
+tags = ["fake news", "social media"]
+aliases = ["/blog/2020/08/18/the-lies-that-fan-the-flames/"]
++++
+<p>I hate Nationalism. The damage it wrought in Europe in the twentieth century should have inoculated us all against it, but, once again, it has raised its ugly head. In Scotland, it has become a virulent force and made many converts in the last ten years.&nbsp;</p>
+
+
+
+<p>I do not hate Scottish Nationalists on principle. Those who want Scotland to leave the UK are entitled to their opinion, and I respect those who say that that is what they want, no matter the consequences. If they would accept living at a singularly lower standard of living than we currently enjoy – which is what would happen – in order to leave the UK, then that is their choice.&nbsp;</p>
+
+
+
+<p>What I deplore is the Nationalists who claim that a separate Scotland would be better off than Scotland is within the UK. Perhaps I shouldn’t hate them, but I despise the people who have fed them lies, some of them utterly blatant, about how much Scotland would prosper on its own. Because the fact is that a separate Scotland would lose £10 billion or more every year, before other costs are taken into account. I have yet to meet a Nationalist who will tell me how he or she would compensate for that. In fact, I have yet to meet one who will engage with that issue.</p>
+
+
+
+<p>The lies propagated by Nationalists have been developed, on an industrial scale, by the SNP’s massive propaganda machine and by a range of unscrupulous bloggers whose lies are half-way round the world before the truth has got its boots on. For example, an SNP front organisation, risibly called ‘Business for Scotland’ (BfS), has specialised in spreading lies about the UK and Scotland.&nbsp;</p>
+
+
+
+<p>In 2018, The Ferret Fact Service found that BfS’s claim about Scotland having a positive trade balance compared with the rest of the UK, was ‘<a href="https://theferret.scot/scotland-uk-country-export-import/">mostly false’</a>. BfS talks about Scotland’s ‘phoney deficit’ when any respectable economist refers to it as ‘Scotland’s deficit’. In addition, individuals have created dishonest memes that are circulated by separatist groupies. On social media these are routinely deployed to try to ‘prove’ some fallacious point that the Separatist propagandists have dreamed up to delude the masses.&nbsp;</p>
+
+
+
+<p>Current lies include the old staples about ‘the vow’ of 2014 not having been honoured. Those asserting this have clearly not read the vow, because they claim it promised all sorts of things that it does not mention. Then there is the one about Better Together having promised that, if Scots voted No in 2014, they would remain in the EU (indefinitely, apparently).&nbsp;</p>
+
+
+
+<p>In fact, what Better Together said was, that a vote for Scexit would mean leaving the EU, which the EU Commission confirmed in writing in March 2014. It was Scottish Nationalists who voted in 2014 to leave the EU. Better Together pointed out that there might well be a referendum on EU membership, something also mentioned in the SNP’s own White Paper (pp, 217, 460).&nbsp;</p>
+
+
+
+<p>The old chestnut about who would pay for Scottish pensions after Scexit recurs, with Separatists claiming that rUK would continue to pay them – when the SNP’s own White Paper of 2013 had said that pensions would be paid by the Scottish government (p. 429). And now we have once again the claims that the frigates promised by the UK for Scottish shipyards are not being commissioned, when what was promised was 13 ships, and what is being delivered is 18 ships. Our friends at the <a href="https://ukdefencejournal.org.uk/">UK Defence Journal</a> confirm that.</p>
+
+
+
+<p>It is all too easy to dismantle SNP/separatist lies and fake news claims, but the truth is drowned out by a cacophony of Nationalist lies, and those who have believed them will not listen to or read the truth. A pro-Union blogger who has done a mass of genuine research and is endorsed by reputable economists is disparaged by Nationalists in a childish and unpleasant manner and anathematised: separatists refuse to read his work because they have been told to shun it. They have been told to read/listen to only their trusted sources, while those writing reasoned argument and presenting unimpeachable facts are dismissed as ‘Unionists’ and therefore not worth attention.&nbsp;</p>
+
+
+
+<p>How did the canny Scots of yore become the biddable, gullible Scots of the era of Scottish Nationalism? The truth is out there and can be verified, but so much of the population has been conned into believing the SNP, as the establishment, that they will accept any old nonsense that comes from their sources. This means Scotland is being set on a path that, if pursued, would damage its inhabitants and their life chances severely.</p>
+
+
+
+<p>What is it about Nationalism that demands a bogeyman and requires obedience to the cause, the party and the leader? We saw too much of that in the twentieth century to allow it to dominate countries again. To too many, it is an attractive, entrancing creed, flattering them by conferring on them the status of members of the chosen, superior people.&nbsp;</p>
+
+
+
+<p>Consider Scottish Nationalists’ belief that they are <em>morally</em> superior to those who disagree with them and those they have designated enemies: Westminster, the Tories, London… in effect, the English. What makes them think that an authoritarian party, with no checks on the executive that is drawn from it, and presides over disasters in the devolved areas that are its remit, is morally superior to the government at Westminster that is muddling through – and providing the funds to sustain it in the Coronavirus crisis?&nbsp;</p>
+
+
+
+<p>Part of the answer lies in social media, which spreads Nationalist propaganda like wildfire. The faithful are sent out, armed with the latest mantras from Murrell Towers, to repeat them ad nauseam. It is possible to identify these people because they parrot the same phrases: ‘independence is normal’; ‘how is Scotland uniquely unable to govern itself’? (conveniently ignoring the extensive devolution of powers); ‘the Scottish NHS outperforms the NHS elsewhere’; ‘Scotland is rich in resources and talent’, and the self-defeating catch all, ‘British Nationalist’.&nbsp; </p>
+
+
+
+<p>These phrases and others are trotted out, word for word, by people who have not given a single thought to what they mean, or to whether they are accurate, or even make sense.&nbsp;They are assimilated by Scots who like to be told that they are better, richer, more social democratic, more moral – when social surveys show that there is little difference in social attitudes between Scots and English. </p>
+
+
+
+<p>The time has come to get the truth out there in the public and social media arenas, and to prove that Nationalists are the liars we know they are.</p>
+
+
+
+<p><em>Jill Stephenson is former professor of modern German history at the University of Edinburgh. </em></p>
+
+
+
+<h2>Help The Majority fight back</h2>
+
+
+
+<p>In just a few weeks, <em>The Majority</em> has grown to over 6000 social media followers and hundreds of thousands of article views. But, we still have a long way to go to beat Nationalist media, like <em>The National</em> newspaper, which pumps out ugly propaganda to over 100,000 followers.</p>
+
+
+
+<p>If you can, please <strong>pledge a monthly donation</strong> so that we can grow and be an even stronger voice against the ugly Nationalism that has engulfed Scotland. Thank you.</p>
+
+
