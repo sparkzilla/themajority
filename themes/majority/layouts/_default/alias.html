@@ -10,10 +10,13 @@
     
     {{- /* Search all pages to find which one has this alias */ -}}
     {{- range .Site.AllPages -}}
+        {{- $page := . -}}
         {{- if and .Params.aliases -}}
             {{- range .Params.aliases -}}
-                {{- if eq . $currentAlias -}}
-                    {{- $canonicalURL = $.Permalink -}}
+                {{- $aliasPath := . | strings.TrimSuffix "/" -}}
+                {{- $currentPath := $currentAlias | strings.TrimSuffix "/" -}}
+                {{- if or (eq . $currentAlias) (eq $aliasPath $currentPath) -}}
+                    {{- $canonicalURL = $page.Permalink -}}
                     {{- break -}}
                 {{- end -}}
             {{- end -}}
