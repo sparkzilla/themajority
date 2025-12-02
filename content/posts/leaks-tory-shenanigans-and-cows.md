@@ -1,6 +1,6 @@
 +++
 title = "Leaks, Tory shenanigans and cows"
-featuredImage = "images/restored/Jamies-Election-Diary-4.jpg"
+featuredImage = "images/featured/Jamies-Election-Diary-4.jpg"
 date = 2021-04-22T21:34:20Z
 draft = false
 author = "jamieblackett"

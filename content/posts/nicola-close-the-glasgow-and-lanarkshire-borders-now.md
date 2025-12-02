@@ -1,6 +1,6 @@
 +++
 title = "Nicola, close the Glasgow and Lanarkshire borders now!"
-featuredImage = "images/restored/Buid-That-Wall.jpg"
+featuredImage = "images/featured/Buid-That-Wall.jpg"
 date = 2020-06-30T00:14:16Z
 draft = false
 author = "sparkzilla"

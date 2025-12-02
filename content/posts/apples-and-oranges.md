@@ -1,6 +1,6 @@
 +++
 title = "Apples and Oranges"
-featuredImage = "images/restored/Douglas-Ross-Apples-Oranges.jpg"
+featuredImage = "images/featured/Douglas-Ross-Apples-Oranges.jpg"
 date = 2020-11-03T15:40:28Z
 draft = false
 author = "sparkzilla"

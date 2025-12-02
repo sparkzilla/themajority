@@ -1,6 +1,6 @@
 +++
 title = "Sturgeon’s leadership failures brought to book"
-featuredImage = "images/restored/Sturgeon-Leadership-Famine-Edinburgh-burning.jpg"
+featuredImage = "images/featured/Sturgeon-Leadership-Famine-Edinburgh-burning.jpg"
 date = 2023-07-08T20:41:27Z
 draft = false
 author = "tomgallagher"

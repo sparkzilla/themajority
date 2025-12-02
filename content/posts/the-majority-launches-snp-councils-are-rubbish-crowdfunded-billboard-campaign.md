@@ -1,6 +1,6 @@
 +++
 title = "The Majority launches SNP COUNCILS ARE RUBBISH crowdfunded billboard campaign"
-featuredImage = "images/restored/SNP-Councils-are-rubbish-Twitter-2-.jpg"
+featuredImage = "images/featured/SNP-Councils-are-rubbish-Twitter-2-.jpg"
 date = 2022-04-20T01:35:40Z
 draft = false
 author = "sparkzilla"

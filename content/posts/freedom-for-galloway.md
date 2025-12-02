@@ -1,6 +1,6 @@
 +++
 title = "Freedom for Galloway"
-featuredImage = "images/restored/Independent-Dumfries-and-Galloway-Sign.jpg"
+featuredImage = "images/featured/Independent-Dumfries-and-Galloway-Sign.jpg"
 date = 2020-07-19T15:32:36Z
 draft = false
 author = "jamieblackett"

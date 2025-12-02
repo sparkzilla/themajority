@@ -1,6 +1,6 @@
 +++
 title = "The tide has turned"
-featuredImage = "images/restored/Crab-on-the-shorejpg.jpg"
+featuredImage = "images/featured/Crab-on-the-shorejpg.jpg"
 date = 2020-12-30T20:23:18Z
 draft = false
 author = "AngusRobinson"

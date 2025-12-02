@@ -1,6 +1,6 @@
 +++
 title = "Ireland's past is not Scotland's future"
-featuredImage = "images/restored/Celtic-Yes-Supporters-e1592948713254.jpeg"
+featuredImage = "images/featured/Celtic-Yes-Supporters-e1592948713254.jpeg"
 date = 2020-06-23T21:10:47Z
 draft = false
 author = "Damien.Scott"

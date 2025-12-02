@@ -1,6 +1,6 @@
 +++
 title = "The Neverendum is killing Scottish jobs"
-featuredImage = "images/restored/Scotland-Needs-work.jpg"
+featuredImage = "images/featured/Scotland-Needs-work.jpg"
 date = 2020-09-23T21:23:58Z
 draft = false
 author = "MaryDevlin"

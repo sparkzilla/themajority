@@ -1,6 +1,6 @@
 +++
 title = "Useful Idiots"
-featuredImage = "images/restored/Useful-Idiots-1.jpg"
+featuredImage = "images/featured/Useful-Idiots-1.jpg"
 date = 2021-02-16T22:42:14Z
 draft = false
 author = "AngusRobinson"

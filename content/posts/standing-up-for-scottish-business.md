@@ -1,6 +1,6 @@
 +++
 title = "Standing up for Scottish business"
-featuredImage = "images/restored/Mary-Devlin-A4U-Speech-Thumbnail-Small.jpg"
+featuredImage = "images/featured/Mary-Devlin-A4U-Speech-Thumbnail-Small.jpg"
 date = 2020-10-22T20:22:25Z
 draft = false
 author = "MaryDevlin"

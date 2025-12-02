@@ -1,6 +1,6 @@
 +++
 title = "We Don't Believe You Nicola"
-featuredImage = "images/restored/The-Majority-Ad-Van-Side-Slide-1-Believe.jpg"
+featuredImage = "images/featured/The-Majority-Ad-Van-Side-Slide-1-Believe.jpg"
 date = 2021-03-23T09:44:10Z
 draft = false
 author = "sparkzilla"

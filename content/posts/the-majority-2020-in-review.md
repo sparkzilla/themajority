@@ -1,6 +1,6 @@
 +++
 title = "The Majority: 2020 in review"
-featuredImage = "images/restored/2020-The-Majority-Year-in-Review.jpg"
+featuredImage = "images/featured/2020-The-Majority-Year-in-Review.jpg"
 date = 2020-12-31T19:09:07Z
 draft = false
 author = "sparkzilla"

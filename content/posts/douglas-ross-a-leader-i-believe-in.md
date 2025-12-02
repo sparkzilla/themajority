@@ -1,6 +1,6 @@
 +++
 title = "Douglas Ross: A leader I believe in"
-featuredImage = "images/restored/Douglas-Ross-and-Family-1.jpg"
+featuredImage = "images/featured/Douglas-Ross-and-Family-1.jpg"
 date = 2020-08-13T13:31:50Z
 draft = false
 author = "andywaddell"

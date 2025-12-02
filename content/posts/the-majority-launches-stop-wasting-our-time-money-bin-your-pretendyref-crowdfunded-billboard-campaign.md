@@ -1,6 +1,6 @@
 +++
 title = "The Majority launches STOP WASTING OUR TIME & MONEY, BIN YOUR PRETENDYREF crowdfunded billboard campaign"
-featuredImage = "images/restored/Stop-Wasting-Our-Money-Fire-Full-size.jpg"
+featuredImage = "images/featured/Stop-Wasting-Our-Money-Fire-Full-size.jpg"
 date = 2022-10-10T09:07:44Z
 draft = false
 author = "sparkzilla"

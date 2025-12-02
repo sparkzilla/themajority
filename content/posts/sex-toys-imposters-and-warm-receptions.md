@@ -1,6 +1,6 @@
 +++
 title = "Sex toys, imposters and warm receptions"
-featuredImage = "images/restored/Jamies-Election-Diary-5.jpg"
+featuredImage = "images/featured/Jamies-Election-Diary-5.jpg"
 date = 2021-05-04T13:06:09Z
 draft = false
 author = "jamieblackett"

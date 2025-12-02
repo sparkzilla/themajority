@@ -1,6 +1,6 @@
 +++
 title = "Six things the Conservatives need to do now"
-featuredImage = "images/restored/Jackson-Carlaw-pointing.jpg"
+featuredImage = "images/featured/Jackson-Carlaw-pointing.jpg"
 date = 2020-07-10T10:53:27Z
 draft = false
 author = "andywaddell"

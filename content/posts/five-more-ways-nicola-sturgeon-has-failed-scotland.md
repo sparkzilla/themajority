@@ -1,6 +1,6 @@
 +++
 title = "Five more ways Nicola Sturgeon has failed Scotland"
-featuredImage = "images/restored/Nicola-Five-Failures-Cover.jpg"
+featuredImage = "images/featured/Nicola-Five-Failures-Cover.jpg"
 date = 2020-07-22T14:00:26Z
 draft = false
 author = "AndrewMorrison"

@@ -1,6 +1,6 @@
 +++
 title = "Welcome to Albania!"
-featuredImage = "images/restored/Welcome-To-Albania.jpg"
+featuredImage = "images/featured/Welcome-To-Albania.jpg"
 date = 2021-04-05T22:21:41Z
 draft = false
 author = "emdeblu"

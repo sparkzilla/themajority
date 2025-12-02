@@ -1,6 +1,6 @@
 +++
 title = "Untrue faith"
-featuredImage = "images/restored/Scottish-Separatist-Independence-Cult-scaled.jpg"
+featuredImage = "images/featured/Scottish-Separatist-Independence-Cult-scaled.jpg"
 date = 2020-11-27T22:39:09Z
 draft = false
 author = "AngusRobinson"

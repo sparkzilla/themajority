@@ -1,6 +1,6 @@
 +++
 title = "The Ulsterisation of Scotland"
-featuredImage = "images/restored/police-on-fire.jpg"
+featuredImage = "images/featured/police-on-fire.jpg"
 date = 2021-02-15T21:47:05Z
 draft = false
 author = "arthurkeith"

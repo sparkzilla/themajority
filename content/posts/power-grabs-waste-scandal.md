@@ -1,6 +1,6 @@
 +++
 title = "Power Grabs, Waste & Scandal"
-featuredImage = "images/restored/Scotlands-Devolution-Disaster-Part-2-Power-Grabs-Waste-Scandal.jpg"
+featuredImage = "images/featured/Scotlands-Devolution-Disaster-Part-2-Power-Grabs-Waste-Scandal.jpg"
 date = 2023-05-01T20:58:27Z
 draft = false
 author = "stephenbailey"

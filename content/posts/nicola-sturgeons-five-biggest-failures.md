@@ -1,6 +1,6 @@
 +++
 title = "Nicola Sturgeon's Five Biggest Failures"
-featuredImage = "images/restored/edinburgh-childrens-hospital-1.jpg"
+featuredImage = "images/featured/edinburgh-childrens-hospital-1.jpg"
 date = 2020-06-08T21:10:37Z
 draft = false
 author = "AndrewMorrison"

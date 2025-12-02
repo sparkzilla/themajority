@@ -1,6 +1,6 @@
 +++
 title = "The Lie That Won't Die"
-featuredImage = "images/restored/Zombie-Hordes.jpg"
+featuredImage = "images/featured/Zombie-Hordes.jpg"
 date = 2024-01-19T21:15:06Z
 draft = false
 author = "davidgriffiths"

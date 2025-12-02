@@ -1,6 +1,6 @@
 +++
 title = "What Have We Done To Deserve This?"
-featuredImage = "images/restored/This-is-fine.jpg"
+featuredImage = "images/featured/This-is-fine.jpg"
 date = 2020-07-18T13:39:17Z
 draft = false
 author = "jillstevenston"

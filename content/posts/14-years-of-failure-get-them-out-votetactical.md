@@ -1,6 +1,6 @@
 +++
 title = "14 Years of Failure. Get them out. #VoteTactical"
-featuredImage = "images/restored/GOGO-Media-Ad-Van-Side-1-14-Years-of-Failure-Majority-Media-Limited.jpg"
+featuredImage = "images/featured/GOGO-Media-Ad-Van-Side-1-14-Years-of-Failure-Majority-Media-Limited.jpg"
 date = 2021-04-19T10:16:07Z
 draft = false
 author = "sparkzilla"

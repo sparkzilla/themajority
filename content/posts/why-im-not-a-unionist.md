@@ -1,6 +1,6 @@
 +++
 title = "Why I'm Not A \"Unionist\""
-featuredImage = "images/restored/Anti-Nationalists-are-the-Majority.jpg"
+featuredImage = "images/featured/Anti-Nationalists-are-the-Majority.jpg"
 date = 2020-06-05T12:04:52Z
 draft = false
 author = "sparkzilla"

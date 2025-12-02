@@ -1,6 +1,6 @@
 +++
 title = "If Separation is so great, why must you lie about it?"
-featuredImage = "images/restored/Fingers-crossed-behind-back.jpeg"
+featuredImage = "images/featured/Fingers-crossed-behind-back.jpeg"
 date = 2020-12-10T20:49:58Z
 draft = false
 author = "AngusRobinson"

@@ -1,6 +1,6 @@
 +++
 title = "Fragile"
-featuredImage = "images/restored/Fragile-Header-2.jpg"
+featuredImage = "images/featured/Fragile-Header-2.jpg"
 date = 2021-04-08T18:26:17Z
 draft = false
 author = "AngusRobinson"

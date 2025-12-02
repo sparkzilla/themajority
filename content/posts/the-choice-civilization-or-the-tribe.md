@@ -1,6 +1,6 @@
 +++
 title = "The Choice: Civilization or the Tribe"
-featuredImage = "images/restored/National-Monument-Calton_Hil-Edinburgh.jpg"
+featuredImage = "images/featured/National-Monument-Calton_Hil-Edinburgh.jpg"
 date = 2020-08-22T18:44:40Z
 draft = false
 author = "tomgallagher"

@@ -1,6 +1,6 @@
 +++
 title = "The Biggest Losers"
-featuredImage = "images/restored/The-Biggest-SNP-Losers.jpg"
+featuredImage = "images/featured/The-Biggest-SNP-Losers.jpg"
 date = 2024-05-10T12:03:54Z
 draft = false
 author = "davidgriffiths"

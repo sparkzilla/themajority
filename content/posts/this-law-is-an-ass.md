@@ -1,6 +1,6 @@
 +++
 title = "This law is an ass"
-featuredImage = "images/restored/The-Lives-of-Others.jpg"
+featuredImage = "images/featured/The-Lives-of-Others.jpg"
 date = 2020-11-02T22:26:43Z
 draft = false
 author = "jillstevenston"

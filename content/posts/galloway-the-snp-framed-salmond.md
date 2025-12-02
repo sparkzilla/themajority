@@ -1,6 +1,6 @@
 +++
 title = "Galloway: The SNP framed Salmond"
-featuredImage = "images/restored/George-Galloway.jpg"
+featuredImage = "images/featured/George-Galloway.jpg"
 date = 2021-01-29T03:57:21Z
 draft = false
 author = "sparkzilla"

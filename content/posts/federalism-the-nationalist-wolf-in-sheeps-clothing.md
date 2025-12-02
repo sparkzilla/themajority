@@ -1,6 +1,6 @@
 +++
 title = "Federalism: The nationalist wolf in sheep's clothing"
-featuredImage = "images/restored/Federaism-The-nationalist-worf-in-sheeps-clothing.jpg"
+featuredImage = "images/featured/Federaism-The-nationalist-worf-in-sheeps-clothing.jpg"
 date = 2023-05-28T18:25:27Z
 draft = false
 author = "stephenbailey"

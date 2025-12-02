@@ -1,6 +1,6 @@
 +++
 title = "Tactical voting 2021: The basics"
-featuredImage = "images/restored/Tactical-voting.jpg"
+featuredImage = "images/featured/Tactical-voting.jpg"
 date = 2020-11-23T15:23:32Z
 draft = false
 author = "sparkzilla"

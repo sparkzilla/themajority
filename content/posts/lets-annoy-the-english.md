@@ -1,6 +1,6 @@
 +++
 title = "Let's annoy the English!"
-featuredImage = "images/restored/Blackford-in-Commons.jpg"
+featuredImage = "images/featured/Blackford-in-Commons.jpg"
 date = 2021-01-20T21:53:47Z
 draft = false
 author = "AngusRobinson"

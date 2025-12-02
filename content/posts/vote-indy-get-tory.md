@@ -1,6 +1,6 @@
 +++
 title = "Vote Indy, Get Tory"
-featuredImage = "images/restored/Vote-Indy-Get-Tory.jpg"
+featuredImage = "images/featured/Vote-Indy-Get-Tory.jpg"
 date = 2020-09-01T21:17:50Z
 draft = false
 author = "sparkzilla"

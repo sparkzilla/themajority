@@ -1,6 +1,6 @@
 +++
 title = "Nicola's fake economy"
-featuredImage = "images/restored/Potemkin-Sturgeon-Header.jpg"
+featuredImage = "images/featured/Potemkin-Sturgeon-Header.jpg"
 date = 2021-02-10T17:30:47Z
 draft = false
 author = "robertkilgour"

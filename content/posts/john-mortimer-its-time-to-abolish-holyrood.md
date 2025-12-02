@@ -1,6 +1,6 @@
 +++
 title = "John Mortimer: It's time to abolish Holyrood"
-featuredImage = "images/restored/Abolish-Holyrood-Interview.jpg"
+featuredImage = "images/featured/Abolish-Holyrood-Interview.jpg"
 date = 2020-11-15T20:24:10Z
 draft = false
 author = "sparkzilla"

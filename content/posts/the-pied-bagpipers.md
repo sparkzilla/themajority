@@ -1,6 +1,6 @@
 +++
 title = "The Pied Bagpipers"
-featuredImage = "images/restored/Pier-bagpiers.jpg"
+featuredImage = "images/featured/Pier-bagpiers.jpg"
 date = 2021-01-31T17:36:41Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "‘Five out of Ten’: Health experts slam Sturgeon’s COVID response"
-featuredImage = "images/restored/Robert-Hugh-Thumbnail.jpg"
+featuredImage = "images/featured/Robert-Hugh-Thumbnail.jpg"
 date = 2020-07-23T13:42:26Z
 draft = false
 author = "sparkzilla"

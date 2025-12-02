@@ -1,6 +1,6 @@
 +++
 title = "Mac Lives Matter"
-featuredImage = "images/restored/Walter-Scott-Got-His-Head-Chopped-Off.jpg"
+featuredImage = "images/featured/Walter-Scott-Got-His-Head-Chopped-Off.jpg"
 date = 2020-10-11T15:09:47Z
 draft = false
 author = "emdeblu"

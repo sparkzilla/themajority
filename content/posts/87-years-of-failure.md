@@ -1,6 +1,6 @@
 +++
 title = "87 years of failure"
-featuredImage = "images/restored/Sturgeon-Aged.jpg"
+featuredImage = "images/featured/Sturgeon-Aged.jpg"
 date = 2021-05-17T21:46:50Z
 draft = false
 author = "AngusRobinson"

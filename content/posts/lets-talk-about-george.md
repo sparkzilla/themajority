@@ -1,6 +1,6 @@
 +++
 slug = "lets-talk-about-george"
-featuredImage = "images/restored/George-Galloway-New-Lanark.jpg"
+featuredImage = "images/featured/George-Galloway-New-Lanark.jpg"
 title = "Let's talk about George"
 date = 2021-04-27T21:14:21Z
 draft = false

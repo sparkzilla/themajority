@@ -1,6 +1,6 @@
 +++
 title = "Wings Over Scotland RIP"
-featuredImage = "images/restored/Wings-Over-Scotland-RIP.jpg"
+featuredImage = "images/featured/Wings-Over-Scotland-RIP.jpg"
 date = 2021-09-27T16:29:01Z
 draft = false
 author = "sparkzilla"

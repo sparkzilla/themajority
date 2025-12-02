@@ -1,6 +1,6 @@
 +++
 title = "Flogging a dead horse"
-featuredImage = "images/restored/Beating-a-dead-horse.jpg"
+featuredImage = "images/featured/Beating-a-dead-horse.jpg"
 date = 2021-07-05T22:54:16Z
 draft = false
 author = "AngusRobinson"

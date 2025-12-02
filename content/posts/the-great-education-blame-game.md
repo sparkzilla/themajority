@@ -1,6 +1,6 @@
 +++
 title = "The Great Education Blame Game"
-featuredImage = "images/restored/Blame-Game.jpg"
+featuredImage = "images/featured/Blame-Game.jpg"
 date = 2020-08-05T22:06:26Z
 draft = false
 author = "Lindaholt999"

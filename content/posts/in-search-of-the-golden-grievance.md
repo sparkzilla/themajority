@@ -1,6 +1,6 @@
 +++
 title = "In Search of The Golden Grievance"
-featuredImage = "images/restored/The-Golden-Grievance-Battle.jpg"
+featuredImage = "images/featured/The-Golden-Grievance-Battle.jpg"
 date = 2024-02-19T21:27:51Z
 draft = false
 author = "hoski67"

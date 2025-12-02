@@ -1,6 +1,6 @@
 +++
 title = "Five times Scottish Nationalists bullied the media"
-featuredImage = "/images/restored/Sarah-Smith.jpg"
+featuredImage = "/images/featured/Sarah-Smith.jpg"
 date = 2020-06-13T19:53:10Z
 draft = false
 author = "AndrewMorrison"

@@ -1,6 +1,6 @@
 +++
 title = "Fish & chips and tactical votes"
-featuredImage = "images/restored/Jamies-Election-Diary-6.jpg"
+featuredImage = "images/featured/Jamies-Election-Diary-6.jpg"
 date = 2021-05-05T23:18:42Z
 draft = false
 author = "jamieblackett"

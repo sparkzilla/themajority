@@ -1,6 +1,6 @@
 +++
 title = "Bigger. Richer. Smarter."
-featuredImage = "images/restored/Bigger-Richer-Smarter.jpg"
+featuredImage = "images/featured/Bigger-Richer-Smarter.jpg"
 date = 2020-10-22T10:29:15Z
 draft = false
 author = "AngusRobinson"

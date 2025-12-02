@@ -1,6 +1,6 @@
 +++
 title = "Cabertosser to the rescue!"
-featuredImage = "images/restored/Cabertosser.jpg"
+featuredImage = "images/featured/Cabertosser.jpg"
 date = 2020-10-24T15:04:11Z
 draft = false
 author = "emdeblu"

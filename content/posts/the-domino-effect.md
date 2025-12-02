@@ -1,6 +1,6 @@
 +++
 title = "The Domino Effect"
-featuredImage = "images/restored/Domino-Effect.jpg"
+featuredImage = "images/featured/Domino-Effect.jpg"
 date = 2023-07-23T18:09:33Z
 draft = false
 author = "stephenbailey"

@@ -1,6 +1,6 @@
 +++
 title = "At Home with the Macbeths"
-featuredImage = "images/restored/Lady-Macbeth-Sturgeon-Final.jpg"
+featuredImage = "images/featured/Lady-Macbeth-Sturgeon-Final.jpg"
 date = 2021-02-27T21:08:08Z
 draft = false
 author = "emdeblu"

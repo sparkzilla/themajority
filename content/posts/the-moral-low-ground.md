@@ -1,6 +1,6 @@
 +++
 title = "The moral low ground"
-featuredImage = "images/restored/nicola-sturgeon-glasgow-rally.jpg"
+featuredImage = "images/featured/nicola-sturgeon-glasgow-rally.jpg"
 date = 2020-09-04T19:41:08Z
 draft = false
 author = "jillstevenston"

@@ -1,6 +1,6 @@
 +++
 title = "The Strange Case of Dr Heckle and Indy Hyde"
-featuredImage = "images/restored/Dr-Jekyll-and-Indy-Hyde.jpg"
+featuredImage = "images/featured/Dr-Jekyll-and-Indy-Hyde.jpg"
 date = 2021-02-13T16:05:28Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "The Majority launches crowdfunded #ResignSturgeon billboards in Glasgow and Edinburgh"
-featuredImage = "images/restored/The-Majority-Resign-Sturgeon-2023-campaign.jpg"
+featuredImage = "images/featured/The-Majority-Resign-Sturgeon-2023-campaign.jpg"
 date = 2023-02-13T00:34:30Z
 draft = false
 author = "sparkzilla"

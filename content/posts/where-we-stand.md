@@ -1,6 +1,6 @@
 +++
 title = "Where we stand"
-featuredImage = "/images/restored/The-Majority-Where-We-Stand.jpg"
+featuredImage = "/images/featured/The-Majority-Where-We-Stand.jpg"
 date = 2020-06-09T20:08:41Z
 draft = false
 author = "sparkzilla"

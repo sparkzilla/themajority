@@ -1,6 +1,6 @@
 +++
 title = "‘Are we the baddies?’"
-featuredImage = "images/restored/Are-We-The-Baddies.jpg"
+featuredImage = "images/featured/Are-We-The-Baddies.jpg"
 date = 2020-10-01T19:18:10Z
 draft = false
 author = "sparkzilla"

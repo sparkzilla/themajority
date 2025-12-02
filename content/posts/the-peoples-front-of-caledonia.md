@@ -1,6 +1,6 @@
 +++
 title = "The People’s Front of Caledonia"
-featuredImage = "images/restored/Peoples-Front-of-Caledonai.jpg"
+featuredImage = "images/featured/Peoples-Front-of-Caledonai.jpg"
 date = 2021-03-28T21:03:30Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "Nicola's Book Club"
-featuredImage = "images/restored/Nicolas-Book-Club-Cover.jpg"
+featuredImage = "images/featured/Nicolas-Book-Club-Cover.jpg"
 date = 2020-08-30T17:39:35Z
 draft = false
 author = "sparkzilla"

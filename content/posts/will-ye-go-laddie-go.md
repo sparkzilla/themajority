@@ -1,6 +1,6 @@
 +++
 slug = "will-ye-go-laddie-go"
-featuredImage = "images/restored/Richard-Leonard-Brigadoon-cropped.jpg"
+featuredImage = "images/featured/Richard-Leonard-Brigadoon-cropped.jpg"
 title = "Will ye go, laddie, go"
 date = 2020-09-03T13:32:55Z
 draft = false

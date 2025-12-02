@@ -1,6 +1,6 @@
 +++
 title = "Be The Pig: A primer on how to fight Nationalists"
-featuredImage = "images/restored/Be-The-Pig-Text.jpg"
+featuredImage = "images/featured/Be-The-Pig-Text.jpg"
 date = 2020-06-26T09:50:37Z
 draft = false
 author = "sparkzilla"

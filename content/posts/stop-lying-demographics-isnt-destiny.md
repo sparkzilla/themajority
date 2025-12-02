@@ -7,9 +7,8 @@ categories = ["Commentary"]
 featuredImage = "images/posts/Demographics-isnt-Destiny-1200x600.jpg"
 aliases = ["/blog/2025/04/24/stop-lying-demographics-isnt-destiny/"]
 +++
-+++
 
-<p>John Swinney, the current SNP leader, and his predecessor, Nicola Sturgeon, have recently resorted to a familiar tactic: invoking youth demographics to justify the party’s continued push for Scottish independence. Both have attempted to frame support among 16- to 24-year-olds as proof of an inevitable shift toward separation from the United Kingdom.</p>
+<p>John Swinney, the current SNP leader, and his predecessor, Nicola Sturgeon, have recently resorted to a familiar tactic: invoking youth demographics to justify the party's continued push for Scottish independence. Both have attempted to frame support among 16- to 24-year-olds as proof of an inevitable shift toward separation from the United Kingdom.</p>
 
 
 

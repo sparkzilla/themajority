@@ -1,6 +1,6 @@
 +++
 title = "Galloway: Three Reasons Against Separation"
-featuredImage = "images/restored/George-Galloway-Live.jpg"
+featuredImage = "images/featured/George-Galloway-Live.jpg"
 date = 2020-07-14T22:00:20Z
 draft = false
 author = "sparkzilla"

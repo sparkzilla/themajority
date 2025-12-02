@@ -1,6 +1,6 @@
 +++
 title = "The magic is gone"
-featuredImage = "images/restored/Rabbit-in-hat-header.jpg"
+featuredImage = "images/featured/Rabbit-in-hat-header.jpg"
 date = 2021-04-26T22:07:11Z
 draft = false
 author = "AngusRobinson"

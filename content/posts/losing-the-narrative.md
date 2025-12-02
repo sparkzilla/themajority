@@ -1,6 +1,6 @@
 +++
 title = "Losing the narrative"
-featuredImage = "images/restored/Whirlpool.jpeg"
+featuredImage = "images/featured/Whirlpool.jpeg"
 date = 2021-03-11T21:54:27Z
 draft = false
 author = "AngusRobinson"

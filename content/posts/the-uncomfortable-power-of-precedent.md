@@ -1,6 +1,6 @@
 +++
 title = "The uncomfortable power of precedent"
-featuredImage = "images/restored/indyref-batman.jpg"
+featuredImage = "images/featured/indyref-batman.jpg"
 date = 2020-11-24T21:35:25Z
 draft = false
 author = "AngusRobinson"

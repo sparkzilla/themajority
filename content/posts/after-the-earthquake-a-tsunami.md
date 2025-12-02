@@ -1,6 +1,6 @@
 +++
 title = "After the earthquake, a tsunami"
-featuredImage = "images/restored/Humza-Yousaf-before-the-Tsunami.png"
+featuredImage = "images/featured/Humza-Yousaf-before-the-Tsunami.png"
 date = 2023-04-26T10:00:00Z
 draft = false
 author = "hoski67"

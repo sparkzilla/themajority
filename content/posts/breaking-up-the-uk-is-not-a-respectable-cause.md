@@ -1,6 +1,6 @@
 +++
 title = "Breaking up the UK is not a ‘respectable cause’"
-featuredImage = "images/restored/Time-Appeasement-Division.jpg"
+featuredImage = "images/featured/Time-Appeasement-Division.jpg"
 date = 2022-02-07T20:38:13Z
 draft = false
 author = "sparkzilla"

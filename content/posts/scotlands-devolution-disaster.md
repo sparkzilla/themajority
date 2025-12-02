@@ -1,6 +1,6 @@
 +++
 title = "Scotland's devolution disaster"
-featuredImage = "images/restored/Scotlands-Devolution-Disaster-Final.jpg"
+featuredImage = "images/featured/Scotlands-Devolution-Disaster-Final.jpg"
 date = 2023-04-29T14:02:23Z
 draft = false
 author = "stephenbailey"

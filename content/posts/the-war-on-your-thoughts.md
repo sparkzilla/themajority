@@ -1,6 +1,6 @@
 +++
 title = "The war on your thoughts"
-featuredImage = "images/restored/Brain-in-a-cage-header.jpg"
+featuredImage = "images/featured/Brain-in-a-cage-header.jpg"
 date = 2021-02-12T20:14:15Z
 draft = false
 author = "niallfraser"

@@ -1,6 +1,6 @@
 +++
 title = "Control Freakery"
-featuredImage = "images/restored/Nicola-Sturgeon-Control-Freak.jpg"
+featuredImage = "images/featured/Nicola-Sturgeon-Control-Freak.jpg"
 date = 2020-10-20T12:22:23Z
 draft = false
 author = "sparkzilla"

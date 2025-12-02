@@ -1,6 +1,6 @@
 +++
 title = "Stop the Neverendum: Ban secession now."
-featuredImage = "images/restored/Ban-Secession-Now-1.jpg"
+featuredImage = "images/featured/Ban-Secession-Now-1.jpg"
 date = 2021-09-13T15:55:41Z
 draft = false
 author = "sparkzilla"

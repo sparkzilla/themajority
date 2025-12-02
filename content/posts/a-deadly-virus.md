@@ -1,6 +1,6 @@
 +++
 title = "A Deadly Virus?"
-featuredImage = "images/restored/COVID-Protestors-Glitch.jpg"
+featuredImage = "images/featured/COVID-Protestors-Glitch.jpg"
 date = 2020-11-11T17:44:36Z
 draft = false
 author = "andywebb"

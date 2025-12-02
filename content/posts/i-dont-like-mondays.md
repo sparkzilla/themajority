@@ -1,6 +1,6 @@
 +++
 title = "I Don’t Like Mondays"
-featuredImage = "images/restored/I-dont-lIke-Mondays-e1616443410951.jpg"
+featuredImage = "images/featured/I-dont-lIke-Mondays-e1616443410951.jpg"
 date = 2021-03-22T20:04:24Z
 draft = false
 author = "jamieblackett"

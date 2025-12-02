@@ -1,6 +1,6 @@
 +++
 title = "This tower will fall"
-featuredImage = "images/restored/Jenga-Tower-Falling.jpg"
+featuredImage = "images/featured/Jenga-Tower-Falling.jpg"
 date = 2020-12-20T19:14:28Z
 draft = false
 author = "AngusRobinson"

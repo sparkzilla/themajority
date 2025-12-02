@@ -1,6 +1,6 @@
 +++
 title = "Our response to The National bullying and intimidating our writers"
-featuredImage = "images/restored/The-National-Bully-the-Majoritys-Writers.png"
+featuredImage = "images/featured/The-National-Bully-the-Majoritys-Writers.png"
 date = 2021-07-27T18:09:16Z
 draft = false
 author = "sparkzilla"

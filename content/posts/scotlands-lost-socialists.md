@@ -1,6 +1,6 @@
 +++
 title = "Scotland's lost socialists"
-featuredImage = "images/restored/Lost.jpg"
+featuredImage = "images/featured/Lost.jpg"
 date = 2021-10-12T19:20:48Z
 draft = false
 author = "sparkzilla"

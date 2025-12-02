@@ -1,6 +1,6 @@
 +++
 title = "Jolly Scottianity"
-featuredImage = "images/restored/Salmond-IM-Jolly-Majority.jpg"
+featuredImage = "images/featured/Salmond-IM-Jolly-Majority.jpg"
 date = 2020-12-13T17:32:09Z
 draft = false
 author = "emdeblu"

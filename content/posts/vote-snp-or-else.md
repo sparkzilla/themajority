@@ -1,6 +1,6 @@
 +++
 slug = "vote-snp-or-else"
-featuredImage = "images/restored/Hostage.jpg"
+featuredImage = "images/featured/Hostage.jpg"
 title = "Vote SNP or else"
 date = 2020-12-07T22:27:14Z
 draft = false

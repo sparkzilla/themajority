@@ -1,6 +1,6 @@
 +++
 title = "Nicola Sturgeon: Bigotry in a Smart Suit"
-featuredImage = "images/restored/Tory-Scum-Out-1.jpg"
+featuredImage = "images/featured/Tory-Scum-Out-1.jpg"
 date = 2020-06-10T21:30:00Z
 draft = false
 author = "sparkzilla"

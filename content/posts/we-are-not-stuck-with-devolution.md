@@ -1,6 +1,6 @@
 +++
 title = "We are NOT ‘stuck with’ devolution"
-featuredImage = "images/restored/Stuck-with-devolution-chains.jpg"
+featuredImage = "images/featured/Stuck-with-devolution-chains.jpg"
 date = 2024-05-12T18:42:14Z
 draft = false
 author = "stephenbailey"

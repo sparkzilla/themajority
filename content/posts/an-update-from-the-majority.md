@@ -1,6 +1,6 @@
 +++
 title = "An update from The Majority"
-featuredImage = "images/restored/Update.jpg"
+featuredImage = "images/featured/Update.jpg"
 date = 2021-08-01T20:07:43Z
 draft = false
 author = "sparkzilla"

@@ -8,9 +8,8 @@ tags = ["Devolution"]
 featuredImage = "images/posts/There-is-no-Union-Dividend-1200x600.jpg"
 aliases = ["/blog/2025/08/23/there-is-no-union-dividend/"]
 +++
-+++
 
-<p>So called pro<strong>-</strong>UK politicians from both the Conservatives and Labour often trumpet the <strong>“Union dividend”</strong> — the extra billions Scotland receives from the United Kingdom — as proof that staying in the UK benefits ordinary Scots. On paper, the numbers seem impressive: according to the <em>Government Expenditure and Revenue Scotland</em> (GERS) 2024–25 report, Scotland receives <strong>£2,669 more per person</strong> in public spending than the UK average.</p>
+<p>So called pro<strong>-</strong>UK politicians from both the Conservatives and Labour often trumpet the <strong>"Union dividend"</strong> — the extra billions Scotland receives from the United Kingdom — as proof that staying in the UK benefits ordinary Scots. On paper, the numbers seem impressive: according to the <em>Government Expenditure and Revenue Scotland</em> (GERS) 2024–25 report, Scotland receives <strong>£2,669 more per person</strong> in public spending than the UK average.</p>
 
 <p>But in reality, this dividend is wasted as under the SNP, Scotland’s extra funding is being squandered on a <strong>bloated, inefficient, and politically motivated public sector</strong>, while schools, hospitals, and local services continue to decline. Ordinary Scots see none of the supposed benefit.</p>
 

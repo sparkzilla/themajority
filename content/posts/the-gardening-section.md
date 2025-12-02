@@ -1,6 +1,6 @@
 +++
 title = "The Gardening Section"
-featuredImage = "images/restored/Scottish-Gnome.jpg"
+featuredImage = "images/featured/Scottish-Gnome.jpg"
 date = 2020-08-07T11:45:58Z
 draft = false
 author = "jamieblackett"

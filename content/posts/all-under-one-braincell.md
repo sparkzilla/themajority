@@ -1,6 +1,6 @@
 +++
 title = "All Under One Braincell"
-featuredImage = "images/restored/2JS197499439.jpg"
+featuredImage = "images/featured/2JS197499439.jpg"
 date = 2020-06-17T22:50:31Z
 draft = false
 author = "sparkzilla"

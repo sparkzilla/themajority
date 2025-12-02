@@ -1,6 +1,6 @@
 +++
 title = "The irony of Scottish 'independence'"
-featuredImage = "images/restored/David-hume.jpg"
+featuredImage = "images/featured/David-hume.jpg"
 date = 2021-05-16T15:29:10Z
 draft = false
 author = "angusbarrett"

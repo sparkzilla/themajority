@@ -1,6 +1,6 @@
 +++
 title = "The Majority Show"
-featuredImage = "images/restored/The-Majority-Show-Ad-Mary.jpg"
+featuredImage = "images/featured/The-Majority-Show-Ad-Mary.jpg"
 date = 2022-09-07T14:55:20Z
 draft = false
 author = "sparkzilla"

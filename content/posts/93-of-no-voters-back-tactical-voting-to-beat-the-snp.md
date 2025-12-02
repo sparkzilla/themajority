@@ -1,6 +1,6 @@
 +++
 title = "93% of NO voters back tactical voting to beat the SNP"
-featuredImage = "images/restored/Scotland-Matters-Poll-93-Vote-Tactically-.jpg"
+featuredImage = "images/featured/Scotland-Matters-Poll-93-Vote-Tactically-.jpg"
 date = 2020-11-09T21:32:29Z
 draft = false
 author = "allansutherland"

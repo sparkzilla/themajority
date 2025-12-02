@@ -1,6 +1,6 @@
 +++
 slug = "its-a-love-story-baby-just-say-yes"
-featuredImage = "images/restored/Wings-UDI-and-Taylor-Swift.jpg"
+featuredImage = "images/featured/Wings-UDI-and-Taylor-Swift.jpg"
 title = "It's a Love Story, Baby just say Yes"
 date = 2023-03-20T22:16:15Z
 draft = false

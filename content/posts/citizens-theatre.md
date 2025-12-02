@@ -1,6 +1,6 @@
 +++
 title = "Citizens' Theatre"
-featuredImage = "images/restored/Citizens-Assembly.jpg"
+featuredImage = "images/featured/Citizens-Assembly.jpg"
 date = 2020-11-01T19:19:30Z
 draft = false
 author = "allansutherland"

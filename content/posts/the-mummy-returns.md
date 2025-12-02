@@ -1,6 +1,6 @@
 +++
 title = "The Mummy Returns"
-featuredImage = "images/restored/Scexit-Files-Mummy.jpg"
+featuredImage = "images/featured/Scexit-Files-Mummy.jpg"
 date = 2020-10-03T15:05:55Z
 draft = false
 author = "emdeblu"

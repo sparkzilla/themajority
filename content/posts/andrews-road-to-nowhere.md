@@ -1,6 +1,6 @@
 +++
 title = "Andrew's road to nowhere"
-featuredImage = "images/restored/Andrew-Wilson-The-Intellectual.jpg"
+featuredImage = "images/featured/Andrew-Wilson-The-Intellectual.jpg"
 date = 2020-12-01T18:03:29Z
 draft = false
 author = "jillstevenston"

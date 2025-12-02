@@ -1,6 +1,6 @@
 +++
 title = "Galloway: Salmond’s fat arse, Bun fights at the OK Corral, and The Mother of All Scandals"
-featuredImage = "images/restored/Galloway-Transcript.jpg"
+featuredImage = "images/featured/Galloway-Transcript.jpg"
 date = 2020-10-02T20:47:41Z
 draft = false
 author = "MaryDevlin"

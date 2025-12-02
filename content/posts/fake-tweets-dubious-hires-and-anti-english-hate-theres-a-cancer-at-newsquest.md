@@ -1,6 +1,6 @@
 +++
 title = "Fake tweets, dubious hires and anti-English hate: There's a cancer at Newsquest"
-featuredImage = "images/restored/The-National-Indy-Myths-Fake-news-Newsquest.jpg"
+featuredImage = "images/featured/The-National-Indy-Myths-Fake-news-Newsquest.jpg"
 date = 2021-09-24T11:07:27Z
 draft = false
 author = "sparkzilla"

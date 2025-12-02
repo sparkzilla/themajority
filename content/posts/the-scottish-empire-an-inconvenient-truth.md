@@ -1,6 +1,6 @@
 +++
 title = "The Scottish Empire, an inconvenient truth"
-featuredImage = "images/restored/The-Thin-Red-Line.jpg"
+featuredImage = "images/featured/The-Thin-Red-Line.jpg"
 date = 2020-11-16T17:41:23Z
 draft = false
 author = "AngusRobinson"

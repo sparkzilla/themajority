@@ -1,6 +1,6 @@
 +++
 title = "A Scotsmas Carol"
-featuredImage = "images/restored/A-Scotsmas-Carol.jpg"
+featuredImage = "images/featured/A-Scotsmas-Carol.jpg"
 date = 2020-12-24T18:12:25Z
 draft = false
 author = "emdeblu"

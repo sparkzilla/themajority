@@ -1,6 +1,6 @@
 +++
 title = "Disgusted of Prestonpans"
-featuredImage = "images/restored/Scotland-Map.jpg"
+featuredImage = "images/featured/Scotland-Map.jpg"
 date = 2021-04-18T20:21:52Z
 draft = false
 author = "emdeblu"

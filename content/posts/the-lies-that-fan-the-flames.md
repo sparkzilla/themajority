@@ -1,6 +1,6 @@
 +++
 title = "The lies that fan the flames"
-featuredImage = "images/restored/Burn-The-National-Fake-News.jpg"
+featuredImage = "images/featured/Burn-The-National-Fake-News.jpg"
 date = 2020-08-18T14:04:16Z
 draft = false
 author = "jillstevenston"

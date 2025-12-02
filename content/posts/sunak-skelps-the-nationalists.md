@@ -1,6 +1,6 @@
 +++
 title = "Sunak skelps the Nationalists"
-featuredImage = "images/restored/Sunak-Sturgeon.jpg"
+featuredImage = "images/featured/Sunak-Sturgeon.jpg"
 date = 2020-07-13T21:45:55Z
 draft = false
 author = "TommiKerr"

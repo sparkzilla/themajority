@@ -1,6 +1,6 @@
 +++
 title = "Devolution has failed: Abolish Holyrood"
-featuredImage = "images/restored/Abolish-Holyrood.jpg"
+featuredImage = "images/featured/Abolish-Holyrood.jpg"
 date = 2020-08-06T12:33:04Z
 draft = false
 author = "johnmortimer"

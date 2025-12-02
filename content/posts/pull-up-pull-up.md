@@ -1,6 +1,6 @@
 +++
 title = "Pull up. Pull up."
-featuredImage = "images/restored/Nicola-Sturgeon-piloting-the-SNP-Express.jpg"
+featuredImage = "images/featured/Nicola-Sturgeon-piloting-the-SNP-Express.jpg"
 date = 2021-02-06T20:37:25Z
 draft = false
 author = "AngusRobinson"

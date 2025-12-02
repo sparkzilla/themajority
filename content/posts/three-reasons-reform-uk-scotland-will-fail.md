@@ -1,6 +1,6 @@
 +++
 title = "Three reasons Reform UK Scotland will fail"
-featuredImage = "images/restored/Michelle-Ballantyne-Nigel-Farage-Reform-Party-Scotland.jpg"
+featuredImage = "images/featured/Michelle-Ballantyne-Nigel-Farage-Reform-Party-Scotland.jpg"
 date = 2021-01-16T21:19:41Z
 draft = false
 author = "davidgriffiths"

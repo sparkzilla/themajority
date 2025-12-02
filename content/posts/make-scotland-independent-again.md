@@ -1,6 +1,6 @@
 +++
 title = "Make Scotland Independent Again"
-featuredImage = "images/restored/Trump-Make-Scotland-Independent-Again.jpg"
+featuredImage = "images/featured/Trump-Make-Scotland-Independent-Again.jpg"
 date = 2020-11-14T17:59:34Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "Six ways Nationalists manipulate polls"
-featuredImage = "images/restored/How-Nationalists-Manipulate-polls.jpg"
+featuredImage = "images/featured/How-Nationalists-Manipulate-polls.jpg"
 date = 2021-02-11T21:57:14Z
 draft = false
 author = "sparkzilla"

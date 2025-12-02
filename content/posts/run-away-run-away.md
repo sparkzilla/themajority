@@ -1,6 +1,6 @@
 +++
 title = "Run away! Run away!"
-featuredImage = "images/restored/Douglas-Ross-Monty-Python-Run-Away-No-text.jpg"
+featuredImage = "images/featured/Douglas-Ross-Monty-Python-Run-Away-No-text.jpg"
 date = 2020-12-05T20:09:40Z
 draft = false
 author = "sparkzilla"

@@ -1,6 +1,6 @@
 +++
 title = "Where are our leaders?"
-featuredImage = "images/restored/Where-are-our-leaders-thumbnail-wide.jpg"
+featuredImage = "images/featured/Where-are-our-leaders-thumbnail-wide.jpg"
 date = 2020-07-08T02:41:09Z
 draft = false
 author = "sparkzilla"

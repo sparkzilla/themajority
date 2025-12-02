@@ -1,6 +1,6 @@
 +++
 title = "Religion should guide, not divide"
-featuredImage = "images/restored/Man-in-church.jpg"
+featuredImage = "images/featured/Man-in-church.jpg"
 date = 2020-07-06T15:13:47Z
 draft = false
 author = "jamesbundy"

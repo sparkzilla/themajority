@@ -1,6 +1,6 @@
 +++
 title = "We Will Remember Them"
-featuredImage = "images/restored/Shadow-salute-Remembrance.jpg"
+featuredImage = "images/featured/Shadow-salute-Remembrance.jpg"
 date = 2020-11-08T12:31:58Z
 draft = false
 author = "arthurkeith"

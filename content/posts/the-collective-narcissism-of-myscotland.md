@@ -1,6 +1,6 @@
 +++
 title = "The Collective Narcissism of MyScotland"
-featuredImage = "images/restored/Nicola-in-Mirror.jpg"
+featuredImage = "images/featured/Nicola-in-Mirror.jpg"
 date = 2020-08-15T10:34:14Z
 draft = false
 author = "jonstanley"

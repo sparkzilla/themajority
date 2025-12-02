@@ -1,6 +1,6 @@
 +++
 title = "Polls, insults and manifestos"
-featuredImage = "images/restored/Jamie-Blackett-Thumbs-Up.jpg"
+featuredImage = "images/featured/Jamie-Blackett-Thumbs-Up.jpg"
 date = 2021-04-12T20:51:41Z
 draft = false
 author = "jamieblackett"

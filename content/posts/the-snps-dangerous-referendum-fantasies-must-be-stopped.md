@@ -1,6 +1,6 @@
 +++
 title = "The SNP’s dangerous referendum fantasies must be stopped"
-featuredImage = "images/restored/Nationalist-Rhapsody.jpg"
+featuredImage = "images/featured/Nationalist-Rhapsody.jpg"
 date = 2022-03-08T10:07:31Z
 draft = false
 author = "sparkzilla"

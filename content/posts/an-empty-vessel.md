@@ -1,6 +1,6 @@
 +++
 title = "An empty vessel"
-featuredImage = "images/restored/Empty-vessels-2.jpg"
+featuredImage = "images/featured/Empty-vessels-2.jpg"
 date = 2021-05-11T17:36:52Z
 draft = false
 author = "AngusRobinson"

@@ -1,6 +1,6 @@
 +++
 title = "The old Scots parliament - as crooked as the new one"
-featuredImage = "images/restored/Charles-II.jpg"
+featuredImage = "images/featured/Charles-II.jpg"
 date = 2021-02-26T21:33:17Z
 draft = false
 author = "ianmitchell"

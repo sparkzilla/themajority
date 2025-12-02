@@ -1,6 +1,6 @@
 +++
 title = "The Golden Bridge"
-featuredImage = "/images/restored/Sun-Tzu-Golden-Bridge.jpg"
+featuredImage = "/images/featured/Sun-Tzu-Golden-Bridge.jpg"
 date = 2022-04-18T21:01:57Z
 draft = false
 author = "sparkzilla"

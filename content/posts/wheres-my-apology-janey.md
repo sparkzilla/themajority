@@ -1,6 +1,6 @@
 +++
 title = "Where’s my apology, Janey?"
-featuredImage = "images/restored/Janey-Godley-Bully.jpg"
+featuredImage = "images/featured/Janey-Godley-Bully.jpg"
 date = 2021-09-08T20:41:00Z
 draft = false
 author = "sparkzilla"

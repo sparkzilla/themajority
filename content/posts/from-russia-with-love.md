@@ -1,6 +1,6 @@
 +++
 title = "From Russia, with love"
-featuredImage = "images/restored/From-Russia-Wih-Love.jpg"
+featuredImage = "images/featured/From-Russia-Wih-Love.jpg"
 date = 2020-12-27T18:45:09Z
 draft = false
 author = "AngusRobinson"

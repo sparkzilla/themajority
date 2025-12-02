@@ -1,6 +1,6 @@
 +++
 title = "Salmond: ScotGov’s document withholding is ‘contempt of court’"
-featuredImage = "images/restored/Salmond.jpg"
+featuredImage = "images/featured/Salmond.jpg"
 date = 2021-01-12T21:58:35Z
 draft = false
 author = "sparkzilla"

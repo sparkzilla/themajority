@@ -1,6 +1,6 @@
 +++
 title = "Galloway Straight Answers"
-featuredImage = "images/restored/Galloway-Straight-Answers.jpg"
+featuredImage = "images/featured/Galloway-Straight-Answers.jpg"
 date = 2021-01-21T13:02:34Z
 draft = false
 author = "sparkzilla"

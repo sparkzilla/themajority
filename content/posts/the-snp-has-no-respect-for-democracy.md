@@ -1,6 +1,6 @@
 +++
 title = "The SNP has no respect for democracy"
-featuredImage = "images/restored/Edinburgh-Agreement-NIcola-Sturgeon-Signature.jpg"
+featuredImage = "images/featured/Edinburgh-Agreement-NIcola-Sturgeon-Signature.jpg"
 date = 2021-02-03T18:26:27Z
 draft = false
 author = "brucehalliday"

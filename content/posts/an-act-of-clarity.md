@@ -1,6 +1,6 @@
 +++
 title = "An Act of Clarity"
-featuredImage = "images/restored/Clarity-signpost.jpg"
+featuredImage = "images/featured/Clarity-signpost.jpg"
 date = 2020-09-17T14:05:33Z
 draft = false
 author = "sparkzilla"

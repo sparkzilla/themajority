@@ -1,6 +1,6 @@
 +++
 title = "Reasons to be cheerful"
-featuredImage = "images/restored/Reasons-to-be-Cheerful.jpg"
+featuredImage = "images/featured/Reasons-to-be-Cheerful.jpg"
 date = 2023-12-04T22:30:28Z
 draft = false
 author = "stephenbailey"

@@ -1,6 +1,6 @@
 +++
 title = "Shoot yourself in the foot. Repeat."
-featuredImage = "images/restored/Shooting-yourself-in-the-foot.jpg"
+featuredImage = "images/featured/Shooting-yourself-in-the-foot.jpg"
 date = 2021-03-16T22:51:44Z
 draft = false
 author = "AngusRobinson"

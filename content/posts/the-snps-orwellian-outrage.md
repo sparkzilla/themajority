@@ -1,6 +1,6 @@
 +++
 title = "The SNP’s Orwellian Outrage"
-featuredImage = "images/restored/Orwell-atrocities.jpg"
+featuredImage = "images/featured/Orwell-atrocities.jpg"
 date = 2020-07-11T11:27:50Z
 draft = false
 author = "mateus06"

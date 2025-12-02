@@ -1,6 +1,6 @@
 +++
 title = "Pincer Movement"
-featuredImage = "images/restored/Pincer-Movement.jpg"
+featuredImage = "images/featured/Pincer-Movement.jpg"
 date = 2025-03-14T14:45:47Z
 draft = false
 author = "stephenbailey"

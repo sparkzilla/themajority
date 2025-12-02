@@ -1,6 +1,6 @@
 +++
 title = "Old MacDonald had a Scapegoat"
-featuredImage = "images/restored/Scapegoat.jpg"
+featuredImage = "images/featured/Scapegoat.jpg"
 date = 2021-01-24T20:55:53Z
 draft = false
 author = "emdeblu"

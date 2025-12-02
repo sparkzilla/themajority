@@ -1,6 +1,6 @@
 +++
 title = "#ResignSturgeon campaign launches across Scotland"
-featuredImage = "images/restored/The-Majority-Resign-Sturgeon-Final.jpg"
+featuredImage = "images/featured/The-Majority-Resign-Sturgeon-Final.jpg"
 date = 2021-03-05T09:12:32Z
 draft = false
 author = "sparkzilla"

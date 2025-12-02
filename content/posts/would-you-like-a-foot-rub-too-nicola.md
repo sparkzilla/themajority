@@ -1,6 +1,6 @@
 +++
 title = "Would you like a foot rub too, Nicola?"
-featuredImage = "images/restored/Nicola-FootRub-Flag.jpg"
+featuredImage = "images/featured/Nicola-FootRub-Flag.jpg"
 date = 2020-07-02T16:22:13Z
 draft = false
 author = "sparkzilla"

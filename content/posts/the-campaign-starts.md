@@ -1,6 +1,6 @@
 +++
 slug = "the-campaign-starts"
-featuredImage = "images/restored/George-Galloway-in-Ayr.jpg"
+featuredImage = "images/featured/George-Galloway-in-Ayr.jpg"
 title = "The campaign starts"
 date = 2021-03-27T14:55:08Z
 draft = false

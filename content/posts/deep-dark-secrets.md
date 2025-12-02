@@ -1,6 +1,6 @@
 +++
 title = "Deep dark secrets"
-featuredImage = "images/restored/Deep-Dark-Secrets.jpg"
+featuredImage = "images/featured/Deep-Dark-Secrets.jpg"
 date = 2021-06-23T17:52:59Z
 draft = false
 author = "AngusRobinson"

@@ -1,6 +1,6 @@
 +++
 title = "The Majority View: Open our beer gardens"
-featuredImage = "images/restored/Beer-Garden.jpg"
+featuredImage = "images/featured/Beer-Garden.jpg"
 date = 2020-06-19T20:35:06Z
 draft = false
 author = "sparkzilla"

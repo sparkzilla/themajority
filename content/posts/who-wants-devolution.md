@@ -1,6 +1,6 @@
 +++
 title = "Who wants Devolution?"
-featuredImage = "images/restored/Who-Wants-Devolution.jpg"
+featuredImage = "images/featured/Who-Wants-Devolution.jpg"
 date = 2020-11-18T19:31:03Z
 draft = false
 author = "sparkzilla"

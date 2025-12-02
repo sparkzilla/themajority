@@ -1,6 +1,6 @@
 +++
 title = "Oh, Canada!"
-featuredImage = "images/restored/Canadian-Separatists.jpg"
+featuredImage = "images/featured/Canadian-Separatists.jpg"
 date = 2021-02-01T16:52:52Z
 draft = false
 author = "AngusRobinson"

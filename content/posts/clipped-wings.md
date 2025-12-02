@@ -1,6 +1,6 @@
 +++
 title = "Clipped Wings"
-featuredImage = "images/restored/Giving-wings-the-boot.jpg"
+featuredImage = "images/featured/Giving-wings-the-boot.jpg"
 date = 2021-02-22T22:02:51Z
 draft = false
 author = "AngusRobinson"

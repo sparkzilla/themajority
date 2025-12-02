@@ -1,6 +1,6 @@
 +++
 title = "A British Premiership? It's a match-winner"
-featuredImage = "images/restored/Premiereship.jpg"
+featuredImage = "images/featured/Premiereship.jpg"
 date = 2020-10-15T20:47:19Z
 draft = false
 author = "georgegalloway"

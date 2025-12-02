@@ -1,6 +1,6 @@
 +++
 title = "Ministers hail anti-Union vaccine"
-featuredImage = "images/restored/Anti-Unionist-Vaccine.jpg"
+featuredImage = "images/featured/Anti-Unionist-Vaccine.jpg"
 date = 2021-01-09T17:43:17Z
 draft = false
 author = "emdeblu"

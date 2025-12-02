@@ -1,6 +1,6 @@
 +++
 title = "Sturgeon’s stepping stones"
-featuredImage = "images/restored/Sturgeons-Stepping-Stones.jpg"
+featuredImage = "images/featured/Sturgeons-Stepping-Stones.jpg"
 date = 2020-12-02T18:55:48Z
 draft = false
 author = "AngusRobinson"

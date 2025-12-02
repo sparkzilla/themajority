@@ -1,6 +1,6 @@
 +++
 title = "Cameron's folly"
-featuredImage = "images/restored/David-Cameron-Black-e1620074021335.jpg"
+featuredImage = "images/featured/David-Cameron-Black-e1620074021335.jpg"
 date = 2021-05-03T20:37:59Z
 draft = false
 author = "jillstevenston"

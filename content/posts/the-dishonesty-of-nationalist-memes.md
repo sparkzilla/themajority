@@ -1,6 +1,6 @@
 +++
 title = "The dishonesty of Nationalist memes"
-featuredImage = "images/restored/meme-definition.jpg"
+featuredImage = "images/featured/meme-definition.jpg"
 date = 2021-01-26T17:40:35Z
 draft = false
 author = "jillstevenston"

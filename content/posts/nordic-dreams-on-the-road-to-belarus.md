@@ -1,6 +1,6 @@
 +++
 title = "Nordic dreams on the road to Belarus"
-featuredImage = "images/restored/Are-we-there-yet.jpg"
+featuredImage = "images/featured/Are-we-there-yet.jpg"
 date = 2020-08-20T21:35:18Z
 draft = false
 author = "jonstanley"

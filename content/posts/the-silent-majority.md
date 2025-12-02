@@ -1,6 +1,6 @@
 +++
 title = "The Silent Majority"
-featuredImage = "images/restored/The-Silent-Majority.jpg"
+featuredImage = "images/featured/The-Silent-Majority.jpg"
 date = 2020-11-05T12:11:58Z
 draft = false
 author = "sparkzilla"

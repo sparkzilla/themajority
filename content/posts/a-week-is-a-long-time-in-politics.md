@@ -1,6 +1,6 @@
 +++
 title = "A week is a long time in politics"
-featuredImage = "images/restored/Jamies-Election-Diary.jpg"
+featuredImage = "images/featured/Jamies-Election-Diary.jpg"
 date = 2021-03-29T21:12:10Z
 draft = false
 author = "jamieblackett"

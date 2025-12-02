@@ -1,6 +1,6 @@
 +++
 title = "Twilight of the idols"
-featuredImage = "images/restored/Pulling-Down-Sturgeons-Statue-3.jpg"
+featuredImage = "images/featured/Pulling-Down-Sturgeons-Statue-3.jpg"
 date = 2021-01-25T19:07:09Z
 draft = false
 author = "AngusRobinson"

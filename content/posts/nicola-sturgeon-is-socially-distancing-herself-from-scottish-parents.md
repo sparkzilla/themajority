@@ -1,6 +1,6 @@
 +++
 title = "Nicola Sturgeon is ‘socially-distancing’ herself from Scottish parents"
-featuredImage = "images/restored/social-distanced-schoolchildren.jpg"
+featuredImage = "images/featured/social-distanced-schoolchildren.jpg"
 date = 2020-06-22T15:39:10Z
 draft = false
 author = "AndrewMorrison"

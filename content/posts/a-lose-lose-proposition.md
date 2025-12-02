@@ -1,6 +1,6 @@
 +++
 title = "A lose-lose proposition"
-featuredImage = "images/restored/Salmond-Sturgeon-Boxing.jpg"
+featuredImage = "images/featured/Salmond-Sturgeon-Boxing.jpg"
 date = 2021-03-27T22:57:13Z
 draft = false
 author = "AngusRobinson"

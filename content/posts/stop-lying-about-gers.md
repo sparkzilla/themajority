@@ -1,6 +1,6 @@
 +++
 title = "Stop lying about GERS"
-featuredImage = "images/restored/Stop-lying-about-GERS.jpg"
+featuredImage = "images/featured/Stop-lying-about-GERS.jpg"
 date = 2024-08-31T18:39:23Z
 draft = false
 author = "stephenbailey"

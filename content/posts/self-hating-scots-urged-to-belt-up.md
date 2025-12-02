@@ -1,6 +1,6 @@
 +++
 title = "‘Self-hating Scots’ urged to belt up"
-featuredImage = "images/restored/Piggy-Bank.jpg"
+featuredImage = "images/featured/Piggy-Bank.jpg"
 date = 2021-02-20T21:39:31Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "When leaders lie"
-featuredImage = "images/restored/When-leaders-lie.jpg"
+featuredImage = "images/featured/When-leaders-lie.jpg"
 date = 2021-09-16T21:44:29Z
 draft = false
 author = "hoski67"

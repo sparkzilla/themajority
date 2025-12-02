@@ -1,6 +1,6 @@
 +++
 title = "Budget Shock for Rip Van McWinkle"
-featuredImage = "images/restored/Rip-Van-Winkle-Header.jpg"
+featuredImage = "images/featured/Rip-Van-Winkle-Header.jpg"
 date = 2021-03-13T14:46:19Z
 draft = false
 author = "emdeblu"

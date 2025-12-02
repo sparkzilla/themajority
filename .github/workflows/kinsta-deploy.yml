@@ -1,0 +1,22 @@
+name: Trigger Kinsta Deployment
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  notify-kinsta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Trigger Kinsta Deployment
+        run: |
+          echo "Push detected - Kinsta should automatically deploy"
+          echo "If deployment doesn't trigger automatically, check Kinsta dashboard"
+          echo "Repository: ${{ github.repository }}"
+          echo "Commit: ${{ github.sha }}"
+

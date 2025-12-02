@@ -1,6 +1,6 @@
 +++
 title = "A matter of gravity"
-featuredImage = "images/restored/A-Matter-of-Gravity-3.jpg"
+featuredImage = "images/featured/A-Matter-of-Gravity-3.jpg"
 date = 2021-03-02T22:31:20Z
 draft = false
 author = "AngusRobinson"

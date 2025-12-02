@@ -1,6 +1,6 @@
 +++
 title = "Bienvenido a la Unión"
-featuredImage = "images/restored/Puerto-Rico.jpg"
+featuredImage = "images/featured/Puerto-Rico.jpg"
 date = 2020-11-06T18:23:00Z
 draft = false
 author = "AngusRobinson"

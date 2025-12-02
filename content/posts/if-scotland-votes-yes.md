@@ -1,6 +1,6 @@
 +++
 title = "If Scotland Votes Yes"
-featuredImage = "images/restored/Socialist-Republic-of-Scotland.jpg"
+featuredImage = "images/featured/Socialist-Republic-of-Scotland.jpg"
 date = 2020-07-21T09:45:26Z
 draft = false
 author = "sparkzilla"

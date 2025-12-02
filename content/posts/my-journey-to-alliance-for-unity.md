@@ -1,6 +1,6 @@
 +++
 title = "My Journey to Alliance For Unity"
-featuredImage = "images/restored/David-Griffiths-A4A-ROundel-e1595984853592.jpg"
+featuredImage = "images/featured/David-Griffiths-A4A-ROundel-e1595984853592.jpg"
 date = 2020-07-29T12:53:16Z
 draft = false
 author = "davidgriffiths"

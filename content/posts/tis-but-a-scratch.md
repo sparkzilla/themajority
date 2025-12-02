@@ -1,6 +1,6 @@
 +++
 title = "'Tis but a scratch!"
-featuredImage = "images/restored/The-quest.jpg"
+featuredImage = "images/featured/The-quest.jpg"
 date = 2021-05-12T17:48:45Z
 draft = false
 author = "sparkzilla"

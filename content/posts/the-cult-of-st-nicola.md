@@ -6,7 +6,7 @@ author = "jillstevenston"
 categories = ["Commentary", "Nicola Sturgeon", "Original Content"]
 tags = ["Christopher McEleny", "cult"]
 aliases = ["/blog/2020/06/15/the-cult-of-st-nicola/"]
-featuredImage = "images/restored/Scottish-Separatist-Independence-Cult-scaled.jpg"
+featuredImage = "images/featured/Scottish-Separatist-Independence-Cult-scaled.jpg"
 +++
 
 

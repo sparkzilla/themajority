@@ -1,6 +1,6 @@
 +++
 title = "Wanted: a worthy opponent to Nicola Sturgeon"
-featuredImage = "images/restored/img4978.jpg"
+featuredImage = "images/featured/img4978.jpg"
 date = 2020-06-15T17:59:51Z
 draft = false
 author = "sparkzilla"

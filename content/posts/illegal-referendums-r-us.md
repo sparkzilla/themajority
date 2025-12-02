@@ -1,6 +1,6 @@
 +++
 title = "Illegal Referendums 'R' Us"
-featuredImage = "images/restored/Illegal-referendum.jpg"
+featuredImage = "images/featured/Illegal-referendum.jpg"
 date = 2021-01-24T12:55:33Z
 draft = false
 author = "sparkzilla"

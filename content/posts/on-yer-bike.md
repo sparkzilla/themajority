@@ -1,6 +1,6 @@
 +++
 slug = "on-yer-bike"
-featuredImage = "images/restored/The-SNPs-Rusty-bike-.jpg"
+featuredImage = "images/featured/The-SNPs-Rusty-bike-.jpg"
 title = "On yer bike"
 date = 2021-04-20T15:45:47Z
 draft = false

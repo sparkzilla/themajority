@@ -1,6 +1,6 @@
 +++
 title = "Hail to the Chief, Gorgeous George"
-featuredImage = "images/restored/Galloway-Clan-Chief.jpg"
+featuredImage = "images/featured/Galloway-Clan-Chief.jpg"
 date = 2020-10-31T18:30:33Z
 draft = false
 author = "emdeblu"

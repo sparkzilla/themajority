@@ -1,6 +1,6 @@
 +++
 title = "It is written: Westminster is the UK’s sovereign parliament"
-featuredImage = "images/restored/Act-of-Union.jpg"
+featuredImage = "images/featured/Act-of-Union.jpg"
 date = 2023-06-23T19:59:06Z
 draft = false
 author = "stephenbailey"

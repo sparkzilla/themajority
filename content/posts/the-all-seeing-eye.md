@@ -1,6 +1,6 @@
 +++
 title = "The All-seeing Eye"
-featuredImage = "images/restored/All-Seeing-Eye.jpg"
+featuredImage = "images/featured/All-Seeing-Eye.jpg"
 date = 2020-12-19T20:08:54Z
 draft = false
 author = "emdeblu"

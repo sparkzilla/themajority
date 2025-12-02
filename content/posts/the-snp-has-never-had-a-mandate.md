@@ -1,6 +1,6 @@
 +++
 title = "The SNP has never had a mandate"
-featuredImage = "images/restored/Humza-Yousaf-mandate.jpg"
+featuredImage = "images/featured/Humza-Yousaf-mandate.jpg"
 date = 2024-02-10T17:52:50Z
 draft = false
 author = "stephenbailey"

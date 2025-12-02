@@ -1,6 +1,6 @@
 +++
 title = "Salmond: 'Nicola needed a stake through my heart'"
-featuredImage = "images/restored/Salmond-Sturgeon-stake-through-heart.jpg"
+featuredImage = "images/featured/Salmond-Sturgeon-stake-through-heart.jpg"
 date = 2021-01-27T17:09:50Z
 draft = false
 author = "sparkzilla"

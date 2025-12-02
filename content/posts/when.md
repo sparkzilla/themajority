@@ -1,6 +1,6 @@
 +++
 title = "When?"
-featuredImage = "images/restored/When.jpg"
+featuredImage = "images/featured/When.jpg"
 date = 2021-01-05T21:03:31Z
 draft = false
 author = "AngusRobinson"

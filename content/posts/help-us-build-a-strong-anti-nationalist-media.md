@@ -1,6 +1,6 @@
 +++
 title = "Help us build a strong anti-Nationalist media"
-featuredImage = "images/restored/Fundraising-1-Wide.jpg"
+featuredImage = "images/featured/Fundraising-1-Wide.jpg"
 date = 2020-09-24T22:42:00Z
 draft = false
 author = "sparkzilla"

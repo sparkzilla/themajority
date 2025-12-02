@@ -1,6 +1,6 @@
 +++
 title = "The kids are not alright"
-featuredImage = "images/restored/Kids-Parliament.jpg"
+featuredImage = "images/featured/Kids-Parliament.jpg"
 date = 2022-04-12T18:44:02Z
 draft = false
 author = "jamieblackett"

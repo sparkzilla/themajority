@@ -1,6 +1,6 @@
 +++
 title = "The SNP has failed our doctors"
-featuredImage = "images/restored/Upset-doctor-and-nurse.jpg"
+featuredImage = "images/featured/Upset-doctor-and-nurse.jpg"
 date = 2020-11-10T20:17:05Z
 draft = false
 author = "brucehalliday"

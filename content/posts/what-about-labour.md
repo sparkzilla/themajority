@@ -1,6 +1,6 @@
 +++
 title = "What about Labour?"
-featuredImage = "images/restored/Kier-Hardie-Union-Flag.jpg"
+featuredImage = "images/featured/Kier-Hardie-Union-Flag.jpg"
 date = 2021-03-31T21:23:29Z
 draft = false
 author = "AngusRobinson"

@@ -1,6 +1,6 @@
 +++
 title = "When will we ever learn?"
-featuredImage = "images/restored/Scottish-School-Despair.jpg"
+featuredImage = "images/featured/Scottish-School-Despair.jpg"
 date = 2020-08-04T17:21:10Z
 draft = false
 author = "sparkzilla"

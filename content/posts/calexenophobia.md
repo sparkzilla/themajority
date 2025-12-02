@@ -1,6 +1,6 @@
 +++
 title = "Calexenophobia"
-featuredImage = "images/restored/England-Out-Of-Scotland-Banner.jpg"
+featuredImage = "images/featured/England-Out-Of-Scotland-Banner.jpg"
 date = 2020-07-28T16:48:08Z
 draft = false
 author = "stephenthomas"

@@ -1,6 +1,6 @@
 +++
 title = "A wounded and desperate party"
-featuredImage = "images/restored/Rat-in-a-corner.jpg"
+featuredImage = "images/featured/Rat-in-a-corner.jpg"
 date = 2021-01-14T22:28:36Z
 draft = false
 author = "AngusRobinson"

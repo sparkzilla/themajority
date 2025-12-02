@@ -1,6 +1,6 @@
 +++
 title = "An alliance for unity"
-featuredImage = "images/restored/Jamie-Blacket-e1605798166834.jpg"
+featuredImage = "images/featured/Jamie-Blacket-e1605798166834.jpg"
 date = 2020-11-19T15:11:28Z
 draft = false
 author = "jamieblackett"

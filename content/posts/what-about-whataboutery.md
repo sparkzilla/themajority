@@ -1,6 +1,6 @@
 +++
 title = "What about Whataboutery?"
-featuredImage = "images/restored/Whataboutery.jpg"
+featuredImage = "images/featured/Whataboutery.jpg"
 date = 2020-10-28T11:55:32Z
 draft = false
 author = "AngusRobinson"

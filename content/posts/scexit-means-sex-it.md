@@ -1,6 +1,6 @@
 +++
 title = "Scexit means Sex-it!"
-featuredImage = "images/restored/Scexit-Files-Sex-itjpg.jpg"
+featuredImage = "images/featured/Scexit-Files-Sex-itjpg.jpg"
 date = 2021-03-21T22:28:12Z
 draft = false
 author = "emdeblu"

@@ -1,6 +1,6 @@
 +++
 title = "Boot this Homer Simpson parliament"
-featuredImage = "images/restored/Homer-Simpson-Parliament.jpg"
+featuredImage = "images/featured/Homer-Simpson-Parliament.jpg"
 date = 2021-05-06T01:55:02Z
 draft = false
 author = "jonstanley"

@@ -1,6 +1,6 @@
 +++
 title = "Reform or Abolish?"
-featuredImage = "images/restored/Scotlands-Devolution-Disaster-Part-3-Reform-or-Abolish.jpg"
+featuredImage = "images/featured/Scotlands-Devolution-Disaster-Part-3-Reform-or-Abolish.jpg"
 date = 2023-05-04T17:42:20Z
 draft = false
 author = "stephenbailey"

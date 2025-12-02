@@ -1,6 +1,6 @@
 +++
 title = "Beware strangers bearing gifts"
-featuredImage = "images/restored/Trojan-horse.jpg"
+featuredImage = "images/featured/Trojan-horse.jpg"
 date = 2020-11-11T12:56:36Z
 draft = false
 author = "AngusRobinson"
