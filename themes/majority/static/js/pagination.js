@@ -18,7 +18,7 @@
         
         let currentPage = 1;
         
-        function showPage(page) {
+        function showPage(page, shouldScroll = false) {
             currentPage = page;
             
             // Hide all articles
@@ -39,10 +39,12 @@
                 window.history.replaceState(null, '', window.location.pathname);
             }
             
-            // Scroll to articles section
-            const articlesBox = articlesGrid.closest('.recent-articles-box');
-            if (articlesBox) {
-                articlesBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // Only scroll to articles section if user interaction triggered this
+            if (shouldScroll) {
+                const articlesBox = articlesGrid.closest('.recent-articles-box');
+                if (articlesBox) {
+                    articlesBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         }
         
@@ -91,7 +93,7 @@
                         link.textContent = pageNum;
                         link.addEventListener('click', function(e) {
                             e.preventDefault();
-                            showPage(pageNum);
+                            showPage(pageNum, true);
                         });
                         numbersContainer.appendChild(link);
                     } else if (pageNum === delta + 2 || pageNum === totalPages - delta - 1) {
@@ -108,14 +110,14 @@
         prevBtn.addEventListener('click', function(e) {
             e.preventDefault();
             if (currentPage > 1) {
-                showPage(currentPage - 1);
+                showPage(currentPage - 1, true);
             }
         });
         
         nextBtn.addEventListener('click', function(e) {
             e.preventDefault();
             if (currentPage < totalPages) {
-                showPage(currentPage + 1);
+                showPage(currentPage + 1, true);
             }
         });
         
