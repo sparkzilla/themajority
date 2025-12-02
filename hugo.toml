@@ -1,6 +1,7 @@
 baseURL = 'https://themajority.scot/'
 languageCode = 'en-us'
 title = 'The Majority'
+# Rebuild trigger - baseURL updated for custom domain
 theme = 'majority'
 publishDir = '_site'
 
