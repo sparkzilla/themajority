@@ -1,0 +1,195 @@
++++
+title = "Be The Pig: A primer on how to fight Nationalists"
+featuredImage = "images/restored/Be-The-Pig-Text.jpg"
+date = 2020-06-26T09:50:37Z
+draft = false
+author = "sparkzilla"
+categories = ["How to Fight"]
+tags = ["British Nationalist", "BritNat", "psychology", "strategy", "tactics", "Unionist", "Yoon"]
+aliases = ["/blog/2020/06/26/be-the-pig-a-primer-on-how-to-fight-nationalists/"]
++++
+<p>To my fellow anti-Nationalists: With the deepest of respect, you're doing it wrong.</p>
+
+
+
+<p>Every day, I see people arguing on Twitter, trying to counter Nationalist arguments. One thread I've been following on Twitter has literally hundreds of responses trying to convince Nationalists that they are wrong about Scotland’s finances. <em>Of course the Nationalists are wrong.&nbsp;</em></p>
+
+
+
+<p>But has all that discussion done any good? No. Has anyone been converted? No. Has it taken the fight back to them? Rarely. Has a lot of time been wasted. Yes.</p>
+
+
+
+<p>So, I’m going to tell you a (bad) joke:</p>
+
+
+
+<p><em>How does a fool keep themself busy? By saying that Scotland financially supports England</em>.</p>
+
+
+
+<p><em>How do two fools keep themselves busy? By replying that that’s not true.</em></p>
+
+
+
+<p>One of the main aims of The Majority is to disarm Nationalist slurs and help anti-Nationalists craft better strategies to help fight back against Nationalism. So let’s get a few things straight:</p>
+
+
+
+<p>This battle is not about facts or figures but <strong>ideology</strong>. When Nationalists say that <a href="https://theferret.scot/claim-scotland-pays-out-more-than-gets-back-false/">Scotland supports England</a>, <a href="https://whytepaper.wordpress.com/2015/09/13/meme-busting-wings-over-scotland-infrastructure-spending/">that Scotland pays for HS</a>2, <a href="https://whytepaper.wordpress.com/2015/08/25/meme-busting-whisky-and-the-non-existent-export-duty/">that England steals whisky tax</a>, and a litany of other <strong>bogus, idiotic, and fraudulent claims,</strong> there is little use trying to beat them with '<a href="https://twitter.com/kevverage/status/1286950489884590080">balance, nuance and informed reason</a>'. They simply move the goalposts and get us running around trying to find fact after fact.</p>
+
+
+
+<p>We can't fight back if we're too busy answering questions.</p>
+
+
+
+<p><strong>This is not a library. This is a battle.&nbsp;</strong></p>
+
+
+
+<p>An ideological battle and our weapons are psychology and language.</p>
+
+
+
+<p>It drives me mad to see people being so defensive. The objective is not to counter our opponents with facts. It's not about telling them they are factually wrong. It's about showing them that they are <strong><em>ideologically wrong</em></strong><strong>.&nbsp;</strong></p>
+
+
+
+<p>The ideas they have at a core level are, frankly, disgusting. They have divided, slurred and insulted us to gain political power. Our country is riven with bigotry they’ve created. And they need to be called out.</p>
+
+
+
+<p>The objective is not to be patient and kind, but to <strong><em>expose their toxic ideology</em></strong><em> and <strong>make them ashamed to even bring it up.</strong></em></p>
+
+
+
+<p>We all know the expression: never wrestle with a pig because both of you will end up covered in shit, but the pig will enjoy it. Right now the Nationalists are getting us on the ground, rolling us&nbsp;in their endless crap and <em>laughing at us.</em>&nbsp;</p>
+
+
+
+<p>We need to be the pigs. Get <em>them</em> on the ground and give them a taste of their own filth.</p>
+
+
+
+<p><strong>BE THE PIG.</strong></p>
+
+
+
+<p><strong>Stop thinking facts alone will work.</strong> The basic response to any Nationalist should be to force them to defend their toxic ideology:</p>
+
+
+
+<p><strong>Why are you a Nationalist, one of the ugliest ideologies known to man?</strong></p>
+
+
+
+<p>Highlight who gains:</p>
+
+
+
+<p><strong>Why do you support people who divide us to seek power?</strong></p>
+
+
+
+<p>And link their statements to Nationalist traits:</p>
+
+
+
+<p><strong>Blaming outsiders? Yup, that's what Nationalists do. Why do you go along with that?</strong></p>
+
+
+
+<p>All of these, and the many variations that we can come up with together, achieve many things:</p>
+
+
+
+<ul><li>Give something a label and it sticks. When we call Nationalism toxic and ugly, it sticks in the mind of anyone reading the thread. Maybe they don’t know much about Nationalism, but now they know that many people think it’s ugly. And they’ll try to avoid it.</li><li>Questions demand a response. We’ve been answering their questions so patiently. Let them do the work for a change.</li><li>They are forced to defend their Nationalism, which means they have to either admit to being a Nationalist, in which case you can simply tie them to toxic ideology and beat them with it. Or they run away. At the very least, we get the people reading the thread reading that Nationalism is toxic.</li></ul>
+
+
+
+<p>Nationalists have been doing this to us for years. They called us 'Unionists' to divide us (you don't have to be a 'Unionist' to be against Nationalism) and make us defend the flaws of the Union, instead of their flaws. </p>
+
+
+
+<p>They call us 'BritNats' to falsely project their own toxic Nationalism on to us, even though they're actual Nationalists.</p>
+
+
+
+<p>They called Labour supporters “Red Tories” so much that, rather than be associated with the Tories, many socialists became Nationalists, <em>a toxic ideology that socialists have fought against since time immemorial.&nbsp;</em></p>
+
+
+
+<p>That’s the power of words.&nbsp;</p>
+
+
+
+<p>And while we’re busy defending those slurs, <strong>they’re avoiding scrutiny.</strong> </p>
+
+
+
+<p>But when we unite as <strong>anti-Nationalists,</strong> that can’t be thrown back at us. And when we <strong>expose them as Nationalists</strong> they cant defend their ugly ideology.</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-background has-vivid-cyan-blue-background-color has-vivid-cyan-blue-color"/>
+
+
+
+<p>And one final thing: <strong>let’s put an end to their smug self-righteousness.</strong> Nationalism is not noble, it’s not civic. It’s absolutely not international (the clue is in the name). It’s a despicable ideology that feeds on division. Us, and Them. </p>
+
+
+
+<p>Patick Harvie, leader of The Scottish Greens, is just one of many hypocrites who hide their support for anti-English racism behind the cloak of ‘social justice’. He preaches tolerance and rights for black, gay, and transgender people (which is, of course, an important and worthy goal) while gaining power by <strong>supporting Nationalists who practice epic bigotry against the English. </strong></p>
+
+
+
+<p><strong>We need to call this hypocrisy out, consistently and strongly.</strong></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="/images/posts/Patrick-Harvie.jpg" alt="" class="wp-image-6666" width="662" height="372"/><figcaption>We’re better than “down South” is the definition of ugly Nationalism.</figcaption></figure>
+
+
+
+<p>We will never win this fight if we don't stop being so defensive. We need to start fighting back. Pick a target and <strong>throw their smug, ugly Nationalism back at them</strong>.</p>
+
+
+
+<p>Let’s fight smart, <strong>make Nationalism a dirty word in Scotland</strong>, and win. Be The Pig.</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-background has-vivid-cyan-blue-background-color has-vivid-cyan-blue-color"/>
+
+
+
+<h3><strong>The Anti-Nationalist Cheat Sheet</strong></h3>
+
+
+
+<p><em>These are starting points: they can always be improved. Please <a href="https://themajority.scot/community/">come to our forum</a> and work with us to create and refine the best responses.</em></p>
+
+
+
+<ol><li><strong>DEFUSE THEIR SLURS</strong><ul><li>When they call you a Unionist: 'I'm not a Unionist, Red Tory or BritNat. I'm an anti-Nationalist.'</li><li>When they call you a BritNat: 'I'm glad you don't like Nationalism too. What is it about Nationalism that you don't like?'</li><li>When they call you a 'Red Tory':  'I'll work with anyone to get rid of toxic Nationalism. Wouldn't you?'<br></li></ul></li><li><strong>ALWAYS QUESTION THEIR NATIONALISM</strong><br>Turn everything back to an attack on their ugly Nationalism. <ul><li>'Tell me, what is it about ugly Nationalism that appeals to you?'</li><li>'I'm not a Unionist, but why did you vote for Nationalism, a toxic ideology?'</li><li>'Why do you think that indulging in ugly Nationalism is a good way to try to rejoin Europe/get better representation/get rid of Trident?'</li><li>'Do you know that Socialists have always been opposed to Nationalism. Who fooled you into thinking Nationalism was a way to get social justice?'</li><li>'Why are you debasing yourself with ugly Nationalism so that unscrupulous politicians can gain power through division?'</li><li>So you want Scotland to rejoin Europe? How can you be international when you support Nationalism?<br></li></ul></li><li><strong>MAKE THEM OWN THEIR NATIONALISM</strong><ul><li>'You’re a Nationalist, you voted for a Nationalist party, with Nationalist leaders, who get power by dividing the people into us and them. Why did you do that?'<br></li></ul></li><li><strong>WHEN THEY DENY FACTS</strong><ul><li>'What is it about Nationalism that makes you deny these facts?'</li><li>'Blind loyalty is a trait of Nationalism. Why are you doing that?'<br></li></ul></li><li><strong>AVOID USING THEIR WORDS</strong><ul><li>Never use 'Independence'. Always use 'Separation' or 'Scexit'.</li><li>Never use 'Nats' or 'SNP'. Always call them 'Nationalists'.</li><li>Always describe their Nationalism as 'ugly' or 'toxic' and/or 'immature'</li><li>Always call out the Greens support for Nationalism by calling them 'Green Nationalists'. Not so virtuous now, is it?</li><li>Call out their use of 'Westminster' as a code word for 'England' -&gt; 'You mean the UK Government that has representatives from all countries and regions of the UK?'</li></ul></li></ol>
+
+
+
+<p>Help us craft even better responses <a href="https://themajority.scot/community/">in our forum.</a></p>
+
+
+
+<hr class="wp-block-separator has-text-color has-background has-vivid-cyan-blue-background-color has-vivid-cyan-blue-color is-style-wide"/>
+
+
+
+<h2>Help us reach our goal</h2>
+
+
+
+<p>The Majority currently has 5000 Twitter followers, but our message needs to get to many more people. Our aim is to beat The National, which has 100,000 Twitter follwers and 10,000 subscribers. How can you help us get there?</p>
+
+
+
+<p>Share our articles widely, talk to your friends, and, if you can, <a href="https://themajority.scot/donate/"><strong>please pledge a monthly donation</strong></a> so that we can take the fight back to their<strong> ugly and toxic Nationalism.</strong></p>
