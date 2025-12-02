@@ -1,0 +1,10 @@
+{
+  "name": "themajority",
+  "version": "1.0.0",
+  "description": "The Majority - Hugo static site",
+  "private": true,
+  "scripts": {
+    "install": "echo 'No npm dependencies required for Hugo site'"
+  }
+}
+
