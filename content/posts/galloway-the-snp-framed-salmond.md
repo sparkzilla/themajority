@@ -19,9 +19,7 @@ aliases = ["/blog/2021/01/29/galloway-the-snp-framed-salmond/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/NicolaSturgeon/status/1354521063502336001
-</div></figure>
+{{< tweet url="https://twitter.com/NicolaSturgeon/status/1354521063502336001" >}}
 
 
 
@@ -33,9 +31,7 @@ https://twitter.com/NicolaSturgeon/status/1354521063502336001
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1354882469175185411
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1354882469175185411" >}}
 
 
 

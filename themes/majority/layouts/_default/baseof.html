@@ -163,13 +163,28 @@
     {{- end -}}
     {{- if $hasTwitterFooter -}}
     <script>
+        // Convert WordPress embeds BEFORE widgets.js processes them
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        // Load widgets after page loads
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                // Fallback: check periodically for Twitter widgets
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -178,7 +193,6 @@
                         });
                     }
                 }, 100);
-                // Stop checking after 5 seconds
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

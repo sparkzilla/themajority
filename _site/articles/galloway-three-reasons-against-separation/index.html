@@ -109,9 +109,11 @@ https://www.youtube.com/watch?v=MfzzO_9YN9k
 <p>Drawing parallels to his support for Brexit, Galloways says that Separation would result in less independence. Scotland would be ‘a dot’ among powerful members who would dictate financial terms to reduce Scotland’s deficit from 9% to 3%. Noting the case of another small country, Greece, which was forced by the European Central Bank to follow austerity-max financial rules ‘causing Greek children to go hungry’.</p>
 <h2>#2 It’s economic insanity</h2>
 <p>Secondly, he scorns the economic arguments for Separation, citing his response to a caller on his talk show.</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/georgegalloway/status/1281468393900646400
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/georgegalloway/status/1281468393900646400?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>‘If Scotland were to leave the UK, the Barnett Formula automatically ends. What currency does it intend to use? Some of you may have seen the encounter on the Mother Of All Talk Shows with Paul. In perfect form, it crystallizes the level of economic <em>ignorance</em> of your average Scottish Nationalist. Paul not only believes that the Bank of England...would not only allow a breakaway, Separatist, Scotland, to use its currency, but also that it would allow Scotland to use it for Quantitative Easing!’</p>
 <p>‘You may say it’s a shame to pick on wee Paul. Maybe he's a wee boy, or a finance minister in the Scottish Parliament, for all I know. Is there anyone outside Broadmoor or Carstairs, who really believes that the British would stand by and let their currency be cheapend by allowing somebody in Edinburgh to start printing pounds? This is such economic lunacy. It's impossibe to believe. But, there are many Scottish Nationalists who do.’</p>
 <p>‘Scotland would have no central bank, it would have no currency of its own. It would have no-one to stand behind its currency and debts. And it could only join the Euro by cutting two thirds of its deficit. Meaning absolute destruction of the Scottish economy. Absolute penury. Widepread poverty. Absolute wreckage of the public sector in Scotland’.</p>
@@ -304,13 +306,28 @@ https://twitter.com/georgegalloway/status/1281468393900646400
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -319,7 +336,6 @@ https://twitter.com/georgegalloway/status/1281468393900646400
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

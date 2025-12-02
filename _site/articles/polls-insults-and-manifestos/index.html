@@ -110,9 +110,11 @@
 <p>We arrive at the studio in Glasgow for the manifesto launch. George, being the old media pro that he is, immediately starts to ‘have his face put on’ by Gayatri. I tell him it looks as if he is being embalmed. He agrees that may not be too far wide of the mark.&nbsp;</p>
 <p>I have opted to wear a tweed coat and my regimental tie. I only ever wear a suit for funerals these days and I have made a mental note that if I am ever seen in a dark suit, white shirt, blue tie, Bob the Builder hat and High-vis jacket, everyone has permission to shoot me.&nbsp;</p>
 <p>Nevertheless I feel rather a country bumpkin in the middle of Glasgow. I have decided to go against my normal modus operandi and prepare a speech to read off the autocue. When we get there the autocue is nowhere to be seen so someone holds it on a laptop next to the camera, which makes me look as if I have a bad squint. The press conference seems to go ok, although the BBC only seem interested in gotcha journalism, trying to trip George up over his appearances on Russia Today.&nbsp;</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/Alliance4Unity/status/1379750784829546496
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/Alliance4Unity/status/1379750784829546496?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>It makes me wonder why we bothered to write a manifesto. It’s an enjoyable experience though and Ricky and his team in the reflexblue studio have really pulled out all the stops and even provided mugs for our coffee with the A4U roundel symbol on.</p>
 <p class="has-text-align-center">***</p>
 <p>The manifesto launch finally gets us an invitation to be interviewed on the BBC, by Martin Geissler on ‘The Nine’. Geissler appears to have been set up by the producer to do a demolition job on George, bizarrely accusing him of standing alongside “Old Etonians, former Army Majors..” (that’ll be me then). It fails and I suspect from now on Geissler will have his nightmares peppered with the words “You’re not Jeremy Paxman, trust me on that.”&nbsp;</p>
@@ -290,13 +292,28 @@ https://www.youtube.com/watch?v=-29Uw5Ak9Xg
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -305,7 +322,6 @@ https://www.youtube.com/watch?v=-29Uw5Ak9Xg
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

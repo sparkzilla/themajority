@@ -129,9 +129,7 @@ https://www.youtube.com/watch?v=hn1VxaMEjRU
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1307371489646256128
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1307371489646256128" >}}
 
 
 

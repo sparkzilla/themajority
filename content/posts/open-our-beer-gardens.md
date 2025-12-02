@@ -27,9 +27,7 @@ aliases = ["/blog/2020/06/19/open-our-beer-gardens/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AgentP22/status/1273890058647621632
-</div></figure>
+{{< tweet url="https://twitter.com/AgentP22/status/1273890058647621632" >}}
 
 
 

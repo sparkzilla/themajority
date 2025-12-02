@@ -96,9 +96,11 @@
     
     <div class="article-content">
         <blockquote class="wp-block-quote"><p>It seems to me that there is a gap between presentation - very, very good presentation - and the reality. When it comes to Coronavirus data, when it comes to education, when it comes to the Alex Salmond issue. There is a gap between how you present yourself - very, very effectively - and what’s really been going on in Scotland.</p><cite>Andrew Marr, questioning Nicola Sturgeon - 29th November, 2020</cite></blockquote>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/addicted2newz/status/1332995168727928832
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/addicted2newz/status/1332995168727928832?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Not long after Nicola Sturgeon made the promise of a (UK funded) £500-pound tax-free bonus to all NHS staff at the annual SNP rally, the real intent of her words was made clear.&nbsp;</p>
 <p>Thanking NHS staff for their service was secondary; her primary goal was to manufacture grievance against the UK government, yet again, with the absurd claim that the UK Government, which is providing the funds, should exempt the payment from taxation.&nbsp;</p>
 <p>In using health workers as pawns in her constitutional game, she broke the most fundamental ethical rule  -- Kant’s Formula of Humanity -- on which countless faiths and systems of government have been based: it is wrong to use people as a means to an end. </p>
@@ -290,13 +292,28 @@ https://twitter.com/addicted2newz/status/1332995168727928832
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -305,7 +322,6 @@ https://twitter.com/addicted2newz/status/1332995168727928832
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

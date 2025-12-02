@@ -37,9 +37,7 @@ https://www.youtube.com/watch?v=ZmInkxbvlCs
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1390774453500616708
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1390774453500616708" >}}
 
 
 
@@ -131,9 +129,7 @@ https://twitter.com/themajorityscot/status/1390774453500616708
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/STVNews/status/1390747791102709761
-</div></figure>
+{{< tweet url="https://twitter.com/STVNews/status/1390747791102709761" >}}
 
 
 
@@ -157,9 +153,7 @@ https://twitter.com/STVNews/status/1390747791102709761
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1389220146632437763
-</div></figure>
+{{< tweet url="https://twitter.com/ScotTories/status/1389220146632437763" >}}
 
 
 
@@ -167,9 +161,7 @@ https://twitter.com/ScotTories/status/1389220146632437763
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1389232691032244233
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1389232691032244233" >}}
 
 
 
@@ -177,9 +169,7 @@ https://twitter.com/themajorityscot/status/1389232691032244233
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/HumzaYousaf/status/1389296404468752385
-</div></figure>
+{{< tweet url="https://twitter.com/HumzaYousaf/status/1389296404468752385" >}}
 
 
 
@@ -187,9 +177,7 @@ https://twitter.com/HumzaYousaf/status/1389296404468752385
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1389258846552707073
-</div></figure>
+{{< tweet url="https://twitter.com/ScotTories/status/1389258846552707073" >}}
 
 
 
@@ -197,9 +185,7 @@ https://twitter.com/ScotTories/status/1389258846552707073
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1389241462236270599
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1389241462236270599" >}}
 
 
 

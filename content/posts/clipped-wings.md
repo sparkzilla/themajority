@@ -20,9 +20,7 @@ aliases = ["/blog/2021/02/22/clipped-wings/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/blairmcdougall/status/1362062547961143300?s=20
-</div></figure>
+{{< tweet url="https://twitter.com/blairmcdougall/status/1362062547961143300?s=20" >}}
 
 
 
@@ -38,9 +36,7 @@ https://twitter.com/blairmcdougall/status/1362062547961143300?s=20
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1363161017488932865
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1363161017488932865" >}}
 
 
 

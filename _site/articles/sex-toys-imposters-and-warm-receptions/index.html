@@ -103,9 +103,11 @@
 <p>It has been an enjoyable challenge finding something location-appropriate to say in each town in a short YouTube video. They are filmed live so there is no room for any bloomers for the Christmas edition. In Hawick, I stand on the soapbox and start, “Today we are in”…..my mind wants to say Langholm as we have just been discussing the birthplace of the Anglophobic nationalist poet Hugh MacDiarmid (not his real name)…but luckily my mouth says, “Hawick”.&nbsp;</p>
 <p>In Lockerbie, I have an opportunity to talk about the Battle of Dryfe Sands where the Johnstones butchered 700 Maxwells in 1593, a reminder of the sectarian strife that divided the South of Scotland prior to the Union of the Crowns, and which has now been rekindled by Sturgeon’s divisive separatism. Outside Castle Douglas Mart, I am on familiar ground and able to talk about how our livestock industries would be pole-axed by the imposition of a hard border at Gretna. Stranraer provided the backdrop of the Irish Sea and the invisible, but nevertheless real hard border, that stubborn EU negotiators bequeathed as a memento of Brexit.&nbsp;</p>
 <p>I hope they have given the many thousands of viewers on George’s YouTube channel a window on this forgotten corner of Scotland. But I don’t think Border TV presenters need to worry about their jobs. Speaking of Border TV, we are predicted to win at least one seat in the South of Scotland but they have steadfastly refused to interview us. Why?</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/georgegalloway/status/1388097854602842113
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/georgegalloway/status/1388097854602842113?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p class="has-text-align-center">***</p>
 <p>Our tour has been very revealing. Our opponents, both Nationalist and Unionist, have been keen to promote a narrative that dismisses All for Unity as a party that no one has ever heard of, a ‘Twitter-only party,’ and predicts that we won’t get any votes.&nbsp;</p>
 <p>Well, if the people who happened to be in the high streets when we passed through are in any way representative, we are going to exceed all expectations. We were astonished by how many people said that they were voting for us. In Hawick, the endless stream of people wanting selfies with George (his <em>Mother of All Talk Shows</em> has <em>a lot </em>of listeners) is completely at odds with the pessimistic narrative – the local café owner even insisted on nabbing one of our posters to put in his window.</p>
@@ -289,13 +291,28 @@ https://twitter.com/georgegalloway/status/1388097854602842113
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -304,7 +321,6 @@ https://twitter.com/georgegalloway/status/1388097854602842113
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

@@ -15,9 +15,7 @@ aliases = ["/blog/2020/09/23/the-neverendum-is-killing-scottish-jobs/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/mgoldenmsp/status/1308465183057158145
-</div></figure>
+{{< tweet url="https://twitter.com/mgoldenmsp/status/1308465183057158145" >}}
 
 
 

@@ -67,9 +67,7 @@ aliases = ["/blog/2021/04/12/polls-insults-and-manifestos/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/Alliance4Unity/status/1379750784829546496
-</div></figure>
+{{< tweet url="https://twitter.com/Alliance4Unity/status/1379750784829546496" >}}
 
 
 

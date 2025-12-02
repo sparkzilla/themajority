@@ -98,16 +98,20 @@
         <p>Another new poll! It seems that almost every week there's a new poll on Scottish 'independence'. But, what's the deal? Why are there so many, and do they really mean we're on the inevitable road to 'independence'? Short answer -- Nope. Here's how Nationalists manipulate polls, and why.</p>
 <h3>#1 Choose a pollster that gives them the result they want</h3>
 <p>James Kelly (<a href="https://twitter.com/JamesKelly">@JamesKelly</a>) of Pop Goes Scot admits that he uses Panelbase polls to get a better result for Yes.</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1351619869050097666
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/themajorityscot/status/1351619869050097666?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <blockquote class="wp-block-quote"><p>'Panelbase have produced really good results for Yes recently, better than some other firms. Or, I could go with another firm, which might be not be quite so good for Yes, and get a quick result.'</p></blockquote>
 <p>James was all over Twitter trying to claim that the words he said didn't actually come out of his own mouth. </p>
 <p>So James chose another pollster and - surprise, surprise - didn't get the result he wanted: 45% Yes, 43% No and 12% Don't Knows (who break for No). He tried to spin it, but it was an epic fail.</p>
 <p>You might think that, when choosing a pollster, accuracy would be more important than trying to get the result you want. Because if you don't do that, you'll not only fool people, you'll make a FOOL of yourself when your predictions fail. Remember this?</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nytimes/status/789083772205600768
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/nytimes/status/789083772205600768?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Unless your goal <strong><em>is</em></strong> to fool people. In that case, you choose a pollster that gives you the result you want, and get them to ask leading questions. Questions that won't be asked in a referendum. Questions about a referendum that <em><strong>isn't even going to happen.</strong></em></p>
 <figure class="wp-block-image size-large"><img src="/images/posts/Boris-letter.png" alt="" class="wp-image-8242"/></figure>
 <h2>#2 Ask questions that won't be asked</h2>
@@ -138,16 +142,20 @@ https://www.youtube.com/watch?v=G0ZZJXw4MTA
 <h2>#5 Disregard polling that does not suit the agenda</h2>
 <p>Since the referendum there have been approximately 150 polls. Until mid 2020, almost everyone of these had a majority for NO. But, during that time, did we see constant headlines saying, 'independence is dead!'? Of course we didn't. So why are we now, with the numbers being barely different, being subjected to endless articles about the demise of the UK?</p>
 <p>Just two weeks ago, the <em>Sunday Times</em> did exactly that, spashing '<a href="https://www.thetimes.co.uk/article/union-in-crisis-as-poll-reveals-voters-want-referendum-on-scottish-independence-and-united-ireland-wwzpdlg7b">The Union is in Crisis</a>' headlines across its front page, even though just 49% were in favour of 'independence'  and that it was the lowest number in a downward trend.</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/thesundaytimes/status/1353043741813202944?lang=en
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/thesundaytimes/status/1353043741813202944?lang=en?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>While this might sell newspapers, it's part of the ongoing appeasement of Scottish Nationalism by our media. Newspapers that woudn't give the time of day to English Nationalists will gladly promote Scottish Nationalist polls. </p>
 <figure class="wp-block-image size-large"><img src="/images/posts/The-Times-Panelbase.png" alt="" class="wp-image-8419"/></figure>
 <h2>#6 Claim momentum where there is none</h2>
 <p>20 polls in a row! 21 polls in a row! Of course, this is simply false.  </p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotNational/status/1359788971019091970
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/ScotNational/status/1359788971019091970?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Not that we expect truth from <em>The National</em>, but the poll above actually showed a <em>decline</em> of four percentage points.</p>
 <p>But the wider conculsion is that, six years on and the needle has barely moved from the 2014 result. As results shift, we can see that the 58% result was an outlier.<br><br>Another recent poll noted that just 37% of respondents want a Separation referendum in the next two years. There is no momentum. </p>
 <figure class="wp-block-image size-large"><img src="/images/posts/Savant-Comres.jpg" alt="" class="wp-image-8246"/></figure>
@@ -331,13 +339,28 @@ https://twitter.com/ScotNational/status/1359788971019091970
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -346,7 +369,6 @@ https://twitter.com/ScotNational/status/1359788971019091970
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

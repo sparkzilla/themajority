@@ -96,9 +96,11 @@
     
     <div class="article-content">
         <p>Today marks the 25th anniversary of the first session of The Scottish Parliament. As expected, a host of insiders, including Scottish Labour politicians, are saying they are proud of what has been achieved, while Scots wonder if those politicians – who are almost all receiving a salary from the Scottish Parliament – have somehow missed the past 25 years.</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AnasSarwar/status/1789621341777178825
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/AnasSarwar/status/1789621341777178825?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>So let’s cast our minds back to 1997 and ask the question that is not being asked: What if legislative devolution was not part of New Labour’s manifesto, and it never happened?</p>
 <p>No Holyrood in Scotland. No £440 million spent on the ugliest building in Scotland. (That alone should have been enough to tell Scots where all this was going). No £100 million a year just running the assembly. No £770 million spent running the Scottish Parliament last year. No billions of pounds spent over the past 25 years, just to hear a bunch of non-entities, from all parties, flap their gums and make bad laws.&nbsp;</p>
 <p>No renaming an assembly to a ‘Government’. No jumped up job descriptions and huge salaries for people who could not find employment elsewhere. No slow pans of ‘ministers’ walking into Bute House to take up do-nothing positions.&nbsp;</p>
@@ -122,17 +124,21 @@ https://twitter.com/AnasSarwar/status/1789621341777178825
 <p>Scotland would be in a far, far better place if, back in 1997, The Labour Party had just said no and not indulged the soft nationalism of its Scottish MPs. They were warned.</p>
 <h2 class="wp-block-heading"><strong>Are we 'stuck with it’?</strong></h2>
 <p>To mark today’s dreadful anniversary, some pro-UK commentators have written about devolution’s failures. And while it is welcome to see the media finally coming around, it's noticeable that while they all diagnose the symptoms, they are unwilling to treat the victim. Andrew Neil said in a tweet:&nbsp;</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/afneil/status/1789220009853485082
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/afneil/status/1789220009853485082?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <blockquote class="wp-block-quote">
 <p>Tomorrow is the 25th anniversary of Scottish devolution. That silence you hear is the sound of nobody celebrating. Holyrood has been a dripping roast for the Scottish political elite and burgeoning nomenklatura, who’ve enjoyed salaries, expenses, perks, status and state funding beyond their wildest dreams. But for most Scots it’s been very thin gruel indeed. However, they only have themselves to blame: by their electoral choices over the past quarter century it is they who’ve turned it into the Numpty Nursery. And now there’s no way back.</p>
 </blockquote>
 <p>All fine, except for that last sentence: Why is there no way back? We’re not told. Is it because of the fear that nationalism would rise again? But we remember how Brexit, Boris, and Nicola Sturgeon’s daily Covid press conferences were supposed to get it over the top. And how none of it happened.</p>
 <p>Continuing the theme, yesterday in the Daily Mail, Stephen Daisley said, ‘Holyrood was a historic error and one we are now stuck with.’ </p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AgentP22/status/1789187395461554209
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/AgentP22/status/1789187395461554209?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Why are we stuck with it? We were stuck with the EU, until we weren’t. We were stuck with slavery until it was repealed. We were stuck with any number of bad laws and policies, until they were repealed. He elaborated in an article:</p>
 <blockquote class="wp-block-quote">
 <p>There are some who would urge for its abolition. Westminster certainly has the authority to do so, but scrapping Holyrood without a referendum would be as democratically dubious as ignoring the EU referendum to prevent Brexit.</p>
@@ -352,13 +358,28 @@ https://twitter.com/AgentP22/status/1789187395461554209
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -367,7 +388,6 @@ https://twitter.com/AgentP22/status/1789187395461554209
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

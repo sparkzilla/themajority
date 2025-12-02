@@ -1916,3 +1916,260 @@ No other files with this issue were found. All articles should now have the corr
 
 ---
 
+_**User (2025-12-01 22:47Z)**_
+
+is this committed
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+
+
+---
+
+
+Checking git status to see if the changes are committed:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git status</summary>
+
+```bash
+git status
+```
+
+```
+PS C:\Users\spark\OneDrive\Desktop\DEV\static-sites&gt; git status
+On branch main
+Your branch is up to date with &#39;origin/main&#39;.
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+        modified:   .specstory/history/2025-12-02_03-59Z-find-article-about-abolish-holyrood-party.md                                                           
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Checking if the files we fixed are tracked and their status:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git status content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md</summary>
+
+```bash
+git status content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md
+```
+
+```
+d                                                                               
+On branch main
+Your branch is up to date with &#39;origin/main&#39;.
+
+nothing to commit, working tree clean
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git diff content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md</summary>
+
+```bash
+git diff content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md
+```
+
+```
+e-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+The working tree is clean, so the changes appear committed. Verifying the files have the fixes:
+
+
+---
+
+<tool-use data-tool-type="search" data-tool-name="grep">
+<details>
+<summary>Tool use: **grep** • Grep for "^\+\+\+$" in "content/posts/there-is-no-union-dividend.md" • 0 matches</summary>
+
+Output mode: content
+
+
+_No matches found_
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="search" data-tool-name="grep">
+<details>
+<summary>Tool use: **grep** • Grep for "^\+\+\+$" in "content/posts/stop-lying-demographics-isnt-destiny.md" • 0 matches</summary>
+
+Output mode: content
+
+
+_No matches found_
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Reading the files to verify their current state:
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file">
+<details><summary>Tool use: **read_file** • Read file: content/posts/there-is-no-union-dividend.md</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file">
+<details><summary>Tool use: **read_file** • Read file: content/posts/stop-lying-demographics-isnt-destiny.md</summary>
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+The files are fixed (no extra "+++" lines). Git shows a clean working tree, which likely means:
+1. The fixes are already committed, or
+2. The files were already correct in the repository.
+
+Checking recent commits to confirm:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git log --oneline -5 -- content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md</summary>
+
+```bash
+git log --oneline -5 -- content/posts/there-is-no-union-dividend.md content/posts/stop-lying-demographics-isnt-destiny.md
+```
+
+```
+snt-destiny.md                                                                  
+e51eaca (HEAD -&gt; main, origin/main) Rename restored images directory to featured and remove non-production scripts                                              
+4c92074 Add all articles, content pages, scripts, themes, and configuration files                                                                               
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Checking what's in the repository for these files:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git show HEAD:content/posts/there-is-no-union-dividend.md | Select-Object -First 12</summary>
+
+```bash
+git show HEAD:content/posts/there-is-no-union-dividend.md | Select-Object -First 12
+```
+
+```
+/there-is-no-union-dividend.md | Select-Object -First 12                        
++++
+title = &quot;There is no ÔÇÿUnion DividendÔÇÖ&quot;
+date = 2025-08-23T19:25:24Z
+draft = false
+author = &quot;stephenbailey&quot;
+categories = [&quot;Commentary&quot;]
+tags = [&quot;Devolution&quot;]
+featuredImage = &quot;images/posts/There-is-no-Union-Dividend-1200x600.jpg&quot;
+aliases = [&quot;/blog/2025/08/23/there-is-no-union-dividend/&quot;]
++++
+
+&lt;p&gt;So called pro&lt;strong&gt;-&lt;/strong&gt;UK politicians from both the Conservatives and Labour often trumpet the &lt;strong&gt;&quot;Union dividend&quot;&lt;/strong&gt; ÔÇö the extra billions Scotland receives from the United Kingdom ÔÇö as proof that staying in the UK benefits ordinary Scots. On paper, the numbers seem impressive: according to the &lt;em&gt;Government Expenditure and Revenue Scotland&lt;/em&gt; (GERS) 2024ÔÇô25 report, Scotland receives &lt;strong&gt;┬ú2,669 more per person&lt;/strong&gt; in public spending than the UK average.&lt;/p&gt;                                                          
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git show HEAD:content/posts/stop-lying-demographics-isnt-destiny.md | Select-Object -First 12</summary>
+
+```bash
+git show HEAD:content/posts/stop-lying-demographics-isnt-destiny.md | Select-Object -First 12
+```
+
+```
+/stop-lying-demographics-isnt-destiny.md | Select-Object -First 12              
++++
+title = &quot;Stop lying: Demographics isn&#39;t Destiny&quot;
+date = 2025-04-24T01:10:49Z
+draft = false
+author = &quot;stephenbailey&quot;
+categories = [&quot;Commentary&quot;]
+featuredImage = &quot;images/posts/Demographics-isnt-Destiny-1200x600.jpg&quot;
+aliases = [&quot;/blog/2025/04/24/stop-lying-demographics-isnt-destiny/&quot;]
++++
+
+&lt;p&gt;John Swinney, the current SNP leader, and his predecessor, Nicola Sturgeon, have recently resorted to a familiar tactic: invoking youth demographics to justify the party&#39;s continued push for Scottish independence. Both have attempted to frame support among 16- to 24-year-olds as proof of an inevitable shift toward separation from the United Kingdom.&lt;/p&gt;                                          
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+The fixes are already committed. The repository already has the correct format (no extra "+++" lines). The working directory matches the repository, so git shows a clean working tree.
+
+The extra "+++" lines I saw earlier were uncommitted changes that were reverted when I ran `git restore content/`. After that, the files matched the repository, so there were no new changes to commit.
+
+**Summary:** Both files are correct in the repository and don't need to be committed. The extra "+++" lines were uncommitted local changes that have been removed.
+
+---
+

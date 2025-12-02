@@ -19,9 +19,7 @@ aliases = ["/blog/2020/12/31/the-majority-2020-in-review/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/Maureen6Johnson/status/1267068856071344130
-</div></figure>
+{{< tweet url="https://twitter.com/Maureen6Johnson/status/1267068856071344130" >}}
 
 
 
@@ -33,9 +31,7 @@ https://twitter.com/Maureen6Johnson/status/1267068856071344130
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1278062499431055364
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1278062499431055364" >}}
 
 
 
@@ -43,9 +39,7 @@ https://twitter.com/themajorityscot/status/1278062499431055364
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1286752290708377601
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1286752290708377601" >}}
 
 
 
@@ -53,9 +47,7 @@ https://twitter.com/themajorityscot/status/1286752290708377601
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1342290557377327105
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1342290557377327105" >}}
 
 
 
@@ -63,9 +55,7 @@ https://twitter.com/themajorityscot/status/1342290557377327105
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1270449054888140802
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1270449054888140802" >}}
 
 
 
@@ -73,9 +63,7 @@ https://twitter.com/themajorityscot/status/1270449054888140802
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1282757185437683714
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1282757185437683714" >}}
 
 
 
@@ -87,63 +75,43 @@ https://twitter.com/themajorityscot/status/1282757185437683714
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1285611741418868739
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1285611741418868739" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1314904241086124032
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1314904241086124032" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1327005198489968640
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1327005198489968640" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1314276760146640897
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1314276760146640897" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1315631753315471360
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1315631753315471360" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1312731908170747904
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1312731908170747904" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1308858280140210177
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1308858280140210177" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1337096325112991749
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1337096325112991749" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1339548848813993990
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1339548848813993990" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1342077381855633408
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1342077381855633408" >}}
 
 
 
@@ -151,9 +119,7 @@ https://twitter.com/themajorityscot/status/1342077381855633408
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1287334579448283136
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1287334579448283136" >}}
 
 
 
@@ -161,9 +127,7 @@ https://twitter.com/themajorityscot/status/1287334579448283136
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1290009288371400704
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1290009288371400704" >}}
 
 
 
@@ -171,9 +135,7 @@ https://twitter.com/themajorityscot/status/1290009288371400704
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1330896277693997056
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1330896277693997056" >}}
 
 
 
@@ -181,9 +143,7 @@ https://twitter.com/themajorityscot/status/1330896277693997056
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1278729341480906754
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1278729341480906754" >}}
 
 
 
@@ -191,15 +151,11 @@ https://twitter.com/themajorityscot/status/1278729341480906754
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1331351643217125379
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1331351643217125379" >}}
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1332672669679030273
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1332672669679030273" >}}
 
 
 
@@ -207,9 +163,7 @@ https://twitter.com/themajorityscot/status/1332672669679030273
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1300135402947444736
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1300135402947444736" >}}
 
 
 
@@ -217,9 +171,7 @@ https://twitter.com/themajorityscot/status/1300135402947444736
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1295725615904161792
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1295725615904161792" >}}
 
 
 
@@ -231,9 +183,7 @@ https://twitter.com/themajorityscot/status/1295725615904161792
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1318293732597399559
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1318293732597399559" >}}
 
 
 

@@ -104,9 +104,11 @@
 <p>The SNP cannot argue against this position without contradicting their own demands. Not only do we have the precedent of the SNP's own statements, but we also have a constitutional precedent in the form of Northern Ireland. Secessionism would lead to the partition of Scotland.&nbsp;</p>
 <p><strong>#2 Brexit requires a confirmatory referendum</strong></p>
 <p>Boris Johnson was not the only one to drive around in a bus with slogans <a href="https://www.lbc.co.uk/news/nicola-sturgeon-unveils-stop-brexit-battle-bus-ahe/">emblazed on the side</a>. The SNP's rejection of Theresa May's much softer Brexit is why we find ourselves in the present situation, and it shows that, despite the SNP's opposition to Brexit, they wish it to be as disastrous as possible, to further their political objectives. </p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nicolasturgeon/status/1202616357910695941
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/nicolasturgeon/status/1202616357910695941?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>However, applied to the constitutional question, former PM, John Major, has argued for a double referendum, with people voting first on the principal and then on the arrangement, with either vote having the <a href="https://www.independent.co.uk/news/uk/politics/scottish-independence-referendum-john-major-b1719793.html">power to veto secession</a>. The SNP should be all in favour of this, after all, they campaigned continuously for a second Brexit referendum. </p>
 <p>However, as with <a href="https://www.businessinsider.com/brexit-poll-minority-believe-was-right-to-leave-the-eu-2020-9?r=US&amp;IR=T">Brexit</a>, they fear that once the real complexities and cold reality of breaking a 47-year union, let alone a 300-year-old one, would result in people vetoing the vote yet again. However, if they are to remain true to their slogans and policies, they must allow such a vote, should Westminster or anyone else decide upon it. </p>
 <p><strong>#3 Ignoring the demands of Holyrood concerning the release of material for the <a href="https://www.thetimes.co.uk/article/alex-salmond-inquiry-snp-gave-false-promises-over-documents-20d9fbs3b">Alex Salmond inquiry</a></strong></p>
@@ -290,13 +292,28 @@ https://twitter.com/nicolasturgeon/status/1202616357910695941
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -305,7 +322,6 @@ https://twitter.com/nicolasturgeon/status/1202616357910695941
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

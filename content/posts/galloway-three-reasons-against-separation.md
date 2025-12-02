@@ -58,9 +58,7 @@ https://www.youtube.com/watch?v=MfzzO_9YN9k
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/georgegalloway/status/1281468393900646400
-</div></figure>
+{{< tweet url="https://twitter.com/georgegalloway/status/1281468393900646400" >}}
 
 
 

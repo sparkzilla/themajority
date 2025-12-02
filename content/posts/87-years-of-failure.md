@@ -11,9 +11,7 @@ aliases = ["/blog/2021/05/17/87-years-of-failure/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/C4Ciaran/status/1382801138207047680
-</div></figure>
+{{< tweet url="https://twitter.com/C4Ciaran/status/1382801138207047680" >}}
 
 
 

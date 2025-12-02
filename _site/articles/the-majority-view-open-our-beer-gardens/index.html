@@ -100,9 +100,11 @@
 <p>We were told from the beginning that the purpose of the lockdown was to save the NHS being overwhelmed. Even at the height of the crisis, the NHS, staffed by our amazing carers, was never in any real danger. The Louisa Who? temporary hospital was, thankfully, never used. </p>
 <p>Today, there is no possibility of the NHS being overwhelmed, so why is Nicola Sturgeon saying we cannot go to shops or beer gardens for another two weeks?</p>
 <p>Breathing. Apparently, we can't have a beer in this beautiful summer weather because we don't have the right kind of breathing. <strong>This is utter nonsense. </strong></p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AgentP22/status/1273890058647621632
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/AgentP22/status/1273890058647621632?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>The only breathing we'd like to see less of is the <strong>constant stream of hot air emanating from Nicola Sturgeon's mouth.</strong> Her daily grandstanding proves the maxim that the more we see of a politician, the less effective they are. </p>
 <p>More and more, it seems like Nicola is detemined not to let this crisis go to waste. We won't be <a href="https://themajority.scot/2020/06/13/five-times-scottish-nationalists-bullied-the-media/2/">bullied like Sarah Smith</a>: <strong>We believe Nicola Sturgeon <em>is </em>enjoying it</strong>. She is using this crisis as an excercise in division and power: making pointless differences between Scotland and the rest of the UK to stir up division, and diverting blame to England wherever possible. </p>
 <p><strong><a href="https://spice-spotlight.scot/2020/04/30/what-money-is-the-scottish-government-getting-for-coronavirus-covid-19-support-and-how-is-it-being-spent/">All while taking billions of the UK's money.</a></strong> Money that would not have been available if Nationalists had won the Separation Referendum in 2014.</p>
@@ -283,13 +285,28 @@ https://twitter.com/AgentP22/status/1273890058647621632
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -298,7 +315,6 @@ https://twitter.com/AgentP22/status/1273890058647621632
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

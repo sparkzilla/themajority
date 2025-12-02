@@ -11,7 +11,7 @@ featuredImage = "images/posts/Independence-is-dead-1200x600.jpg"
 
 This week, John Swinney launched yet another desperate push to try to break up the UK, this time fronted by a glossy poster declaring:
 <blockquote><i>“Scotland is a nation. We affirm that every nation has the right to choose its own future. We choose a future where Scotland decides its own government…This is our plea, our right, and our opportunity: To place who live here at the heart of our national opportunity: democracy.”</i></blockquote>
-https://twitter.com/YesScot/status/1963589459661709337
+{{< tweet url="https://twitter.com/YesScot/status/1963589459661709337" >}}
 
 This <em>Right to Decide</em> word salad also promises lower bills, stronger communities, and Scotland’s “rightful place in Europe.” A typical emotional plea, but it is also hollow. This campaign feels less like a blueprint for a viable future and more like a desperate bid to rally the base and cling to a dream that's already fading.
 

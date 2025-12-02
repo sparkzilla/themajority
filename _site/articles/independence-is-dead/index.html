@@ -97,7 +97,11 @@
     <div class="article-content">
         <p>This week, John Swinney launched yet another desperate push to try to break up the UK, this time fronted by a glossy poster declaring:</p>
 <blockquote><i>“Scotland is a nation. We affirm that every nation has the right to choose its own future. We choose a future where Scotland decides its own government…This is our plea, our right, and our opportunity: To place who live here at the heart of our national opportunity: democracy.”</i></blockquote>
-https://twitter.com/YesScot/status/1963589459661709337
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/YesScot/status/1963589459661709337?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>This <em>Right to Decide</em> word salad also promises lower bills, stronger communities, and Scotland’s “rightful place in Europe.” A typical emotional plea, but it is also hollow. This campaign feels less like a blueprint for a viable future and more like a desperate bid to rally the base and cling to a dream that&rsquo;s already fading.</p>
 <p>As Scottish Conservative leader Russell Findlay put it in his first major speech, the “dream of Scottish independence is dead.” The Tories have even vowed to boycott Holyrood debates on the topic, focusing instead on devolved issues like the NHS and education.</p>
 <p>The movement&rsquo;s waning momentum is evident in sparsely attended rallies; for instance, a 10th anniversary event for the 2014 referendum drew humiliatingly small crowds, with organizers admitting the Yes cause has lost steam. Even larger gatherings, like the May 2025 march in Glasgow with around 5,000 participants, pale in comparison to the massive turnouts of the past.</p>
@@ -312,13 +316,28 @@ Legally, too, the SNP’s argument collapses. Under UK Constitutional Law, indep
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -327,7 +346,6 @@ Legally, too, the SNP’s argument collapses. Under UK Constitutional Law, indep
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

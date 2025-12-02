@@ -100,9 +100,11 @@
 <p>The BBC has also repeatedly referred to Mr Hamilton as a QC, lending an air of respectability to what appears to have been a very grubby affair, when he is in fact an SC, from Ireland, with a reputation for <a href="https://www.itv.com/news/wales/2018-01-25/leak-inquiry-clears-first-minister">clearing First Ministers of devolved assemblies of wrongdoing</a>. You can <a href="https://en.wikipedia.org/wiki/James_Hamilton_(barrister)">look him up on Wikipedia</a>, even if BBC journalists apparently can’t. Banana republics are most egregiously defined by the complicity of their state broadcasters and BBC Scotland is no exception. Sadly.</p>
 <p>The second is perhaps more worrying. If even a nominally unionist senior journalist believes that May’s Holyrood elections are such a shoo-in for the SNP that it is pointless for the Scottish Tories and Labour to fight on a manifesto of change, then it is time to start packing and follow the steadily growing convoy heading South.</p>
 <p>It begs the question, if now is not the time to replace the SNP, when even nationalists like <a href="https://www.dailymail.co.uk/debate/article-9304067/JIM-SILLARS-hold-nose-vote-SNP-May.html">Jim Sillars</a> and Craig Murray (<a href="https://twitter.com/CraigMurrayOrg/status/1373994208902647813">who was convicted of Contempt of Court today</a> and now faces up to two years in prison) and the <a href="https://wingsoverscotland.com/three-choices/">Rev Stu Campbell</a>, of <em>Wings Over Scotland</em>, say they won’t vote for them, then when will it be? The gangrenous narrative that would accept another SNP led coalition at Holyrood, while London plays a long game and triumphs over separatism at some undefined point in the future, is deluded and a betrayal. </p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/CraigMurrayOrg/status/1373994208902647813
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/CraigMurrayOrg/status/1373994208902647813?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>It is deluded because it would mean another five years of the SNP building its client state and of brainwashed young people exiting our schools and universities with a Braveheart education, so that eventually Scotland goes beyond the point of no return. And it is a betrayal of parents and patients and <a href="https://www.bbc.com/news/uk-scotland-55184961">drug addicts</a> and commuters and just about anyone outside the complacent Holyrood bubble.</p>
 <p>Happily, there are people who believe that the Scottish election is winnable. Not because we possess the rare psephological insights of the smooth metropolitan media elite, but because the alternative is unthinkable.</p>
 <p>Our names are George Galloway and Jamie Blackett and countless others from across the political spectrum who have come together to form the Alliance for Unity. Join us if you want nothing less than regime change in Scotland.</p>
@@ -285,13 +287,28 @@ https://twitter.com/CraigMurrayOrg/status/1373994208902647813
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -300,7 +317,6 @@ https://twitter.com/CraigMurrayOrg/status/1373994208902647813
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

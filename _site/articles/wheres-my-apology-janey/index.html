@@ -181,9 +181,11 @@
 <blockquote class="wp-block-quote"><p>It is what it is two wrongs don't make a right I have to be held to a higher standard because I'm a woman</p></blockquote>
 <figure class="wp-block-image size-full"><img src="/images/posts/Godley-Woman-higher-standard.png" alt="" class="wp-image-8895"/></figure>
 <p>...and again to claim <em>her</em> mental health is suffering. <strong>It’s simply revolting when an abuser claims the privilege of the people she abuses.&nbsp;</strong></p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/STattisconie/status/1435618759490875392
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/STattisconie/status/1435618759490875392?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Always the victim. I also noticed that Godley's apology wasn't directed to any particular person. It’s easy to apologise to nebulous victims without a name. It’s easy to get ’apology praise’ from your followers when there isn’t a face to put on the victims. So it’s no surprise to see her shopping her apology to bask in the praise of her followers: ‘Nobody’s perfect, Janey’, ‘You’re brave, Janey’, ‘You’re a good person, Janey’.</p>
 <p>But, I am here, I’m a real person. I’m not anonymous. Alongside Len Pennie, you falsely accused me of harassment and invited thousands of your followers to pile on and abuse me. I’m a real victim of your online bullying. </p>
 <p>So, where’s my apology, Janey?</p>
@@ -368,13 +370,28 @@ https://twitter.com/STattisconie/status/1435618759490875392
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -383,7 +400,6 @@ https://twitter.com/STattisconie/status/1435618759490875392
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

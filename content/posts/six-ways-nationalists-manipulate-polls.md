@@ -23,9 +23,7 @@ aliases = ["/blog/2021/02/11/six-ways-nationalists-manipulate-polls/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1351619869050097666
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1351619869050097666" >}}
 
 
 
@@ -45,9 +43,7 @@ https://twitter.com/themajorityscot/status/1351619869050097666
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nytimes/status/789083772205600768
-</div></figure>
+{{< tweet url="https://twitter.com/nytimes/status/789083772205600768" >}}
 
 
 
@@ -181,9 +177,7 @@ https://www.youtube.com/watch?v=G0ZZJXw4MTA
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/thesundaytimes/status/1353043741813202944?lang=en
-</div></figure>
+{{< tweet url="https://twitter.com/thesundaytimes/status/1353043741813202944?lang=en" >}}
 
 
 
@@ -207,9 +201,7 @@ https://twitter.com/thesundaytimes/status/1353043741813202944?lang=en
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotNational/status/1359788971019091970
-</div></figure>
+{{< tweet url="https://twitter.com/ScotNational/status/1359788971019091970" >}}
 
 
 

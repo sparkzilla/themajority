@@ -11,9 +11,7 @@ aliases = ["/blog/2020/07/02/would-you-like-a-foot-rub-too-nicola/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1278663688346570753
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1278663688346570753" >}}
 
 
 
@@ -21,9 +19,7 @@ https://twitter.com/themajorityscot/status/1278663688346570753
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1247056001079095296
-</div></figure>
+{{< tweet url="https://twitter.com/ScotTories/status/1247056001079095296" >}}
 
 
 

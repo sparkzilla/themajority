@@ -1937,3 +1937,2287 @@ Explanation: undefined
 
 ---
 
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Verifying production scripts are intact and checking for any remaining non-production scripts:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: Test-Path "build.sh"</summary>
+
+```bash
+Test-Path "build.sh"
+```
+
+```
+True
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: Test-Path "generate-search-index.js"</summary>
+
+```bash
+Test-Path "generate-search-index.js"
+```
+
+```
+PS C:\Users\spark\OneDrive\Desktop\DEV\static-sites&gt; Test-Path &quot;generate-search-index.js&quot;                                                                       
+True
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="generic" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "*.ps1" • **0** result in **1** directory</summary>
+
+Directory: **c:\Users\spark\OneDrive\Desktop\DEV\static-sites** (0 file)
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [x] Delete all non-production PowerShell scripts
+- [x] Verify production scripts remain intact
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Checking for related files that should also be removed:
+
+
+---
+
+<tool-use data-tool-type="generic" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "*.reg" • **1** result in **1** directory</summary>
+
+Directory: **c:\Users\spark\OneDrive\Desktop\DEV\static-sites** (1 file)
+
+| File |
+|------|
+| `enable-long-paths.reg` |
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: Get-ChildItem -Path . -Filter "*.ps1" | Measure-Object | Select-Object -ExpandProperty Count</summary>
+
+```bash
+Get-ChildItem -Path . -Filter "*.ps1" | Measure-Object | Select-Object -ExpandProperty Count
+```
+
+```
+er &quot;*.ps1&quot; | Measure-Object | Select-Object -ExpandProperty Count               
+0
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Checking if `enable-long-paths.reg` is referenced anywhere before deleting it:
+
+
+---
+
+<tool-use data-tool-type="search" data-tool-name="grep">
+<details>
+<summary>Tool use: **grep** • Grep for "enable-long-paths" • 0 matches</summary>
+
+Output mode: content
+
+
+_No matches found_
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+Explanation: undefined
+
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Deleted all non-production scripts.
+
+**Summary:**
+- Deleted 23 PowerShell scripts (utility/development scripts):
+  - Content management scripts (fix-*, mark-*, delete-*, list-*, generate-*)
+  - Image management scripts (download-*, check-*, resize-*, restore-*)
+  - Setup scripts (install-hugo.ps1, update-hugo.ps1, enable-long-paths.ps1)
+  - Migration script (convert-wp-to-hugo.ps1)
+- Deleted 1 related file: `enable-long-paths.reg`
+
+**Production scripts kept:**
+- `build.sh` — used in production (referenced in `kinsta.json`)
+- `generate-search-index.js` — used in production (called by `build.sh` and GitHub Actions)
+
+All non-production scripts have been removed. The production build process remains intact.
+
+---
+
+_**User (2025-12-01 22:47Z)**_
+
+commit and push
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+
+
+---
+
+
+Checking git status, then committing and pushing the changes.
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git status</summary>
+
+```bash
+git status
+```
+
+```
+/index.html                                                                     
+        modified:   _site/articles/i-dont-like-mondays/index.html
+        modified:   _site/articles/if-scotland-votes-yes/index.html
+        modified:   _site/articles/if-separation-is-so-great-why-must-you-lie-about-it/index.html                                                               
+        modified:   _site/articles/illegal-referendums-r-us/index.html
+        modified:   _site/articles/in-search-of-the-golden-grievance/index.html 
+        modified:   _site/articles/independence-is-dead/index.html
+        modified:   _site/articles/irelands-past-is-not-scotlands-future/index.html                                                                             
+        modified:   _site/articles/it-is-written-westminster-is-the-uks-sovereign-parliament/index.html                                                         
+        modified:   _site/articles/its-a-love-story-baby-just-say-yes/index.html
+        modified:   _site/articles/john-mortimer-its-time-to-abolish-holyrood/index.html                                                                        
+        modified:   _site/articles/jolly-scottianity/index.html
+        modified:   _site/articles/leaks-tory-shenanigans-and-cows/index.html   
+        modified:   _site/articles/lets-annoy-the-english/index.html
+        modified:   _site/articles/lets-talk-about-george/index.html
+        modified:   _site/articles/losing-the-narrative/index.html
+        modified:   _site/articles/mac-lives-matter/index.html
+        modified:   _site/articles/make-scotland-independent-again/index.html   
+        modified:   _site/articles/ministers-hail-anti-union-vaccine/index.html 
+        modified:   _site/articles/my-journey-to-alliance-for-unity/index.html  
+        modified:   _site/articles/nicola-close-the-glasgow-and-lanarkshire-borders-now/index.html                                                              
+        modified:   _site/articles/nicola-sturgeon-bigotry-in-a-smart-suit/index.html                                                                           
+        modified:   _site/articles/nicola-sturgeon-is-socially-distancing-herself-from-scottish-parents/index.html                                              
+        modified:   _site/articles/nicola-sturgeons-five-biggest-failures/index.html                                                                            
+        modified:   _site/articles/nicolas-book-club/index.html
+        modified:   _site/articles/nicolas-fake-economy/index.html
+        modified:   _site/articles/nordic-dreams-on-the-road-to-belarus/index.html                                                                              
+        modified:   _site/articles/oh-canada/index.html
+        modified:   _site/articles/old-macdonald-had-a-scapegoat/index.html     
+        modified:   _site/articles/on-yer-bike/index.html
+        modified:   _site/articles/our-response-to-the-national-bullying-and-intimidating-our-writers/index.html                                                
+        modified:   _site/articles/pincer-movement/index.html
+        modified:   _site/articles/polls-insults-and-manifestos/index.html      
+        modified:   _site/articles/power-grabs-waste-scandal/index.html
+        modified:   _site/articles/pull-up.-pull-up/index.html
+        modified:   _site/articles/reasons-to-be-cheerful/index.html
+        modified:   _site/articles/reform-or-abolish/index.html
+        modified:   _site/articles/religion-should-guide-not-divide/index.html  
+        modified:   _site/articles/run-away-run-away/index.html
+        modified:   _site/articles/salmond-nicola-needed-a-stake-through-my-heart/index.html                                                                    
+        modified:   _site/articles/salmond-scotgovs-document-withholding-is-contempt-of-court/index.html                                                        
+        modified:   _site/articles/scexit-means-sex-it/index.html
+        modified:   _site/articles/scotlands-devolution-disaster/index.html     
+        modified:   _site/articles/scotlands-lost-socialists/index.html
+        modified:   _site/articles/self-hating-scots-urged-to-belt-up/index.html
+        modified:   _site/articles/sex-toys-imposters-and-warm-receptions/index.html                                                                            
+        modified:   _site/articles/shoot-yourself-in-the-foot.-repeat/index.html
+        modified:   _site/articles/six-things-the-conservatives-need-to-do-now/index.html                                                                       
+        modified:   _site/articles/six-ways-nationalists-manipulate-polls/index.html                                                                            
+        modified:   _site/articles/standing-up-for-scottish-business/index.html 
+        modified:   _site/articles/stop-lying-about-gers/index.html
+        modified:   _site/articles/stop-lying-demographics-isnt-destiny/index.html                                                                              
+        modified:   _site/articles/stop-the-neverendum-ban-secession-now/index.html                                                                             
+        modified:   _site/articles/sturgeons-leadership-failures-brought-to-book/index.html                                                                     
+        modified:   _site/articles/sturgeons-stepping-stones/index.html
+        modified:   _site/articles/sunak-skelps-the-nationalists/index.html     
+        modified:   _site/articles/tactical-voting-2021-the-basics/index.html   
+        modified:   _site/articles/the-all-seeing-eye/index.html
+        modified:   _site/articles/the-biggest-losers/index.html
+        modified:   _site/articles/the-campaign-starts/index.html
+        modified:   _site/articles/the-choice-civilization-or-the-tribe/index.html                                                                              
+        modified:   _site/articles/the-collective-narcissism-of-myscotland/index.html                                                                           
+        modified:   _site/articles/the-cult-of-st.-nicola/index.html
+        modified:   _site/articles/the-dishonesty-of-nationalist-memes/index.html                                                                               
+        modified:   _site/articles/the-domino-effect/index.html
+        modified:   _site/articles/the-gardening-section/index.html
+        modified:   _site/articles/the-golden-bridge/index.html
+        modified:   _site/articles/the-great-education-blame-game/index.html    
+        modified:   _site/articles/the-irony-of-scottish-independence/index.html
+        modified:   _site/articles/the-kids-are-not-alright/index.html
+        modified:   _site/articles/the-lie-that-wont-die/index.html
+        modified:   _site/articles/the-lies-that-fan-the-flames/index.html      
+        modified:   _site/articles/the-magic-is-gone/index.html
+        modified:   _site/articles/the-majority-2020-in-review/index.html       
+        modified:   _site/articles/the-majority-launches-crowdfunded-#resignsturgeon-billboards-in-glasgow-and-edinburgh/index.html                             
+        modified:   _site/articles/the-majority-launches-snp-councils-are-rubbish-crowdfunded-billboard-campaign/index.html                                     
+        modified:   _site/articles/the-majority-launches-stop-wasting-our-time-money-bin-your-pretendyref-crowdfunded-billboard-campaign/index.html             
+        modified:   _site/articles/the-majority-show/index.html
+        modified:   _site/articles/the-majority-view-open-our-beer-gardens/index.html                                                                           
+        modified:   _site/articles/the-moral-low-ground/index.html
+        modified:   _site/articles/the-mummy-returns/index.html
+        modified:   _site/articles/the-neverendum-is-killing-scottish-jobs/index.html                                                                           
+        modified:   _site/articles/the-old-scots-parliament-as-crooked-as-the-new-one/index.html                                                                
+        modified:   _site/articles/the-peoples-front-of-caledonia/index.html    
+        modified:   _site/articles/the-pied-bagpipers/index.html
+        modified:   _site/articles/the-scottish-empire-an-inconvenient-truth/index.html                                                                         
+        modified:   _site/articles/the-silent-majority/index.html
+        modified:   _site/articles/the-snp-has-failed-our-doctors/index.html    
+        modified:   _site/articles/the-snp-has-never-had-a-mandate/index.html   
+        modified:   _site/articles/the-snp-has-no-respect-for-democracy/index.html                                                                              
+        modified:   _site/articles/the-snps-dangerous-referendum-fantasies-must-be-stopped/index.html                                                           
+        modified:   _site/articles/the-snps-orwellian-outrage/index.html        
+        modified:   _site/articles/the-strange-case-of-dr-heckle-and-indy-hyde/index.html                                                                       
+        modified:   _site/articles/the-tide-has-turned/index.html
+        modified:   _site/articles/the-ulsterisation-of-scotland/index.html     
+        modified:   _site/articles/the-uncomfortable-power-of-precedent/index.html                                                                              
+        modified:   _site/articles/the-war-on-your-thoughts/index.html
+        modified:   _site/articles/there-is-no-union-dividend/index.html        
+        modified:   _site/articles/this-law-is-an-ass/index.html
+        modified:   _site/articles/this-tower-will-fall/index.html
+        modified:   _site/articles/three-reasons-reform-uk-scotland-will-fail/index.html                                                                        
+        modified:   _site/articles/tis-but-a-scratch/index.html
+        modified:   _site/articles/twilight-of-the-idols/index.html
+        modified:   _site/articles/untrue-faith/index.html
+        modified:   _site/articles/useful-idiots/index.html
+        modified:   _site/articles/vote-indy-get-tory/index.html
+        modified:   _site/articles/vote-snp-or-else/index.html
+        modified:   _site/articles/wanted-a-worthy-opponent-to-nicola-sturgeon/index.html                                                                       
+        modified:   _site/articles/we-are-not-stuck-with-devolution/index.html  
+        modified:   _site/articles/we-dont-believe-you-nicola/index.html        
+        modified:   _site/articles/we-will-remember-them/index.html
+        modified:   _site/articles/welcome-to-albania/index.html
+        modified:   _site/articles/what-about-labour/index.html
+        modified:   _site/articles/what-about-whataboutery/index.html
+        modified:   _site/articles/what-happened-to-the-abolish-holyrood-party/index.html                                                                       
+        modified:   _site/articles/what-have-we-done-to-deserve-this/index.html 
+        modified:   _site/articles/when-leaders-lie/index.html
+        modified:   _site/articles/when-will-we-ever-learn/index.html
+        modified:   _site/articles/when/index.html
+        modified:   _site/articles/where-are-our-leaders/index.html
+        modified:   _site/articles/where-we-stand/index.html
+        modified:   _site/articles/wheres-my-apology-janey/index.html
+        modified:   _site/articles/who-wants-devolution/index.html
+        modified:   _site/articles/why-im-not-a-unionist/index.html
+        modified:   _site/articles/will-ye-go-laddie-go/index.html
+        modified:   _site/articles/wings-over-scotland-rip/index.html
+        modified:   _site/articles/would-you-like-a-foot-rub-too-nicola/index.html                                                                              
+        modified:   _site/authors/allansutherland/index.html
+        modified:   _site/authors/andrewmorrison/index.html
+        modified:   _site/authors/andywaddell/index.html
+        modified:   _site/authors/andywebb/index.html
+        modified:   _site/authors/angusbarrett/index.html
+        modified:   _site/authors/angusrobinson/index.html
+        modified:   _site/authors/arthurkeith/index.html
+        modified:   _site/authors/brucehalliday/index.html
+        modified:   _site/authors/damien.scott/index.html
+        modified:   _site/authors/davidgriffiths/index.html
+        modified:   _site/authors/emdeblu/index.html
+        modified:   _site/authors/georgegalloway/index.html
+        modified:   _site/authors/hoski67/index.html
+        modified:   _site/authors/ianmitchell/index.html
+        modified:   _site/authors/index.html
+        modified:   _site/authors/jamesbundy/index.html
+        modified:   _site/authors/jamieblackett/index.html
+        modified:   _site/authors/jillstevenston/index.html
+        modified:   _site/authors/johnmortimer/index.html
+        modified:   _site/authors/jonstanley/index.html
+        modified:   _site/authors/lindaholt999/index.html
+        modified:   _site/authors/marydevlin/index.html
+        modified:   _site/authors/mateus06/index.html
+        modified:   _site/authors/niallfraser/index.html
+        modified:   _site/authors/robertkilgour/index.html
+        modified:   _site/authors/sparkzilla/index.html
+        modified:   _site/authors/stephenbailey/index.html
+        modified:   _site/authors/stephenthomas/index.html
+        modified:   _site/authors/tomgallagher/index.html
+        modified:   _site/authors/tommikerr/index.html
+        modified:   _site/categories/abolish-holyrood-party/index.html
+        modified:   _site/categories/alan-sked/index.html
+        modified:   _site/categories/alex-salmond-inquiry/index.html
+        modified:   _site/categories/alex-salmond/index.html
+        modified:   _site/categories/alliance-for-unity/index.html
+        modified:   _site/categories/alliance-for-unity/index.xml
+        modified:   _site/categories/andrew-wilson/index.html
+        modified:   _site/categories/brexit/index.html
+        modified:   _site/categories/campaigns/index.html
+        modified:   _site/categories/civil-servants/index.html
+        modified:   _site/categories/commentary/index.html
+        modified:   _site/categories/commentary/index.xml
+        modified:   _site/categories/commentary/page/10/index.html
+        modified:   _site/categories/commentary/page/11/index.html
+        modified:   _site/categories/commentary/page/2/index.html
+        modified:   _site/categories/commentary/page/3/index.html
+        modified:   _site/categories/commentary/page/4/index.html
+        modified:   _site/categories/commentary/page/5/index.html
+        modified:   _site/categories/commentary/page/6/index.html
+        modified:   _site/categories/commentary/page/7/index.html
+        modified:   _site/categories/commentary/page/8/index.html
+        modified:   _site/categories/commentary/page/9/index.html
+        modified:   _site/categories/conservative/index.html
+        modified:   _site/categories/conservative/index.xml
+        modified:   _site/categories/covid-19/index.html
+        modified:   _site/categories/covid-19/index.xml
+        modified:   _site/categories/craig-murray/index.html
+        modified:   _site/categories/culture/index.html
+        modified:   _site/categories/david-griffiths/index.html
+        modified:   _site/categories/defence-amp-military/index.html
+        modified:   _site/categories/douglas-ross/index.html
+        modified:   _site/categories/economy-amp-business/index.html
+        modified:   _site/categories/economy-amp-business/index.xml
+        modified:   _site/categories/education/index.html
+        modified:   _site/categories/environment/index.html
+        modified:   _site/categories/fundraising/index.html
+        modified:   _site/categories/fundraising/index.xml
+        modified:   _site/categories/george-galloway/index.html
+        modified:   _site/categories/george-galloway/index.xml
+        modified:   _site/categories/hate-crimes-bill/index.html
+        modified:   _site/categories/health/index.html
+        modified:   _site/categories/history/index.html
+        modified:   _site/categories/how-to-fight/index.html
+        modified:   _site/categories/how-to-fight/index.xml
+        modified:   _site/categories/hugh-pennington/index.html
+        modified:   _site/categories/index.html
+        modified:   _site/categories/indyref2/index.html
+        modified:   _site/categories/indyref2/index.xml
+        modified:   _site/categories/international/index.html
+        modified:   _site/categories/international/index.xml
+        modified:   _site/categories/interview/index.html
+        modified:   _site/categories/interview/index.xml
+        modified:   _site/categories/jackson-carlaw/index.html
+        modified:   _site/categories/jackson-carlaw/index.xml
+        modified:   _site/categories/jamie-blackett/index.html
+        modified:   _site/categories/jamies-election-diary/index.html
+        modified:   _site/categories/janey-godley/index.html
+        modified:   _site/categories/jeane-freeman/index.html
+        modified:   _site/categories/jeane-freeman/index.xml
+        modified:   _site/categories/john-mortimer/index.html
+        modified:   _site/categories/john-swinney/index.html
+        modified:   _site/categories/kate-forbes/index.html
+        modified:   _site/categories/law-amp-policing/index.html
+        modified:   _site/categories/linda-evans/index.html
+        modified:   _site/categories/mark-devlin---the-majority-publisher/index.html                                                                            
+        modified:   _site/categories/mary-devlin/index.html
+        modified:   _site/categories/mary-devlin/index.xml
+        modified:   _site/categories/media/index.html
+        modified:   _site/categories/michelle-ballantyne/index.html
+        modified:   _site/categories/mike-russell/index.html
+        modified:   _site/categories/mike-russell/index.xml
+        modified:   _site/categories/monica-lennon/index.html
+        modified:   _site/categories/monica-lennon/index.xml
+        modified:   _site/categories/nicola-sturgeon/index.html
+        modified:   _site/categories/nicola-sturgeon/index.xml
+        modified:   _site/categories/nicola-sturgeon/page/2/index.html
+        modified:   _site/categories/nigel-farage/index.html
+        modified:   _site/categories/original-content/index.html
+        modified:   _site/categories/original-content/index.xml
+        modified:   _site/categories/overspending/index.html
+        modified:   _site/categories/overspending/index.xml
+        modified:   _site/categories/page/2/index.html
+        modified:   _site/categories/page/3/index.html
+        modified:   _site/categories/page/4/index.html
+        modified:   _site/categories/page/5/index.html
+        modified:   _site/categories/page/6/index.html
+        modified:   _site/categories/page/7/index.html
+        modified:   _site/categories/page/8/index.html
+        modified:   _site/categories/polls/index.html
+        modified:   _site/categories/polls/index.xml
+        modified:   _site/categories/reform-party-scotland/index.html
+        modified:   _site/categories/regions/index.html
+        modified:   _site/categories/religion/index.html
+        modified:   _site/categories/richard-leonard/index.html
+        modified:   _site/categories/richard-leonard/index.xml
+        modified:   _site/categories/rishi-sunak/index.html
+        modified:   _site/categories/robert-kilgour/index.html
+        modified:   _site/categories/ruth-davidson/index.html
+        modified:   _site/categories/scottish-green-party/index.html
+        modified:   _site/categories/scottish-nationalist-party/index.html      
+        modified:   _site/categories/sport/index.html
+        modified:   _site/categories/stephen-daisley/index.html
+        modified:   _site/categories/stephen-daisley/index.xml
+        modified:   _site/categories/tactical-voting/index.html
+        modified:   _site/categories/the-majority---press-release/index.html    
+        modified:   _site/categories/the-majority---press-release/index.xml     
+        modified:   _site/categories/the-majority-show/index.html
+        modified:   _site/categories/the-majority-show/index.xml
+        modified:   _site/categories/the-majority-view/index.html
+        modified:   _site/categories/the-majority/index.html
+        modified:   _site/categories/the-majority/index.xml
+        modified:   _site/categories/the-scexit-files/index.html
+        modified:   _site/categories/the-scexit-files/page/2/index.html
+        modified:   _site/categories/us-election/index.html
+        modified:   _site/categories/us-election/index.xml
+        modified:   _site/categories/video-commentary/index.html
+        modified:   _site/categories/video-commentary/index.xml
+        modified:   _site/categories/year-in-review/index.html
+        modified:   _site/categories/zoomers/index.html
+        modified:   _site/css/style.css
+        modified:   _site/donate-to-the-majority/index.html
+        modified:   _site/index.html
+        modified:   _site/index.xml
+        modified:   _site/js/pagination.js
+        modified:   _site/newsletter-signup/index.html
+        modified:   _site/posts/index.html
+        modified:   _site/posts/index.xml
+        modified:   _site/posts/page/10/index.html
+        modified:   _site/posts/page/11/index.html
+        modified:   _site/posts/page/12/index.html
+        modified:   _site/posts/page/13/index.html
+        modified:   _site/posts/page/14/index.html
+        modified:   _site/posts/page/15/index.html
+        modified:   _site/posts/page/16/index.html
+        modified:   _site/posts/page/17/index.html
+        modified:   _site/posts/page/18/index.html
+        modified:   _site/posts/page/2/index.html
+        modified:   _site/posts/page/3/index.html
+        modified:   _site/posts/page/4/index.html
+        modified:   _site/posts/page/5/index.html
+        modified:   _site/posts/page/6/index.html
+        modified:   _site/posts/page/7/index.html
+        modified:   _site/posts/page/8/index.html
+        modified:   _site/posts/page/9/index.html
+        modified:   _site/sitemap.xml
+        modified:   _site/tags/2021-scottish-elections/index.html
+        modified:   _site/tags/abolish-holyrood/index.html
+        modified:   _site/tags/abolishholyrood/index.html
+        modified:   _site/tags/abolishholyrood/index.xml
+        modified:   _site/tags/alex-salmond-inquiry/index.html
+        modified:   _site/tags/alister-jack/index.html
+        modified:   _site/tags/alliance-for-unity/index.html
+        modified:   _site/tags/alliance-for-unity/index.xml
+        modified:   _site/tags/anas-sarwar/index.html
+        modified:   _site/tags/andrew-marr/index.html
+        modified:   _site/tags/andrew-marr/index.xml
+        modified:   _site/tags/angela-haggerty/index.html
+        modified:   _site/tags/angela-haggerty/index.xml
+        modified:   _site/tags/angus-macneil/index.html
+        modified:   _site/tags/anti-english-hate/index.html
+        modified:   _site/tags/anti-nationalist/index.html
+        modified:   _site/tags/asda/index.html
+        modified:   _site/tags/asda/index.xml
+        modified:   _site/tags/bbc-scotland/index.html
+        modified:   _site/tags/bbc-scotland/index.xml
+        modified:   _site/tags/bbc/index.html
+        modified:   _site/tags/bbc/index.xml
+        modified:   _site/tags/bigotry/index.html
+        modified:   _site/tags/brexit/index.html
+        modified:   _site/tags/brexit/index.xml
+        modified:   _site/tags/british-identity/index.html
+        modified:   _site/tags/british-nationalist/index.html
+        modified:   _site/tags/britnat/index.html
+        modified:   _site/tags/bullying/index.html
+        modified:   _site/tags/callum-baird/index.html
+        modified:   _site/tags/canada/index.html
+        modified:   _site/tags/christopher-mceleny/index.html
+        modified:   _site/tags/colonialism/index.html
+        modified:   _site/tags/counterfactual/index.html
+        modified:   _site/tags/cult/index.html
+        modified:   _site/tags/currency/index.html
+        modified:   _site/tags/cybernats/index.html
+        modified:   _site/tags/david-cameron/index.html
+        modified:   _site/tags/devloved-powers/index.html
+        modified:   _site/tags/devolution/index.html
+        modified:   _site/tags/devolution/index.xml
+        modified:   _site/tags/donald-martin-newsquest/index.html
+        modified:   _site/tags/donald-trump/index.html
+        modified:   _site/tags/douglas-ross/index.html
+        modified:   _site/tags/edinburgh-agreement/index.html
+        modified:   _site/tags/edinburgh-sick-childrens#039-hospital/index.html 
+        modified:   _site/tags/edinburgh-sick-childrens#039-hospital/index.xml  
+        modified:   _site/tags/education/index.html
+        modified:   _site/tags/education/index.xml
+        modified:   _site/tags/electoral-alliance/index.html
+        modified:   _site/tags/fake-news/index.html
+        modified:   _site/tags/federalism/index.html
+        modified:   _site/tags/gannett/index.html
+        modified:   _site/tags/general-election/index.html
+        modified:   _site/tags/george-galloway/index.html
+        modified:   _site/tags/george-orwell/index.html
+        modified:   _site/tags/gers/index.html
+        modified:   _site/tags/gers/index.xml
+        modified:   _site/tags/heath/index.html
+        modified:   _site/tags/heath/index.xml
+        modified:   _site/tags/henry-faure-walker/index.html
+        modified:   _site/tags/history/index.html
+        modified:   _site/tags/humza-yousaf/index.html
+        modified:   _site/tags/independence/index.html
+        modified:   _site/tags/index.html
+        modified:   _site/tags/indyref2/index.html
+        modified:   _site/tags/intimidation/index.html
+        modified:   _site/tags/irish-republicanism/index.html
+        modified:   _site/tags/james-hamilton/index.html
+        modified:   _site/tags/janey-godley/index.html
+        modified:   _site/tags/jeane-freeman/index.html
+        modified:   _site/tags/jeane-freeman/index.xml
+        modified:   _site/tags/jk-rowling/index.html
+        modified:   _site/tags/joe-biden/index.html
+        modified:   _site/tags/joe-biden/index.xml
+        modified:   _site/tags/john-nicolson/index.html
+        modified:   _site/tags/john-nicolson/index.xml
+        modified:   _site/tags/john-swinney/index.html
+        modified:   _site/tags/karl-marx/index.html
+        modified:   _site/tags/keir-starmer/index.html
+        modified:   _site/tags/labour-2024/index.html
+        modified:   _site/tags/laffer-curve/index.html
+        modified:   _site/tags/laffer-curve/index.xml
+        modified:   _site/tags/manifesto/index.html
+        modified:   _site/tags/manifesto/index.xml
+        modified:   _site/tags/media/index.html
+        modified:   _site/tags/mike-reed/index.html
+        modified:   _site/tags/mission-statement/index.html
+        modified:   _site/tags/mission-statement/index.xml
+        modified:   _site/tags/narcissism/index.html
+        modified:   _site/tags/nationalism/index.html
+        modified:   _site/tags/newsquest/index.html
+        modified:   _site/tags/nhs/index.html
+        modified:   _site/tags/nhs/index.xml
+        modified:   _site/tags/nick-robinson/index.html
+        modified:   _site/tags/nick-robinson/index.xml
+        modified:   _site/tags/nicola-sturgeon/index.html
+        modified:   _site/tags/nicola-sturgeon/index.xml
+        modified:   _site/tags/notes-on-nationalism/index.html
+        modified:   _site/tags/online-abuse/index.html
+        modified:   _site/tags/online-bullying/index.html
+        modified:   _site/tags/online-harassment/index.html
+        modified:   _site/tags/page/10/index.html
+        modified:   _site/tags/page/11/index.html
+        modified:   _site/tags/page/12/index.html
+        modified:   _site/tags/page/13/index.html
+        modified:   _site/tags/page/2/index.html
+        modified:   _site/tags/page/3/index.html
+        modified:   _site/tags/page/4/index.html
+        modified:   _site/tags/page/5/index.html
+        modified:   _site/tags/page/6/index.html
+        modified:   _site/tags/page/7/index.html
+        modified:   _site/tags/page/8/index.html
+        modified:   _site/tags/page/9/index.html
+        modified:   _site/tags/partition/index.html
+        modified:   _site/tags/pete-wishart/index.html
+        modified:   _site/tags/pete-wishart/index.xml
+        modified:   _site/tags/peter-murrell/index.html
+        modified:   _site/tags/polling/index.html
+        modified:   _site/tags/polls/index.html
+        modified:   _site/tags/press-freedom/index.html
+        modified:   _site/tags/principles/index.html
+        modified:   _site/tags/principles/index.xml
+        modified:   _site/tags/psychology/index.html
+        modified:   _site/tags/quebec/index.html
+        modified:   _site/tags/racism/index.html
+        modified:   _site/tags/remembrance-sunday/index.html
+        modified:   _site/tags/ross-greer/index.html
+        modified:   _site/tags/sarah-smith/index.html
+        modified:   _site/tags/sarah-smith/index.xml
+        modified:   _site/tags/scexit/index.html
+        modified:   _site/tags/scotland-west/index.html
+        modified:   _site/tags/scottish-daily-mail/index.html
+        modified:   _site/tags/scottish-daily-mail/index.xml
+        modified:   _site/tags/scottish-labour/index.html
+        modified:   _site/tags/scottish-nationalism/index.html
+        modified:   _site/tags/secession/index.html
+        modified:   _site/tags/sectarianism/index.html
+        modified:   _site/tags/snp-arrests/index.html
+        modified:   _site/tags/social-media/index.html
+        modified:   _site/tags/sqa/index.html
+        modified:   _site/tags/stephen-daisley/index.html
+        modified:   _site/tags/stephen-daisley/index.xml
+        modified:   _site/tags/sterlingisation/index.html
+        modified:   _site/tags/strategy/index.html
+        modified:   _site/tags/strategy/index.xml
+        modified:   _site/tags/tactical-voting/index.html
+        modified:   _site/tags/tactical-voting/index.xml
+        modified:   _site/tags/tactics/index.html
+        modified:   _site/tags/taxation/index.html
+        modified:   _site/tags/taxation/index.xml
+        modified:   _site/tags/the-great-barrington-declaration/index.html      
+        modified:   _site/tags/the-sun/index.html
+        modified:   _site/tags/the-sun/index.xml
+        modified:   _site/tags/the-troubles/index.html
+        modified:   _site/tags/tim-luckhurst/index.html
+        modified:   _site/tags/tim-luckhurst/index.xml
+        modified:   _site/tags/tommy-sheppard/index.html
+        modified:   _site/tags/trans-issues/index.html
+        modified:   _site/tags/unionism/index.html
+        modified:   _site/tags/unionist/index.html
+        modified:   _site/tags/us-politics/index.html
+        modified:   _site/tags/useful-idiots/index.html
+        modified:   _site/tags/welfare/index.html
+        modified:   _site/tags/welfare/index.xml
+        modified:   _site/tags/wings-over-scotland/index.html
+        modified:   _site/tags/yoon/index.html
+        modified:   _site/tags/zoom-chat/index.html
+        modified:   _site/thank-you-for-subscribing/index.html
+        modified:   _site/the-majority-show/index.html
+        deleted:    add-redirect-aliases.ps1
+        deleted:    check-featured-images.ps1
+        deleted:    check-image-sizes.ps1
+        modified:   content/posts/14-years-of-failure-get-them-out-votetactical.md                                                                              
+        modified:   content/posts/87-years-of-failure.md
+        modified:   content/posts/93-of-no-voters-back-tactical-voting-to-beat-the-snp.md                                                                       
+        modified:   content/posts/a-british-premiership-its-a-match-winner.md   
+        modified:   content/posts/a-deadly-virus.md
+        modified:   content/posts/a-lose-lose-proposition.md
+        modified:   content/posts/a-matter-of-gravity.md
+        modified:   content/posts/a-scotsmas-carol.md
+        modified:   content/posts/a-week-is-a-long-time-in-politics.md
+        modified:   content/posts/a-wounded-and-desperate-party.md
+        modified:   content/posts/after-the-earthquake-a-tsunami.md
+        modified:   content/posts/all-under-one-braincell.md
+        modified:   content/posts/an-act-of-clarity.md
+        modified:   content/posts/an-alliance-for-unity.md
+        modified:   content/posts/an-empty-vessel.md
+        modified:   content/posts/an-update-from-the-majority.md
+        modified:   content/posts/andrews-road-to-nowhere.md
+        modified:   content/posts/apples-and-oranges.md
+        modified:   content/posts/are-we-the-baddies.md
+        modified:   content/posts/at-home-with-the-macbeths.md
+        modified:   content/posts/be-the-pig-a-primer-on-how-to-fight-nationalists.md                                                                           
+        modified:   content/posts/beware-of-strangers-bearing-gifts.md
+        modified:   content/posts/bigger-richer-smarter.md
+        modified:   content/posts/boot-this-homer-simpson-parliament.md
+        modified:   content/posts/breaking-up-the-uk-is-not-a-respectable-cause.md                                                                              
+        modified:   content/posts/budget-shock-for-rip-van-mcwinkle.md
+        modified:   content/posts/cabertosser-to-the-rescue.md
+        modified:   content/posts/calexenophobia.md
+        modified:   content/posts/camerons-folly.md
+        modified:   content/posts/citizens-theatre.md
+        modified:   content/posts/clipped-wings.md
+        modified:   content/posts/control-freakery.md
+        modified:   content/posts/deep-dark-secrets.md
+        modified:   content/posts/devolution-has-failed-abolish-holyrood.md     
+        modified:   content/posts/disgusted-of-prestonpans.md
+        modified:   content/posts/douglas-ross-a-leader-i-believe-in.md
+        modified:   content/posts/fake-tweets-dubious-hires-and-anti-english-hate-theres-a-cancer-at-newsquest.md                                               
+        modified:   content/posts/federalism-the-nationalist-wolf-in-sheeps-clothing.md                                                                         
+        modified:   content/posts/fish-chips-and-tactical-votes.md
+        modified:   content/posts/five-more-ways-nicola-sturgeon-has-failed-scotland.md                                                                         
+        modified:   content/posts/five-out-of-ten-health-experts-slam-sturgeons-covid-response.md                                                               
+        modified:   content/posts/five-times-scottish-nationalists-bullied-the-media.md                                                                         
+        modified:   content/posts/flogging-a-dead-horse.md
+        modified:   content/posts/fragile.md
+        modified:   content/posts/freedom-for-galloway.md
+        modified:   content/posts/from-russia-with-love.md
+        modified:   content/posts/galloway-salmonds-fat-arse-bun-fights-at-the-ok-corral-and-the-mother-of-all-scandals.md                                      
+        modified:   content/posts/galloway-straight-answers.md
+        modified:   content/posts/galloway-the-snp-framed-salmond.md
+        modified:   content/posts/galloway-three-reasons-against-separation.md  
+        modified:   content/posts/hail-to-the-chief-gorgeous-george.md
+        modified:   content/posts/help-us-build-a-strong-anti-nationalist-media.md                                                                              
+        modified:   content/posts/i-dont-like-mondays.md
+        modified:   content/posts/if-scotland-votes-yes.md
+        modified:   content/posts/if-separation-is-so-great-why-must-you-lie-about-it.md                                                                        
+        modified:   content/posts/illegal-referendums-r-us.md
+        modified:   content/posts/in-search-of-the-golden-grievance.md
+        modified:   content/posts/irelands-past-is-not-scotlands-future.md      
+        modified:   content/posts/it-is-written-westminster-is-the-uks-sovereign-parliament.md                                                                  
+        modified:   content/posts/its-a-love-story-baby-just-say-yes.md
+        modified:   content/posts/john-mortimer-its-time-to-abolish-holyrood.md 
+        modified:   content/posts/jolly-scottianity.md
+        modified:   content/posts/leaks-tory-shenanigans-and-cows.md
+        modified:   content/posts/lets-annoy-the-english.md
+        modified:   content/posts/lets-talk-about-george.md
+        modified:   content/posts/losing-the-narrative.md
+        modified:   content/posts/mac-lives-matter.md
+        modified:   content/posts/make-scotland-independent-again.md
+        modified:   content/posts/ministers-hail-anti-union-vaccine.md
+        modified:   content/posts/my-journey-to-alliance-for-unity.md
+        modified:   content/posts/nicola-close-the-glasgow-and-lanarkshire-borders-now.md                                                                       
+        modified:   content/posts/nicola-sturgeon-bigotry-in-a-smart-suit.md    
+        modified:   content/posts/nicola-sturgeon-is-socially-distancing-herself-from-scottish-parents.md                                                       
+        modified:   content/posts/nicola-sturgeons-five-biggest-failures.md     
+        modified:   content/posts/nicolas-book-club.md
+        modified:   content/posts/nordic-dreams-on-the-road-to-belarus.md       
+        modified:   content/posts/oh-canada.md
+        modified:   content/posts/old-macdonald-had-a-scapegoat.md
+        modified:   content/posts/on-yer-bike.md
+        modified:   content/posts/open-our-beer-gardens.md
+        modified:   content/posts/our-response-to-the-national-bullying-and-intimidating-our-writers.md                                                         
+        modified:   content/posts/pincer-movement.md
+        modified:   content/posts/polls-insults-and-manifestos.md
+        modified:   content/posts/power-grabs-waste-scandal.md
+        modified:   content/posts/pull-up-pull-up.md
+        modified:   content/posts/reasons-to-be-cheerful.md
+        modified:   content/posts/reform-or-abolish.md
+        modified:   content/posts/religion-should-guide-not-divide.md
+        modified:   content/posts/resignsturgeon-campaign-launches-across-scotland.md                                                                           
+        modified:   content/posts/run-away-run-away.md
+        modified:   content/posts/salmond-nicola-needed-a-stake-through-my-heart.md                                                                             
+        modified:   content/posts/salmond-scotgovs-document-withholding-is-contempt-of-court.md                                                                 
+        modified:   content/posts/scexit-means-sex-it.md
+        modified:   content/posts/scotlands-devolution-disaster.md
+        modified:   content/posts/scotlands-lost-socialists.md
+        modified:   content/posts/self-hating-scots-urged-to-belt-up.md
+        modified:   content/posts/sex-toys-imposters-and-warm-receptions.md     
+        modified:   content/posts/shoot-yourself-in-the-foot-repeat.md
+        modified:   content/posts/six-things-the-conservatives-need-to-do-now.md
+        modified:   content/posts/six-ways-nationalists-manipulate-polls.md     
+        modified:   content/posts/standing-up-for-scottish-business.md
+        modified:   content/posts/stop-lying-about-gers.md
+        modified:   content/posts/stop-lying-demographics-isnt-destiny.md       
+        modified:   content/posts/stop-the-neverendum-ban-secession-now.md      
+        modified:   content/posts/sturgeons-fake-economy.md
+        modified:   content/posts/sturgeons-leadership-failures-brought-to-book.md                                                                              
+        modified:   content/posts/sturgeons-stepping-stones.md
+        modified:   content/posts/sunak-skelps-the-nationalists.md
+        modified:   content/posts/tactical-voting-2021-the-basics.md
+        modified:   content/posts/the-all-seeing-eye.md
+        modified:   content/posts/the-biggest-losers.md
+        modified:   content/posts/the-campaign-starts.md
+        modified:   content/posts/the-choice-civilization-or-the-tribe.md       
+        modified:   content/posts/the-collective-narcissism-of-myscotland.md    
+        modified:   content/posts/the-cult-of-st-nicola.md
+        modified:   content/posts/the-dishonesty-of-nationalist-memes.md        
+        modified:   content/posts/the-domino-effect.md
+        modified:   content/posts/the-gardening-section.md
+        modified:   content/posts/the-golden-bridge.md
+        modified:   content/posts/the-great-education-blame-game.md
+        modified:   content/posts/the-irony-of-scottish-independence.md
+        modified:   content/posts/the-kids-are-not-alright.md
+        modified:   content/posts/the-lie-that-wont-die.md
+        modified:   content/posts/the-lies-that-fan-the-flames.md
+        modified:   content/posts/the-magic-is-gone.md
+        modified:   content/posts/the-majority-2020-in-review.md
+        modified:   content/posts/the-majority-launches-crowdfunded-resignsturgeon-billboards-in-glasgow-and-edinburgh.md                                       
+        modified:   content/posts/the-majority-launches-snp-councils-are-rubbish-crowdfunded-billboard-campaign.md                                              
+        modified:   content/posts/the-majority-launches-stop-wasting-our-time-money-bin-your-pretendyref-crowdfunded-billboard-campaign.md                      
+        modified:   content/posts/the-moral-low-ground.md
+        modified:   content/posts/the-mummy-returns.md
+        modified:   content/posts/the-neverendum-is-killing-scottish-jobs.md    
+        modified:   content/posts/the-old-scots-parliament-as-crooked-as-the-new-one.md                                                                         
+        modified:   content/posts/the-peoples-front-of-caledonia.md
+        modified:   content/posts/the-pied-bagpipers.md
+        modified:   content/posts/the-scottish-empire-an-inconvenient-truth.md  
+        modified:   content/posts/the-silent-majority.md
+        modified:   content/posts/the-snp-has-failed-our-doctors.md
+        modified:   content/posts/the-snp-has-never-had-a-mandate.md
+        modified:   content/posts/the-snp-has-no-respect-for-democracy.md       
+        modified:   content/posts/the-snps-dangerous-referendum-fantasies-must-be-stopped.md                                                                    
+        modified:   content/posts/the-snps-orwellian-outrage.md
+        modified:   content/posts/the-strange-case-of-dr-heckle-and-indy-hyde.md
+        modified:   content/posts/the-tide-has-turned.md
+        modified:   content/posts/the-ulsterisation-of-scotland.md
+        modified:   content/posts/the-uncomfortable-power-of-precedent.md       
+        modified:   content/posts/the-war-on-your-thoughts.md
+        modified:   content/posts/there-is-no-union-dividend.md
+        modified:   content/posts/this-law-is-an-ass.md
+        modified:   content/posts/this-tower-will-fall.md
+        modified:   content/posts/three-reasons-reform-uk-scotland-will-fail.md 
+        modified:   content/posts/tis-but-a-scratch.md
+        modified:   content/posts/twilight-of-the-idols.md
+        modified:   content/posts/untrue-faith.md
+        modified:   content/posts/useful-idiots.md
+        modified:   content/posts/vote-indy-get-tory.md
+        modified:   content/posts/vote-snp-or-else.md
+        modified:   content/posts/wanted-a-worthy-opponent-to-nicola-sturgeon.md
+        modified:   content/posts/watch-the-majority-show.md
+        modified:   content/posts/we-are-not-stuck-with-devolution.md
+        modified:   content/posts/we-dont-believe-you-nicola.md
+        modified:   content/posts/we-will-remember-them.md
+        modified:   content/posts/welcome-to-albania.md
+        modified:   content/posts/welcome-to-the-union.md
+        modified:   content/posts/what-about-labour.md
+        modified:   content/posts/what-about-whataboutery.md
+        modified:   content/posts/what-have-we-done-to-deserve-this.md
+        modified:   content/posts/when-leaders-lie.md
+        modified:   content/posts/when-will-we-ever-learn.md
+        modified:   content/posts/when.md
+        modified:   content/posts/where-are-our-leaders.md
+        modified:   content/posts/where-we-stand.md
+        modified:   content/posts/wheres-my-apology-janey.md
+        modified:   content/posts/who-wants-devolution.md
+        modified:   content/posts/why-im-not-a-unionist.md
+        modified:   content/posts/will-ye-go-laddie-go.md
+        modified:   content/posts/wings-over-scotland-rip.md
+        modified:   content/posts/would-you-like-a-foot-rub-too-nicola.md       
+        deleted:    convert-wp-to-hugo.ps1
+        deleted:    delete-marked-articles.ps1
+        deleted:    download-all-featured-images.ps1
+        deleted:    download-featured-images.ps1
+        deleted:    enable-long-paths.ps1
+        deleted:    enable-long-paths.reg
+        deleted:    fix-aliases-format.ps1
+        deleted:    fix-article-images.ps1
+        deleted:    fix-ellipsis-slugs.ps1
+        deleted:    fix-front-matter.ps1
+        deleted:    fix-image-paths.ps1
+        deleted:    generate-author-pages.ps1
+        deleted:    generate-redirects-file.ps1
+        deleted:    generate-search-index.ps1
+        deleted:    install-hugo.ps1
+        deleted:    list-articles-by-date.ps1
+        deleted:    mark-article-for-deletion.ps1
+        deleted:    mark-duplicates-as-draft.ps1
+        deleted:    resize-featured-images.ps1
+        deleted:    restore-images-final.ps1
+        deleted:    static/images/restored/0CoronavirusWedJun32020.jpg
+        deleted:    static/images/restored/0CoronavirusWedMay272020.jpg
+        deleted:    static/images/restored/0FILEScotlandsChiefMedicalOfficerResignsScotlandsFirstMinisterSturgeonGivesACoronavir.jpg                            
+        deleted:    static/images/restored/0JS2085378843.jpg
+        deleted:    static/images/restored/0JS212183276.jpg
+        deleted:    static/images/restored/0JS213189704.jpg
+        deleted:    static/images/restored/0LeslieEvansJPG.jpg
+        deleted:    static/images/restored/0NicolaSturgeon1248JPG.jpg
+        deleted:    static/images/restored/1028612816127396329343988751877535538956564n.jpg                                                                     
+        deleted:    static/images/restored/1288769.jpg
+        deleted:    static/images/restored/1290239.jpg
+        deleted:    static/images/restored/1291817.jpg
+        deleted:    static/images/restored/1292371.jpg
+        deleted:    static/images/restored/1CGPLEN100320RICHARDLEONARD001JPG.jpg
+        deleted:    static/images/restored/2020-The-Majority-Year-in-Review.jpg 
+        deleted:    static/images/restored/20200606BRD0010.jpg
+        deleted:    static/images/restored/2JS197499439.jpg
+        deleted:    static/images/restored/301802440imagea311593431478250.jpg   
+        deleted:    static/images/restored/3JS212682588.jpg
+        deleted:    static/images/restored/5ed62e3862560-b25lY21zOjE2YzRkZDFmLWU2NjUtNDZmYi04ZjNkLTlkYmUzYmMxNTc3Zjo0NjQ5ODQ3MS0wZDVhLTRkZDctYWNkYy0wMWE5YjFkZDI4Yjg.jpg                                                                        
+        deleted:    static/images/restored/A-Matter-of-Gravity-3.jpg
+        deleted:    static/images/restored/A-Scotsmas-Carol.jpg
+        deleted:    static/images/restored/Abolish-Holyrood-Interview.jpg       
+        deleted:    static/images/restored/Abolish-Holyrood.jpg
+        deleted:    static/images/restored/Act-of-Union.jpg
+        deleted:    static/images/restored/All-Seeing-Eye.jpg
+        deleted:    static/images/restored/Andrew-Wilson-The-Intellectual.jpg   
+        deleted:    static/images/restored/Anti-Nationalists-are-the-Majority.jpg                                                                               
+        deleted:    static/images/restored/Anti-Unionist-Vaccine.jpg
+        deleted:    static/images/restored/Are-We-The-Baddies.jpg
+        deleted:    static/images/restored/Are-we-there-yet.jpg
+        deleted:    static/images/restored/Ban-Secession-Now-1.jpg
+        deleted:    static/images/restored/Be-The-Pig-Text.jpg
+        deleted:    static/images/restored/Beating-a-dead-horse.jpg
+        deleted:    static/images/restored/Beer-Garden.jpg
+        deleted:    static/images/restored/Better-together-Campigning.jpeg      
+        deleted:    static/images/restored/Bigger-Richer-Smarter.jpg
+        deleted:    static/images/restored/Billy-Connolly-1.jpg
+        deleted:    static/images/restored/Billy-Connolly.jpg
+        deleted:    static/images/restored/Blackford-in-Commons.jpg
+        deleted:    static/images/restored/Blame-Game.jpg
+        deleted:    static/images/restored/Boris-no-to-indyref.jpg
+        deleted:    static/images/restored/Brain-in-a-cage-header.jpg
+        deleted:    static/images/restored/Buchanan-Street-Glasgow.jpg
+        deleted:    static/images/restored/Buid-That-Wall.jpg
+        deleted:    static/images/restored/Burn-The-National-Fake-News.jpg      
+        deleted:    static/images/restored/COVID-Protestors-Glitch.jpg
+        deleted:    static/images/restored/Cabertosser.jpg
+        deleted:    static/images/restored/Campsie-Glen.png
+        deleted:    static/images/restored/Canadian-Separatists.jpg
+        deleted:    static/images/restored/Celtic-Yes-Supporters-e1592948713254.jpeg                                                                            
+        deleted:    static/images/restored/Charles-II.jpg
+        deleted:    static/images/restored/Citizens-Assembly.jpg
+        deleted:    static/images/restored/Clarity-signpost.jpg
+        deleted:    static/images/restored/Covid-Crisis-boost-Indy.png
+        deleted:    static/images/restored/Crab-on-the-shorejpg.jpg
+        deleted:    static/images/restored/David-Cameron-Black-e1620074021335.jpg                                                                               
+        deleted:    static/images/restored/David-Griffiths-A4A-ROundel-e1595984853592.jpg                                                                       
+        deleted:    static/images/restored/David-hume.jpg
+        deleted:    static/images/restored/Deep-Dark-Secrets.jpg
+        deleted:    static/images/restored/Demographics-isnt-Destiny.jpg        
+        deleted:    static/images/restored/Domino-Effect.jpg
+        deleted:    static/images/restored/Douglas-Ross-Apples-Oranges.jpg      
+        deleted:    static/images/restored/Douglas-Ross-Monty-Python-Run-Away-No-text.jpg                                                                       
+        deleted:    static/images/restored/Douglas-Ross-and-Family-1.jpg        
+        deleted:    static/images/restored/Dr-Jekyll-and-Indy-Hyde.jpg
+        deleted:    static/images/restored/Edinburgh-Agreement-NIcola-Sturgeon-Signature.jpg                                                                    
+        deleted:    static/images/restored/Empty-vessels-2.jpg
+        deleted:    static/images/restored/England-Out-Of-Scotland-Banner.jpg   
+        deleted:    static/images/restored/F-the-tories.png
+        deleted:    static/images/restored/Federaism-The-nationalist-worf-in-sheeps-clothing.jpg                                                                
+        deleted:    static/images/restored/Fingers-crossed-behind-back.jpeg     
+        deleted:    static/images/restored/Fishing-boat.jpg
+        deleted:    static/images/restored/Fragile-Header-2.jpg
+        deleted:    static/images/restored/From-Russia-Wih-Love.jpg
+        deleted:    static/images/restored/Fundraising-1-Wide.jpg
+        deleted:    static/images/restored/GOGO-Media-Ad-Van-Side-1-14-Years-of-Failure-Majority-Media-Limited.jpg                                              
+        deleted:    static/images/restored/Galloway-Clan-Chief.jpg
+        deleted:    static/images/restored/Galloway-Straight-Answers.jpg        
+        deleted:    static/images/restored/Galloway-Transcript.jpg
+        deleted:    static/images/restored/George-Galloway-Live.jpg
+        deleted:    static/images/restored/George-Galloway-New-Lanark.jpg       
+        deleted:    static/images/restored/George-Galloway-in-Ayr.jpg
+        deleted:    static/images/restored/George-Galloway.jpg
+        deleted:    static/images/restored/GettyImages1215549869scaled.jpg      
+        deleted:    static/images/restored/GettyImagesSNP.jpg
+        deleted:    static/images/restored/Giving-wings-the-boot.jpg
+        deleted:    static/images/restored/Greg-Smith-Chief-Medical-Officer.jpg 
+        deleted:    static/images/restored/Homer-Simpson-Parliament.jpg
+        deleted:    static/images/restored/Hostage.jpg
+        deleted:    static/images/restored/How-Nationalists-Manipulate-polls.jpg
+        deleted:    static/images/restored/Humza-Yousaf-before-the-Tsunami.png
+        deleted:    static/images/restored/Humza-Yousaf-mandate.jpg
+        deleted:    static/images/restored/I-dont-lIke-Mondays-e1616443410951.jpg                                                                               
+        deleted:    static/images/restored/Illegal-referendum.jpg
+        deleted:    static/images/restored/Independent-Dumfries-and-Galloway-Sign.jpg                                                                           
+        deleted:    static/images/restored/Jackson-Carlaw-pointing.jpg
+        deleted:    static/images/restored/Jamie-Blacket-e1605798166834.jpg     
+        deleted:    static/images/restored/Jamie-Blackett-Thumbs-Up.jpg
+        deleted:    static/images/restored/Jamies-Election-Diary-4.jpg
+        deleted:    static/images/restored/Jamies-Election-Diary-5.jpg
+        deleted:    static/images/restored/Jamies-Election-Diary-6.jpg
+        deleted:    static/images/restored/Jamies-Election-Diary.jpg
+        deleted:    static/images/restored/Janey-Godley-Bully.jpg
+        deleted:    static/images/restored/Jean-Freeman.jpg
+        deleted:    static/images/restored/Jenga-Tower-Falling.jpg
+        deleted:    static/images/restored/Kids-Parliament.jpg
+        deleted:    static/images/restored/Kier-Hardie-Union-Flag.jpg
+        deleted:    static/images/restored/KimJongNicola.png
+        deleted:    static/images/restored/Lady-Macbeth-Sturgeon-Final.jpg      
+        deleted:    static/images/restored/Leslie-Evans-Knee-BLM-1.jpg
+        deleted:    static/images/restored/Leslie-Evans-Knee-BLM.jpg
+        deleted:    static/images/restored/Lost.jpg
+        deleted:    static/images/restored/Man-in-church.jpg
+        deleted:    static/images/restored/Mary-Devlin-A4U-Speech-Thumbnail-Small.jpg                                                                           
+        deleted:    static/images/restored/Michelle-Ballantyne-Nigel-Farage-Reform-Party-Scotland.jpg                                                           
+        deleted:    static/images/restored/NINTCHDBPICT000561547942-scaled.jpg  
+        deleted:    static/images/restored/National-Monument-Calton_Hil-Edinburgh.jpg                                                                           
+        deleted:    static/images/restored/Nationalist-Rhapsody.jpg
+        deleted:    static/images/restored/Nicola-Five-Failures-Cover.jpg       
+        deleted:    static/images/restored/Nicola-FootRub-Flag.jpg
+        deleted:    static/images/restored/Nicola-Sturgeon-Control-Freak.jpg    
+        deleted:    static/images/restored/Nicola-Sturgeon-piloting-the-SNP-Express.jpg                                                                         
+        deleted:    static/images/restored/Nicola-in-Mirror.jpg
+        deleted:    static/images/restored/Nicolas-Book-Club-Cover.jpg
+        deleted:    static/images/restored/Orwell-atrocities.jpg
+        deleted:    static/images/restored/PA25574543.jpg
+        deleted:    static/images/restored/Peoples-Front-of-Caledonai.jpg       
+        deleted:    static/images/restored/Pier-bagpiers.jpg
+        deleted:    static/images/restored/Piggy-Bank.jpg
+        deleted:    static/images/restored/Pincer-Movement.jpg
+        deleted:    static/images/restored/Potemkin-Sturgeon-Header.jpg
+        deleted:    static/images/restored/Premiereship.jpg
+        deleted:    static/images/restored/Puerto-Rico.jpg
+        deleted:    static/images/restored/Pulling-Down-Sturgeons-Statue-3.jpg  
+        deleted:    static/images/restored/RUxNODcyOTA3MDc-scaled.jpg
+        deleted:    static/images/restored/Rabbit-in-hat-header.jpg
+        deleted:    static/images/restored/Rat-in-a-corner.jpg
+        deleted:    static/images/restored/Reasons-to-be-Cheerful.jpg
+        deleted:    static/images/restored/Richard-Leonard-Brigadoon-cropped.jpg
+        deleted:    static/images/restored/Rip-Van-Winkle-Header.jpg
+        deleted:    static/images/restored/Robert-Hugh-Thumbnail.jpg
+        deleted:    static/images/restored/SNP-Councils-are-rubbish-Twitter-2-.jpg                                                                              
+        deleted:    static/images/restored/Salmond-IM-Jolly-Majority.jpg        
+        deleted:    static/images/restored/Salmond-Sturgeon-Boxing.jpg
+        deleted:    static/images/restored/Salmond-Sturgeon-stake-through-heart.jpg                                                                             
+        deleted:    static/images/restored/Salmond-Sturgeon.jpg
+        deleted:    static/images/restored/Salmond.jpg
+        deleted:    static/images/restored/Sarah-Smith.jpg
+        deleted:    static/images/restored/Scapegoat.jpg
+        deleted:    static/images/restored/Scexit-Files-Mummy.jpg
+        deleted:    static/images/restored/Scexit-Files-Sex-itjpg.jpg
+        deleted:    static/images/restored/Scotland-Map.jpg
+        deleted:    static/images/restored/Scotland-Matters-Poll-93-Vote-Tactically-.jpg                                                                        
+        deleted:    static/images/restored/Scotland-Needs-work.jpg
+        deleted:    static/images/restored/Scotlands-Devolution-Disaster-Final.jpg                                                                              
+        deleted:    static/images/restored/Scotlands-Devolution-Disaster-Part-2-Power-Grabs-Waste-Scandal.jpg                                                   
+        deleted:    static/images/restored/Scotlands-Devolution-Disaster-Part-3-Reform-or-Abolish.jpg                                                           
+        deleted:    static/images/restored/Scottish-Gnome.jpg
+        deleted:    static/images/restored/Scottish-School-Despair.jpg
+        deleted:    static/images/restored/Scottish-Separatist-Independence-Cult-scaled.jpg                                                                     
+        deleted:    static/images/restored/ScottishLabour.jpg
+        deleted:    static/images/restored/Shadow-salute-Remembrance.jpg        
+        deleted:    static/images/restored/Shooting-yourself-in-the-foot.jpg    
+        deleted:    static/images/restored/Socialist-Republic-of-Scotland.jpg   
+        deleted:    static/images/restored/Stop-Wasting-Our-Money-Fire-Full-size.jpg                                                                            
+        deleted:    static/images/restored/Stop-lying-about-GERS.jpg
+        deleted:    static/images/restored/Stuck-with-devolution-chains.jpg     
+        deleted:    static/images/restored/Sturgeo-covid.jpg
+        deleted:    static/images/restored/Sturgeon-Aged.jpg
+        deleted:    static/images/restored/Sturgeon-Corona.jpg
+        deleted:    static/images/restored/Sturgeon-Leadership-Famine-Edinburgh-burning.jpg                                                                     
+        deleted:    static/images/restored/Sturgeon-Sinn-Fein.jpg
+        deleted:    static/images/restored/Sturgeon-Stay-at-Home.jpg
+        deleted:    static/images/restored/Sturgeon.jpg
+        deleted:    static/images/restored/Sturgeons-Stepping-Stones.jpg        
+        deleted:    static/images/restored/Sun-Tzu-Golden-Bridge.jpg
+        deleted:    static/images/restored/Sunak-Sturgeon.jpg
+        deleted:    static/images/restored/Tactical-voting.jpg
+        deleted:    static/images/restored/The-Biggest-SNP-Losers.jpg
+        deleted:    static/images/restored/The-Golden-Grievance-Battle.jpg      
+        deleted:    static/images/restored/The-Lives-of-Others.jpg
+        deleted:    static/images/restored/The-Majority-Ad-Van-Side-Slide-1-Believe.jpg                                                                         
+        deleted:    static/images/restored/The-Majority-Resign-Sturgeon-2023-campaign.jpg                                                                       
+        deleted:    static/images/restored/The-Majority-Resign-Sturgeon-Final.jpg                                                                               
+        deleted:    static/images/restored/The-Majority-Show-Ad-Mary.jpg        
+        deleted:    static/images/restored/The-Majority-Where-We-Stand.jpg      
+        deleted:    static/images/restored/The-National-Bully-the-Majoritys-Writers.png                                                                         
+        deleted:    static/images/restored/The-National-Indy-Myths-Fake-news-Newsquest.jpg                                                                      
+        deleted:    static/images/restored/The-SNPs-Rusty-bike-.jpg
+        deleted:    static/images/restored/The-Silent-Majority.jpg
+        deleted:    static/images/restored/The-Thin-Red-Line.jpg
+        deleted:    static/images/restored/The-quest.jpg
+        deleted:    static/images/restored/There-is-no-Union-Dividend.jpg       
+        deleted:    static/images/restored/This-is-fine.jpg
+        deleted:    static/images/restored/Time-Appeasement-Division.jpg        
+        deleted:    static/images/restored/Tory-Scum-Out-1.jpg
+        deleted:    static/images/restored/Trojan-horse.jpg
+        deleted:    static/images/restored/Trump-Make-Scotland-Independent-Again.jpg                                                                            
+        deleted:    static/images/restored/Update.jpg
+        deleted:    static/images/restored/Upset-doctor-and-nurse.jpg
+        deleted:    static/images/restored/Useful-Idiots-1.jpg
+        deleted:    static/images/restored/Vote-Indy-Get-Tory.jpg
+        deleted:    static/images/restored/Walter-Scott-Got-His-Head-Chopped-Off.jpg                                                                            
+        deleted:    static/images/restored/Welcome-To-Albania.jpg
+        deleted:    static/images/restored/Whataboutery.jpg
+        deleted:    static/images/restored/When-leaders-lie.jpg
+        deleted:    static/images/restored/When.jpg
+        deleted:    static/images/restored/Where-are-our-leaders-thumbnail-wide.jpg                                                                             
+        deleted:    static/images/restored/Whirlpool.jpeg
+        deleted:    static/images/restored/Who-Wants-Devolution.jpg
+        deleted:    static/images/restored/Wings-Over-Scotland-RIP.jpg
+        deleted:    static/images/restored/Wings-UDI-and-Taylor-Swift.jpg       
+        deleted:    static/images/restored/You-wont-be-welcome-in-Scotland.png  
+        deleted:    static/images/restored/Zombie-Hordes.jpg
+        deleted:    static/images/restored/airport.png
+        deleted:    static/images/restored/b25lY21zOjEyODk2MGI0LTU4NDEtNDkwNS04MjA5LTA3YjgyNjkzMDU0ZDo2ZTVkNTE4MC0zNTgyLTQyZTktODI1My00YmU5OWJmYzI2ZjQ.jpg      
+        deleted:    static/images/restored/b25lY21zOjFiMThmMjg0LWVhZDgtNDRiNy1hYjE5LWFhMmE3ZGI3NTJmNDo0OGJlODk4OS1hYjdlLTQwZDMtYjM0Zi1jNTY5ZjBjYzhiYWE.jpg      
+        deleted:    static/images/restored/biscuitfactory.png
+        deleted:    static/images/restored/boris-johnson.jpg
+        deleted:    static/images/restored/care-home.jpg
+        deleted:    static/images/restored/edinburgh-childrens-hospital-1.jpg   
+        deleted:    static/images/restored/gettyimages875682364.jpg
+        deleted:    static/images/restored/hospital.jpg
+        deleted:    static/images/restored/humza-yousaf.jpg
+        deleted:    static/images/restored/img4978.jpg
+        deleted:    static/images/restored/indyref-batman.jpg
+        deleted:    static/images/restored/kc26327jpgJS273166625-scaled.jpg     
+        deleted:    static/images/restored/livingstone.png
+        deleted:    static/images/restored/meme-definition.jpg
+        deleted:    static/images/restored/nicola-sturgeon-glasgow-rally.jpg    
+        deleted:    static/images/restored/patel.jpg
+        deleted:    static/images/restored/pjimage20200604T170448.375.jpg       
+        deleted:    static/images/restored/police-on-fire.jpg
+        deleted:    static/images/restored/scotland-1166192_1920.jpg
+        deleted:    static/images/restored/screenshot20200506at12.34.04.png     
+        deleted:    static/images/restored/social-distanced-schoolchildren.jpg  
+        deleted:    static/images/restored/sturgeon1.jpg
+        deleted:    static/images/restored/tobermory.jpg
+        deleted:    static/images/restored/tory-scum-out.jpg
+        modified:   themes/majority/layouts/_default/baseof.html
+        modified:   themes/majority/layouts/partials/header.html
+        modified:   themes/majority/static/css/style.css
+        deleted:    update-hugo.ps1
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+        .cursorindexingignore
+        .github/workflows/kinsta-deploy.yml
+        .specstory/
+        _site/articles/index.html
+        _site/images/favicon.svg
+        _site/images/featured/
+        static/images/featured/
+        themes/majority/static/images/favicon.svg
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Staging all changes, then committing and pushing:
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git add -A</summary>
+
+```bash
+git add -A
+```
+
+```
+PS C:\Users\spark\OneDrive\Desktop\DEV\static-sites&gt; git add -A
+warning: in the working copy of &#39;_site/about/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                              
+warning: in the working copy of &#39;_site/articles/#resignsturgeon-campaign-launches-across-scotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                         
+warning: in the working copy of &#39;_site/articles/14-years-of-failure.-get-them-out.-#votetactical/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                          
+warning: in the working copy of &#39;_site/articles/87-years-of-failure/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/93-of-no-voters-back-tactical-voting-to-beat-the-snp/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                      
+warning: in the working copy of &#39;_site/articles/a-british-premiership-its-a-match-winner/index.html&#39;, LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of &#39;_site/articles/a-deadly-virus/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/articles/a-lose-lose-proposition/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/a-matter-of-gravity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/a-scotsmas-carol/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/a-week-is-a-long-time-in-politics/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/a-wounded-and-desperate-party/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/after-the-earthquake-a-tsunami/index.html&#39;, LF will be replaced by CRLF the next time Git touches it            
+warning: in the working copy of &#39;_site/articles/all-under-one-braincell/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/an-act-of-clarity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/an-alliance-for-unity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/an-empty-vessel/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/articles/an-update-from-the-majority/index.html&#39;, LF will be replaced by CRLF the next time Git touches it               
+warning: in the working copy of &#39;_site/articles/andrews-road-to-nowhere/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/apples-and-oranges/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/are-we-the-baddies/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/at-home-with-the-macbeths/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/be-the-pig-a-primer-on-how-to-fight-nationalists/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                          
+warning: in the working copy of &#39;_site/articles/beware-strangers-bearing-gifts/index.html&#39;, LF will be replaced by CRLF the next time Git touches it            
+warning: in the working copy of &#39;_site/articles/bienvenido-a-la-unión/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/bigger.-richer.-smarter/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/boot-this-homer-simpson-parliament/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/breaking-up-the-uk-is-not-a-respectable-cause/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                             
+warning: in the working copy of &#39;_site/articles/budget-shock-for-rip-van-mcwinkle/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/cabertosser-to-the-rescue/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/calexenophobia/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/articles/camerons-folly/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/articles/citizens-theatre/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/clipped-wings/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/articles/control-freakery/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/deep-dark-secrets/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/devolution-has-failed-abolish-holyrood/index.html&#39;, LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of &#39;_site/articles/disgusted-of-prestonpans/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                  
+warning: in the working copy of &#39;_site/articles/douglas-ross-a-leader-i-believe-in/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/fake-tweets-dubious-hires-and-anti-english-hate-theres-a-cancer-at-newsquest/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                              
+warning: in the working copy of &#39;_site/articles/federalism-the-nationalist-wolf-in-sheeps-clothing/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                        
+warning: in the working copy of &#39;_site/articles/fish-chips-and-tactical-votes/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/five-more-ways-nicola-sturgeon-has-failed-scotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                        
+warning: in the working copy of &#39;_site/articles/five-out-of-ten-health-experts-slam-sturgeons-covid-response/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                              
+warning: in the working copy of &#39;_site/articles/five-times-scottish-nationalists-bullied-the-media/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                        
+warning: in the working copy of &#39;_site/articles/flogging-a-dead-horse/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/fragile/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/articles/freedom-for-galloway/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/from-russia-with-love/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/galloway-salmonds-fat-arse-bun-fights-at-the-ok-corral-and-the-mother-of-all-scandals/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/articles/galloway-straight-answers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/galloway-the-snp-framed-salmond/index.html&#39;, LF will be replaced by CRLF the next time Git touches it           
+warning: in the working copy of &#39;_site/articles/galloway-three-reasons-against-separation/index.html&#39;, LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of &#39;_site/articles/hail-to-the-chief-gorgeous-george/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/help-us-build-a-strong-anti-nationalist-media/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                             
+warning: in the working copy of &#39;_site/articles/i-dont-like-mondays/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/if-scotland-votes-yes/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/if-separation-is-so-great-why-must-you-lie-about-it/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                       
+warning: in the working copy of &#39;_site/articles/illegal-referendums-r-us/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                  
+warning: in the working copy of &#39;_site/articles/in-search-of-the-golden-grievance/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/independence-is-dead/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/irelands-past-is-not-scotlands-future/index.html&#39;, LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of &#39;_site/articles/it-is-written-westminster-is-the-uks-sovereign-parliament/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                 
+warning: in the working copy of &#39;_site/articles/its-a-love-story-baby-just-say-yes/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/john-mortimer-its-time-to-abolish-holyrood/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of &#39;_site/articles/jolly-scottianity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/leaks-tory-shenanigans-and-cows/index.html&#39;, LF will be replaced by CRLF the next time Git touches it           
+warning: in the working copy of &#39;_site/articles/lets-annoy-the-english/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/articles/lets-talk-about-george/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/articles/losing-the-narrative/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/mac-lives-matter/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/make-scotland-independent-again/index.html&#39;, LF will be replaced by CRLF the next time Git touches it           
+warning: in the working copy of &#39;_site/articles/ministers-hail-anti-union-vaccine/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/my-journey-to-alliance-for-unity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it          
+warning: in the working copy of &#39;_site/articles/nicola-close-the-glasgow-and-lanarkshire-borders-now/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                      
+warning: in the working copy of &#39;_site/articles/nicola-sturgeon-bigotry-in-a-smart-suit/index.html&#39;, LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of &#39;_site/articles/nicola-sturgeon-is-socially-distancing-herself-from-scottish-parents/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                      
+warning: in the working copy of &#39;_site/articles/nicola-sturgeons-five-biggest-failures/index.html&#39;, LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of &#39;_site/articles/nicolas-book-club/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/nicolas-fake-economy/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/nordic-dreams-on-the-road-to-belarus/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/articles/oh-canada/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/articles/old-macdonald-had-a-scapegoat/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/on-yer-bike/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/articles/our-response-to-the-national-bullying-and-intimidating-our-writers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                        
+warning: in the working copy of &#39;_site/articles/pincer-movement/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/articles/polls-insults-and-manifestos/index.html&#39;, LF will be replaced by CRLF the next time Git touches it              
+warning: in the working copy of &#39;_site/articles/power-grabs-waste-scandal/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/pull-up.-pull-up/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/reasons-to-be-cheerful/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/articles/reform-or-abolish/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/religion-should-guide-not-divide/index.html&#39;, LF will be replaced by CRLF the next time Git touches it          
+warning: in the working copy of &#39;_site/articles/run-away-run-away/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/salmond-nicola-needed-a-stake-through-my-heart/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                            
+warning: in the working copy of &#39;_site/articles/salmond-scotgovs-document-withholding-is-contempt-of-court/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                
+warning: in the working copy of &#39;_site/articles/scexit-means-sex-it/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/scotlands-devolution-disaster/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/scotlands-lost-socialists/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/self-hating-scots-urged-to-belt-up/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/sex-toys-imposters-and-warm-receptions/index.html&#39;, LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of &#39;_site/articles/shoot-yourself-in-the-foot.-repeat/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/six-things-the-conservatives-need-to-do-now/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                               
+warning: in the working copy of &#39;_site/articles/six-ways-nationalists-manipulate-polls/index.html&#39;, LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of &#39;_site/articles/standing-up-for-scottish-business/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/stop-lying-about-gers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/stop-lying-demographics-isnt-destiny/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/articles/stop-the-neverendum-ban-secession-now/index.html&#39;, LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of &#39;_site/articles/sturgeons-leadership-failures-brought-to-book/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                             
+warning: in the working copy of &#39;_site/articles/sturgeons-stepping-stones/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/articles/sunak-skelps-the-nationalists/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/tactical-voting-2021-the-basics/index.html&#39;, LF will be replaced by CRLF the next time Git touches it           
+warning: in the working copy of &#39;_site/articles/the-all-seeing-eye/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/the-biggest-losers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/the-campaign-starts/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/the-choice-civilization-or-the-tribe/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/articles/the-collective-narcissism-of-myscotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of &#39;_site/articles/the-cult-of-st.-nicola/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/articles/the-dishonesty-of-nationalist-memes/index.html&#39;, LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of &#39;_site/articles/the-domino-effect/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/the-gardening-section/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/the-golden-bridge/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/the-great-education-blame-game/index.html&#39;, LF will be replaced by CRLF the next time Git touches it            
+warning: in the working copy of &#39;_site/articles/the-irony-of-scottish-independence/index.html&#39;, LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of &#39;_site/articles/the-kids-are-not-alright/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                  
+warning: in the working copy of &#39;_site/articles/the-lie-that-wont-die/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/the-lies-that-fan-the-flames/index.html&#39;, LF will be replaced by CRLF the next time Git touches it              
+warning: in the working copy of &#39;_site/articles/the-magic-is-gone/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/the-majority-2020-in-review/index.html&#39;, LF will be replaced by CRLF the next time Git touches it               
+warning: in the working copy of &#39;_site/articles/the-majority-launches-crowdfunded-#resignsturgeon-billboards-in-glasgow-and-edinburgh/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/articles/the-majority-launches-snp-councils-are-rubbish-crowdfunded-billboard-campaign/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                             
+warning: in the working copy of &#39;_site/articles/the-majority-launches-stop-wasting-our-time-money-bin-your-pretendyref-crowdfunded-billboard-campaign/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/the-majority-show/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/the-majority-view-open-our-beer-gardens/index.html&#39;, LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of &#39;_site/articles/the-moral-low-ground/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/the-mummy-returns/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/the-neverendum-is-killing-scottish-jobs/index.html&#39;, LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of &#39;_site/articles/the-old-scots-parliament-as-crooked-as-the-new-one/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                        
+warning: in the working copy of &#39;_site/articles/the-peoples-front-of-caledonia/index.html&#39;, LF will be replaced by CRLF the next time Git touches it            
+warning: in the working copy of &#39;_site/articles/the-pied-bagpipers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/the-scottish-empire-an-inconvenient-truth/index.html&#39;, LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of &#39;_site/articles/the-silent-majority/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/the-snp-has-failed-our-doctors/index.html&#39;, LF will be replaced by CRLF the next time Git touches it            
+warning: in the working copy of &#39;_site/articles/the-snp-has-never-had-a-mandate/index.html&#39;, LF will be replaced by CRLF the next time Git touches it           
+warning: in the working copy of &#39;_site/articles/the-snp-has-no-respect-for-democracy/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/articles/the-snps-dangerous-referendum-fantasies-must-be-stopped/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                   
+warning: in the working copy of &#39;_site/articles/the-snps-orwellian-outrage/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                
+warning: in the working copy of &#39;_site/articles/the-strange-case-of-dr-heckle-and-indy-hyde/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                               
+warning: in the working copy of &#39;_site/articles/the-tide-has-turned/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/articles/the-ulsterisation-of-scotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/articles/the-uncomfortable-power-of-precedent/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/articles/the-war-on-your-thoughts/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                  
+warning: in the working copy of &#39;_site/articles/there-is-no-union-dividend/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                
+warning: in the working copy of &#39;_site/articles/this-law-is-an-ass/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/this-tower-will-fall/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/three-reasons-reform-uk-scotland-will-fail/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of &#39;_site/articles/tis-but-a-scratch/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/twilight-of-the-idols/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/untrue-faith/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/articles/useful-idiots/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/articles/vote-indy-get-tory/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/vote-snp-or-else/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/wanted-a-worthy-opponent-to-nicola-sturgeon/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                               
+warning: in the working copy of &#39;_site/articles/we-are-not-stuck-with-devolution/index.html&#39;, LF will be replaced by CRLF the next time Git touches it          
+warning: in the working copy of &#39;_site/articles/we-dont-believe-you-nicola/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                
+warning: in the working copy of &#39;_site/articles/we-will-remember-them/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/welcome-to-albania/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/articles/what-about-labour/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/articles/what-about-whataboutery/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/what-happened-to-the-abolish-holyrood-party/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                                               
+warning: in the working copy of &#39;_site/articles/what-have-we-done-to-deserve-this/index.html&#39;, LF will be replaced by CRLF the next time Git touches it         
+warning: in the working copy of &#39;_site/articles/when-leaders-lie/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/articles/when-will-we-ever-learn/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/when/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/articles/where-are-our-leaders/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/where-we-stand/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/articles/wheres-my-apology-janey/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/who-wants-devolution/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/why-im-not-a-unionist/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/articles/will-ye-go-laddie-go/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                      
+warning: in the working copy of &#39;_site/articles/wings-over-scotland-rip/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/articles/would-you-like-a-foot-rub-too-nicola/index.html&#39;, LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of &#39;_site/authors/allansutherland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/authors/andywebb/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/authors/angusbarrett/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/authors/arthurkeith/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/authors/brucehalliday/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/authors/damien.scott/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/authors/davidgriffiths/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/authors/emdeblu/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/authors/georgegalloway/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/authors/hoski67/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/authors/ianmitchell/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/authors/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                            
+warning: in the working copy of &#39;_site/authors/jamesbundy/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/authors/jamieblackett/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/authors/johnmortimer/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/authors/jonstanley/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/authors/lindaholt999/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/authors/mateus06/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/authors/niallfraser/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/authors/robertkilgour/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/authors/stephenthomas/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/authors/tomgallagher/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/authors/tommikerr/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/abolish-holyrood-party/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                  
+warning: in the working copy of &#39;_site/categories/alan-sked/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/categories/alex-salmond-inquiry/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/categories/alex-salmond/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/alliance-for-unity/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/andrew-wilson/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/categories/brexit/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/campaigns/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/categories/civil-servants/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/commentary/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/categories/commentary/page/3/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/commentary/page/4/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/commentary/page/5/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/commentary/page/9/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/conservative/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/covid-19/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/categories/craig-murray/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/culture/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/categories/david-griffiths/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/categories/defence-amp-military/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/categories/douglas-ross/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/economy-amp-business/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/categories/education/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/categories/environment/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/fundraising/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/categories/george-galloway/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/hate-crimes-bill/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/categories/health/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/history/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/categories/how-to-fight/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/hugh-pennington/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/categories/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                         
+warning: in the working copy of &#39;_site/categories/indyref2/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/categories/international/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/interview/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/categories/jackson-carlaw/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/categories/jamie-blackett/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/jamies-election-diary/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/categories/janey-godley/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/jeane-freeman/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/john-mortimer/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/categories/john-swinney/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/kate-forbes/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/law-amp-policing/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/categories/linda-evans/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/mark-devlin---the-majority-publisher/index.html&#39;, LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of &#39;_site/categories/mary-devlin/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/categories/media/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/categories/michelle-ballantyne/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                     
+warning: in the working copy of &#39;_site/categories/mike-russell/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/monica-lennon/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/nicola-sturgeon/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/nigel-farage/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/categories/original-content/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/categories/overspending/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/page/2/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/3/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/4/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/5/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/6/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/7/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/page/8/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/categories/polls/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/categories/reform-party-scotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                   
+warning: in the working copy of &#39;_site/categories/regions/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/categories/religion/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/categories/richard-leonard/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/rishi-sunak/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/robert-kilgour/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/ruth-davidson/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/categories/scottish-green-party/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                    
+warning: in the working copy of &#39;_site/categories/scottish-nationalist-party/index.html&#39;, LF will be replaced by CRLF the next time Git touches it              
+warning: in the working copy of &#39;_site/categories/sport/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/categories/stephen-daisley/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/tactical-voting/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/categories/the-majority---press-release/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it             
+warning: in the working copy of &#39;_site/categories/the-majority-show/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/categories/the-majority-view/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/categories/the-majority/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/categories/the-scexit-files/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;_site/categories/the-scexit-files/page/2/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                 
+warning: in the working copy of &#39;_site/categories/us-election/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/categories/video-commentary/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                         
+warning: in the working copy of &#39;_site/categories/year-in-review/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/categories/zoomers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/css/style.css&#39;, LF will be replaced by CRLF the next time Git touches it                                                 
+warning: in the working copy of &#39;_site/donate-to-the-majority/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                                    
+warning: in the working copy of &#39;_site/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                                     
+warning: in the working copy of &#39;_site/newsletter-signup/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/posts/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                               
+warning: in the working copy of &#39;_site/posts/page/10/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/posts/page/15/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/posts/page/5/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/posts/page/6/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/posts/page/7/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/sitemap.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                                   
+warning: in the working copy of &#39;_site/tags/2021-scottish-elections/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/tags/abolish-holyrood/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/tags/abolishholyrood/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/alex-salmond-inquiry/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/tags/alister-jack/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/alliance-for-unity/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/tags/anas-sarwar/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/andrew-marr/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/angela-haggerty/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/angus-macneil/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/anti-english-hate/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/tags/anti-nationalist/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/tags/asda/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                           
+warning: in the working copy of &#39;_site/tags/bbc-scotland/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/bbc/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                            
+warning: in the working copy of &#39;_site/tags/bigotry/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/brexit/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                         
+warning: in the working copy of &#39;_site/tags/british-identity/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/tags/british-nationalist/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/tags/britnat/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/bullying/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/callum-baird/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/canada/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/christopher-mceleny/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/tags/colonialism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/counterfactual/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/cult/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                          
+warning: in the working copy of &#39;_site/tags/currency/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/cybernats/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/david-cameron/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/devloved-powers/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/tags/devolution/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/donald-martin-newsquest/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                       
+warning: in the working copy of &#39;_site/tags/donald-trump/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/douglas-ross/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/edinburgh-agreement/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/tags/edinburgh-sick-childrens#039-hospital/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it          
+warning: in the working copy of &#39;_site/tags/education/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/electoral-alliance/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/tags/fake-news/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/federalism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/gannett/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/general-election/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/tags/george-galloway/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/tags/george-orwell/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/gers/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                           
+warning: in the working copy of &#39;_site/tags/heath/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                          
+warning: in the working copy of &#39;_site/tags/henry-faure-walker/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/tags/history/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/humza-yousaf/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/independence/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                               
+warning: in the working copy of &#39;_site/tags/indyref2/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/intimidation/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/irish-republicanism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/tags/james-hamilton/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/janey-godley/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/jeane-freeman/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/jk-rowling/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/joe-biden/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/john-nicolson/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/john-swinney/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/karl-marx/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/keir-starmer/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/labour-2024/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/laffer-curve/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/manifesto/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/media/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                         
+warning: in the working copy of &#39;_site/tags/mike-reed/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/mission-statement/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                              
+warning: in the working copy of &#39;_site/tags/narcissism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/nationalism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/newsquest/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/nhs/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                            
+warning: in the working copy of &#39;_site/tags/nick-robinson/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/nicola-sturgeon/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/notes-on-nationalism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/tags/online-abuse/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/online-bullying/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/tags/online-harassment/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                             
+warning: in the working copy of &#39;_site/tags/page/10/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/page/11/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/page/12/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/page/13/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/page/2/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/3/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/4/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/5/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/6/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/7/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/8/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/page/9/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/partition/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/pete-wishart/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/peter-murrell/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/polling/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/polls/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                         
+warning: in the working copy of &#39;_site/tags/press-freedom/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/principles/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/psychology/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/quebec/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/racism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/remembrance-sunday/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/tags/ross-greer/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/sarah-smith/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                    
+warning: in the working copy of &#39;_site/tags/scexit/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/scotland-west/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/scottish-daily-mail/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                            
+warning: in the working copy of &#39;_site/tags/scottish-labour/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/tags/scottish-nationalism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/tags/secession/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/tags/sectarianism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/snp-arrests/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/social-media/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/sqa/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                           
+warning: in the working copy of &#39;_site/tags/stephen-daisley/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/sterlingisation/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                               
+warning: in the working copy of &#39;_site/tags/strategy/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/tactical-voting/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/tactics/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/taxation/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                       
+warning: in the working copy of &#39;_site/tags/the-great-barrington-declaration/index.html&#39;, LF will be replaced by CRLF the next time Git touches it              
+warning: in the working copy of &#39;_site/tags/the-sun/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/the-troubles/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/tim-luckhurst/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/tommy-sheppard/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/tags/trans-issues/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;_site/tags/unionism/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/unionist/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                      
+warning: in the working copy of &#39;_site/tags/us-politics/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                   
+warning: in the working copy of &#39;_site/tags/useful-idiots/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                 
+warning: in the working copy of &#39;_site/tags/welfare/index.xml&#39;, LF will be replaced by CRLF the next time Git touches it                                        
+warning: in the working copy of &#39;_site/tags/wings-over-scotland/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                           
+warning: in the working copy of &#39;_site/tags/yoon/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                          
+warning: in the working copy of &#39;_site/tags/zoom-chat/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                     
+warning: in the working copy of &#39;_site/thank-you-for-subscribing/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                          
+warning: in the working copy of &#39;_site/the-majority-show/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                  
+warning: in the working copy of &#39;themes/majority/layouts/_default/baseof.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;themes/majority/layouts/partials/header.html&#39;, LF will be replaced by CRLF the next time Git touches it                        
+warning: in the working copy of &#39;themes/majority/static/css/style.css&#39;, LF will be replaced by CRLF the next time Git touches it                                
+warning: in the working copy of &#39;_site/articles/index.html&#39;, LF will be replaced by CRLF the next time Git touches it                                           
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git status --short | Select-Object -First 20</summary>
+
+```bash
+git status --short | Select-Object -First 20
+```
+
+```
+A  .cursorindexingignore
+A  .github/workflows/kinsta-deploy.yml
+A  .specstory/.gitignore
+A  .specstory/history/2025-12-01_22-47Z-how-to-run-hugo.md
+A  .specstory/history/2025-12-01_22-56Z-remove-duplicate-articles-from-front-page.md                                                                            
+A  .specstory/history/2025-12-02_00-29Z-remove-posts-from-the-sidebar.md        
+A  .specstory/history/2025-12-02_00-55Z-search-feature-not-functioning.md       
+A  .specstory/history/2025-12-02_00-56Z-add-pagination-to-homepage-articles.md  
+A  .specstory/history/2025-12-02_00-56Z-fix-article-aspect-ratio-on-homepage.md 
+A  .specstory/history/2025-12-02_01-04Z-ensure-extracts-under-main-articles.md  
+A  .specstory/history/2025-12-02_01-24Z-finding-articles-in-the-majority-folder.md                                                                              
+A  .specstory/history/2025-12-02_01-32Z-adjust-front-page-design-elements.md    
+A  .specstory/history/2025-12-02_01-36Z-scottish-independence-discussions-and-opinions.md                                                                       
+A  .specstory/history/2025-12-02_01-40Z-find-image-for-independence-is-dead-article.md                                                                          
+A  .specstory/history/2025-12-02_01-40Z-resize-featured-images-to-1200x600.md   
+A  .specstory/history/2025-12-02_01-44Z-restore-missing-images-in-articles.md   
+A  .specstory/history/2025-12-02_01-48Z-adjust-header-sizes-and-capitalization.md                                                                               
+A  .specstory/history/2025-12-02_01-50Z-format-article-header-with-author-and-date.md                                                                           
+A  .specstory/history/2025-12-02_01-54Z-keep-text-size-consistent-on-devices.md 
+A  .specstory/history/2025-12-02_01-54Z-link-author-names-to-their-posts.md     
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git commit -m "Rename restored images directory to featured and remove non-production scripts"</summary>
+
+```bash
+git commit -m "Rename restored images directory to featured and remove non-production scripts"
+```
+
+```
+red images directory to featured and remove non-production scripts&quot;             
+[main e51eaca] Rename restored images directory to featured and remove non-production scripts                                                                   
+ 1249 files changed, 59474 insertions(+), 12226 deletions(-)
+ create mode 100644 .cursorindexingignore
+ create mode 100644 .github/workflows/kinsta-deploy.yml
+ create mode 100644 .specstory/.gitignore
+ create mode 100644 .specstory/history/2025-12-01_22-47Z-how-to-run-hugo.md     
+ create mode 100644 .specstory/history/2025-12-01_22-56Z-remove-duplicate-articles-from-front-page.md                                                           
+ create mode 100644 .specstory/history/2025-12-02_00-29Z-remove-posts-from-the-sidebar.md                                                                       
+ create mode 100644 .specstory/history/2025-12-02_00-55Z-search-feature-not-functioning.md                                                                      
+ create mode 100644 .specstory/history/2025-12-02_00-56Z-add-pagination-to-homepage-articles.md                                                                 
+ create mode 100644 .specstory/history/2025-12-02_00-56Z-fix-article-aspect-ratio-on-homepage.md                                                                
+ create mode 100644 .specstory/history/2025-12-02_01-04Z-ensure-extracts-under-main-articles.md                                                                 
+ create mode 100644 .specstory/history/2025-12-02_01-24Z-finding-articles-in-the-majority-folder.md                                                             
+ create mode 100644 .specstory/history/2025-12-02_01-32Z-adjust-front-page-design-elements.md                                                                   
+ create mode 100644 .specstory/history/2025-12-02_01-36Z-scottish-independence-discussions-and-opinions.md                                                      
+ create mode 100644 .specstory/history/2025-12-02_01-40Z-find-image-for-independence-is-dead-article.md                                                         
+ create mode 100644 .specstory/history/2025-12-02_01-40Z-resize-featured-images-to-1200x600.md                                                                  
+ create mode 100644 .specstory/history/2025-12-02_01-44Z-restore-missing-images-in-articles.md                                                                  
+ create mode 100644 .specstory/history/2025-12-02_01-48Z-adjust-header-sizes-and-capitalization.md                                                              
+ create mode 100644 .specstory/history/2025-12-02_01-50Z-format-article-header-with-author-and-date.md                                                          
+ create mode 100644 .specstory/history/2025-12-02_01-54Z-keep-text-size-consistent-on-devices.md                                                                
+ create mode 100644 .specstory/history/2025-12-02_01-54Z-link-author-names-to-their-posts.md                                                                    
+ create mode 100644 .specstory/history/2025-12-02_01-57Z-remove-html-tags-from-article-title.md                                                                 
+ create mode 100644 .specstory/history/2025-12-02_01-58Z-maintain-original-image-proportions.md                                                                 
+ create mode 100644 .specstory/history/2025-12-02_02-02Z-single-column-design-for-author-pages.md                                                               
+ create mode 100644 .specstory/history/2025-12-02_02-11Z-fix-article-header-formatting.md                                                                       
+ create mode 100644 .specstory/history/2025-12-02_02-17Z-put-script-code-in-sidebar.md                                                                          
+ create mode 100644 .specstory/history/2025-12-02_02-22Z-understanding-and-removing-article-prefixes.md                                                         
+ create mode 100644 .specstory/history/2025-12-02_02-24Z-commit-changes-and-push-to-remote.md                                                                   
+ create mode 100644 .specstory/history/2025-12-02_02-26Z-deployment-error-with-exit-code-1.md                                                                   
+ create mode 100644 .specstory/history/2025-12-02_03-30Z-remove-padding-between-header-and-article.md                                                           
+ create mode 100644 .specstory/history/2025-12-02_03-41Z-design-favicon-with-white-center-and-blue-arrow.md                                                     
+ create mode 100644 .specstory/history/2025-12-02_03-52Z-total-size-of-the-deployment.md                                                                        
+ create mode 100644 .specstory/history/2025-12-02_03-57Z-heading-font-size-specifications.md                                                                    
+ create mode 100644 .specstory/history/2025-12-02_03-59Z-find-article-about-abolish-holyrood-party.md                                                           
+ create mode 100644 .specstory/history/2025-12-02_04-04Z-remove-unwanted-characters-from-articles.md                                                            
+ create mode 100644 _site/articles/index.html
+ create mode 100644 _site/images/favicon.svg
+ rename {static/images/restored =&gt; _site/images/featured}/0CoronavirusWedJun32020.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/0CoronavirusWedMay272020.jpg (100%)                                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/0FILEScotlandsChiefMedicalOfficerResignsScotlandsFirstMinisterSturgeonGivesACoronavir.jpg (100%)      
+ rename {static/images/restored =&gt; _site/images/featured}/0JS2085378843.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/0JS212183276.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/0JS213189704.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/0LeslieEvansJPG.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/0NicolaSturgeon1248JPG.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/1028612816127396329343988751877535538956564n.jpg (100%)                                               
+ rename {static/images/restored =&gt; _site/images/featured}/1288769.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/1290239.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/1291817.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/1292371.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/1CGPLEN100320RICHARDLEONARD001JPG.jpg (100%)                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/2020-The-Majority-Year-in-Review.jpg (100%)                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/20200606BRD0010.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/2JS197499439.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/301802440imagea311593431478250.jpg (100%)                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/3JS212682588.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/5ed62e3862560-b25lY21zOjE2YzRkZDFmLWU2NjUtNDZmYi04ZjNkLTlkYmUzYmMxNTc3Zjo0NjQ5ODQ3MS0wZDVhLTRkZDctYWNkYy0wMWE5YjFkZDI4Yjg.jpg (100%)                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/A-Matter-of-Gravity-3.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/A-Scotsmas-Carol.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Abolish-Holyrood-Interview.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/Abolish-Holyrood.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Act-of-Union.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/All-Seeing-Eye.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Andrew-Wilson-The-Intellectual.jpg (100%)                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Anti-Nationalists-are-the-Majority.jpg (100%)                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Anti-Unionist-Vaccine.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Are-We-The-Baddies.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Are-we-there-yet.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Ban-Secession-Now-1.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Be-The-Pig-Text.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Beating-a-dead-horse.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Beer-Garden.jpg (100%)
+ rename {static/images/restored =&gt; _site/images/featured}/Better-together-Campigning.jpeg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/Bigger-Richer-Smarter.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Billy-Connolly-1.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Billy-Connolly.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Blackford-in-Commons.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Blame-Game.jpg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Boris-no-to-indyref.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Brain-in-a-cage-header.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Buchanan-Street-Glasgow.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Buid-That-Wall.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Burn-The-National-Fake-News.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/COVID-Protestors-Glitch.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Cabertosser.jpg (100%)
+ rename {static/images/restored =&gt; _site/images/featured}/Campsie-Glen.png (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Canadian-Separatists.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Celtic-Yes-Supporters-e1592948713254.jpeg (100%)                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Charles-II.jpg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Citizens-Assembly.jpg (100%)                                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/Clarity-signpost.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Covid-Crisis-boost-Indy.png (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Crab-on-the-shorejpg.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/David-Cameron-Black-e1620074021335.jpg (100%)                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/David-Griffiths-A4A-ROundel-e1595984853592.jpg (100%)                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/David-hume.jpg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Deep-Dark-Secrets.jpg (100%)                                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/Demographics-isnt-Destiny.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Domino-Effect.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Douglas-Ross-Apples-Oranges.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/Douglas-Ross-Monty-Python-Run-Away-No-text.jpg (100%)                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/Douglas-Ross-and-Family-1.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Dr-Jekyll-and-Indy-Hyde.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Edinburgh-Agreement-NIcola-Sturgeon-Signature.jpg (100%)                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Empty-vessels-2.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/England-Out-Of-Scotland-Banner.jpg (100%)                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/F-the-tories.png (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Federaism-The-nationalist-worf-in-sheeps-clothing.jpg (100%)                                          
+ rename {static/images/restored =&gt; _site/images/featured}/Fingers-crossed-behind-back.jpeg (100%)                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Fishing-boat.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Fragile-Header-2.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/From-Russia-Wih-Love.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Fundraising-1-Wide.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/GOGO-Media-Ad-Van-Side-1-14-Years-of-Failure-Majority-Media-Limited.jpg (100%)                        
+ rename {static/images/restored =&gt; _site/images/featured}/Galloway-Clan-Chief.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Galloway-Straight-Answers.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Galloway-Transcript.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/George-Galloway-Live.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/George-Galloway-New-Lanark.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/George-Galloway-in-Ayr.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/George-Galloway.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/GettyImages1215549869scaled.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/GettyImagesSNP.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Giving-wings-the-boot.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Greg-Smith-Chief-Medical-Officer.jpg (100%)                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Homer-Simpson-Parliament.jpg (100%)                                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/Hostage.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/How-Nationalists-Manipulate-polls.jpg (100%)                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/Humza-Yousaf-before-the-Tsunami.png (100%)                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Humza-Yousaf-mandate.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/I-dont-lIke-Mondays-e1616443410951.jpg (100%)                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Illegal-referendum.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Independent-Dumfries-and-Galloway-Sign.jpg (100%)                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Jackson-Carlaw-pointing.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Jamie-Blacket-e1605798166834.jpg (100%)                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Jamie-Blackett-Thumbs-Up.jpg (100%)                                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/Jamies-Election-Diary-4.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Jamies-Election-Diary-5.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Jamies-Election-Diary-6.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Jamies-Election-Diary.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Janey-Godley-Bully.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Jean-Freeman.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Jenga-Tower-Falling.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Kids-Parliament.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Kier-Hardie-Union-Flag.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/KimJongNicola.png (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Lady-Macbeth-Sturgeon-Final.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/Leslie-Evans-Knee-BLM-1.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Leslie-Evans-Knee-BLM.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Lost.jpg (100%)       
+ rename {static/images/restored =&gt; _site/images/featured}/Man-in-church.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Mary-Devlin-A4U-Speech-Thumbnail-Small.jpg (100%)                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Michelle-Ballantyne-Nigel-Farage-Reform-Party-Scotland.jpg (100%)                                     
+ rename {static/images/restored =&gt; _site/images/featured}/NINTCHDBPICT000561547942-scaled.jpg (100%)                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/National-Monument-Calton_Hil-Edinburgh.jpg (100%)                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Nationalist-Rhapsody.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Nicola-Five-Failures-Cover.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/Nicola-FootRub-Flag.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Nicola-Sturgeon-Control-Freak.jpg (100%)                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Nicola-Sturgeon-piloting-the-SNP-Express.jpg (100%)                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/Nicola-in-Mirror.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Nicolas-Book-Club-Cover.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Orwell-atrocities.jpg (100%)                                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/PA25574543.jpg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Peoples-Front-of-Caledonai.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/Pier-bagpiers.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Piggy-Bank.jpg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Pincer-Movement.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Potemkin-Sturgeon-Header.jpg (100%)                                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/Premiereship.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Puerto-Rico.jpg (100%)
+ rename {static/images/restored =&gt; _site/images/featured}/Pulling-Down-Sturgeons-Statue-3.jpg (100%)                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/RUxNODcyOTA3MDc-scaled.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Rabbit-in-hat-header.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Rat-in-a-corner.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Reasons-to-be-Cheerful.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Richard-Leonard-Brigadoon-cropped.jpg (100%)                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/Rip-Van-Winkle-Header.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Robert-Hugh-Thumbnail.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/SNP-Councils-are-rubbish-Twitter-2-.jpg (100%)                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Salmond-IM-Jolly-Majority.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Salmond-Sturgeon-Boxing.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Salmond-Sturgeon-stake-through-heart.jpg (100%)                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Salmond-Sturgeon.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/Salmond.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/Sarah-Smith.jpg (100%)
+ rename {static/images/restored =&gt; _site/images/featured}/Scapegoat.jpg (100%)  
+ rename {static/images/restored =&gt; _site/images/featured}/Scexit-Files-Mummy.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Scexit-Files-Sex-itjpg.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Scotland-Map.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Scotland-Matters-Poll-93-Vote-Tactically-.jpg (100%)                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Scotland-Needs-work.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Scotlands-Devolution-Disaster-Final.jpg (100%)                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/Scotlands-Devolution-Disaster-Part-2-Power-Grabs-Waste-Scandal.jpg (100%)                             
+ rename {static/images/restored =&gt; _site/images/featured}/Scotlands-Devolution-Disaster-Part-3-Reform-or-Abolish.jpg (100%)                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Scottish-Gnome.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Scottish-School-Despair.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Scottish-Separatist-Independence-Cult-scaled.jpg (100%)                                               
+ rename {static/images/restored =&gt; _site/images/featured}/ScottishLabour.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Shadow-salute-Remembrance.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Shooting-yourself-in-the-foot.jpg (100%)                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Socialist-Republic-of-Scotland.jpg (100%)                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Stop-Wasting-Our-Money-Fire-Full-size.jpg (100%)                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Stop-lying-about-GERS.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Stuck-with-devolution-chains.jpg (100%)                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeo-covid.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon-Aged.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon-Corona.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon-Leadership-Famine-Edinburgh-burning.jpg (100%)                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon-Sinn-Fein.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon-Stay-at-Home.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeon.jpg (100%)   
+ rename {static/images/restored =&gt; _site/images/featured}/Sturgeons-Stepping-Stones.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Sun-Tzu-Golden-Bridge.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Sunak-Sturgeon.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/Tactical-voting.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/The-Biggest-SNP-Losers.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/The-Golden-Grievance-Battle.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/The-Lives-of-Others.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/The-Majority-Ad-Van-Side-Slide-1-Believe.jpg (100%)                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/The-Majority-Resign-Sturgeon-2023-campaign.jpg (100%)                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/The-Majority-Resign-Sturgeon-Final.jpg (100%)                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/The-Majority-Show-Ad-Mary.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/The-Majority-Where-We-Stand.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/The-National-Bully-the-Majoritys-Writers.png (100%)                                                   
+ rename {static/images/restored =&gt; _site/images/featured}/The-National-Indy-Myths-Fake-news-Newsquest.jpg (100%)                                                
+ rename {static/images/restored =&gt; _site/images/featured}/The-SNPs-Rusty-bike-.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/The-Silent-Majority.jpg (100%)                                                                        
+ rename {static/images/restored =&gt; _site/images/featured}/The-Thin-Red-Line.jpg (100%)                                                                          
+ rename {static/images/restored =&gt; _site/images/featured}/The-quest.jpg (100%)  
+ rename {static/images/restored =&gt; _site/images/featured}/There-is-no-Union-Dividend.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/This-is-fine.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Time-Appeasement-Division.jpg (100%)                                                                  
+ rename {static/images/restored =&gt; _site/images/featured}/Tory-Scum-Out-1.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Trojan-horse.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/Trump-Make-Scotland-Independent-Again.jpg (100%)                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Update.jpg (100%)     
+ rename {static/images/restored =&gt; _site/images/featured}/Upset-doctor-and-nurse.jpg (100%)                                                                     
+ rename {static/images/restored =&gt; _site/images/featured}/Useful-Idiots-1.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Vote-Indy-Get-Tory.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Walter-Scott-Got-His-Head-Chopped-Off.jpg (100%)                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/Welcome-To-Albania.jpg (100%)                                                                         
+ rename {static/images/restored =&gt; _site/images/featured}/Whataboutery.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/When-leaders-lie.jpg (100%)                                                                           
+ rename {static/images/restored =&gt; _site/images/featured}/When.jpg (100%)       
+ rename {static/images/restored =&gt; _site/images/featured}/Where-are-our-leaders-thumbnail-wide.jpg (100%)                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Whirlpool.jpeg (100%) 
+ rename {static/images/restored =&gt; _site/images/featured}/Who-Wants-Devolution.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/Wings-Over-Scotland-RIP.jpg (100%)                                                                    
+ rename {static/images/restored =&gt; _site/images/featured}/Wings-UDI-and-Taylor-Swift.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/You-wont-be-welcome-in-Scotland.png (100%)                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/Zombie-Hordes.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/airport.png (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/b25lY21zOjEyODk2MGI0LTU4NDEtNDkwNS04MjA5LTA3YjgyNjkzMDU0ZDo2ZTVkNTE4MC0zNTgyLTQyZTktODI1My00YmU5OWJmYzI2ZjQ.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/b25lY21zOjFiMThmMjg0LWVhZDgtNDRiNy1hYjE5LWFhMmE3ZGI3NTJmNDo0OGJlODk4OS1hYjdlLTQwZDMtYjM0Zi1jNTY5ZjBjYzhiYWE.jpg (100%)                                                                
+ rename {static/images/restored =&gt; _site/images/featured}/biscuitfactory.png (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/boris-johnson.jpg (100%)                                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/care-home.jpg (100%)  
+ rename {static/images/restored =&gt; _site/images/featured}/edinburgh-childrens-hospital-1.jpg (100%)                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/gettyimages875682364.jpg (100%)                                                                       
+ rename {static/images/restored =&gt; _site/images/featured}/hospital.jpg (100%)   
+ rename {static/images/restored =&gt; _site/images/featured}/humza-yousaf.jpg (100%)                                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/img4978.jpg (100%)    
+ rename {static/images/restored =&gt; _site/images/featured}/indyref-batman.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/kc26327jpgJS273166625-scaled.jpg (100%)                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/livingstone.png (100%)
+ rename {static/images/restored =&gt; _site/images/featured}/meme-definition.jpg (100%)                                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/nicola-sturgeon-glasgow-rally.jpg (100%)                                                              
+ rename {static/images/restored =&gt; _site/images/featured}/patel.jpg (100%)      
+ rename {static/images/restored =&gt; _site/images/featured}/pjimage20200604T170448.375.jpg (100%)                                                                 
+ rename {static/images/restored =&gt; _site/images/featured}/police-on-fire.jpg (100%)                                                                             
+ rename {static/images/restored =&gt; _site/images/featured}/scotland-1166192_1920.jpg (100%)                                                                      
+ rename {static/images/restored =&gt; _site/images/featured}/screenshot20200506at12.34.04.png (100%)                                                               
+ rename {static/images/restored =&gt; _site/images/featured}/social-distanced-schoolchildren.jpg (100%)                                                            
+ rename {static/images/restored =&gt; _site/images/featured}/sturgeon1.jpg (100%)  
+ rename {static/images/restored =&gt; _site/images/featured}/tobermory.jpg (100%)  
+ rename {static/images/restored =&gt; _site/images/featured}/tory-scum-out.jpg (100%)                                                                              
+ delete mode 100644 add-redirect-aliases.ps1
+ delete mode 100644 check-featured-images.ps1
+ delete mode 100644 check-image-sizes.ps1
+ delete mode 100644 convert-wp-to-hugo.ps1
+ delete mode 100644 delete-marked-articles.ps1
+ delete mode 100644 download-all-featured-images.ps1
+ delete mode 100644 download-featured-images.ps1
+ delete mode 100644 enable-long-paths.ps1
+ delete mode 100644 enable-long-paths.reg
+ delete mode 100644 fix-aliases-format.ps1
+ delete mode 100644 fix-article-images.ps1
+ delete mode 100644 fix-ellipsis-slugs.ps1
+ delete mode 100644 fix-front-matter.ps1
+ delete mode 100644 fix-image-paths.ps1
+ delete mode 100644 generate-author-pages.ps1
+ delete mode 100644 generate-redirects-file.ps1
+ delete mode 100644 generate-search-index.ps1
+ delete mode 100644 install-hugo.ps1
+ delete mode 100644 list-articles-by-date.ps1
+ delete mode 100644 mark-article-for-deletion.ps1
+ delete mode 100644 mark-duplicates-as-draft.ps1
+ delete mode 100644 resize-featured-images.ps1
+ delete mode 100644 restore-images-final.ps1
+ create mode 100644 static/images/featured/0CoronavirusWedJun32020.jpg
+ create mode 100644 static/images/featured/0CoronavirusWedMay272020.jpg
+ create mode 100644 static/images/featured/0FILEScotlandsChiefMedicalOfficerResignsScotlandsFirstMinisterSturgeonGivesACoronavir.jpg                            
+ create mode 100644 static/images/featured/0JS2085378843.jpg
+ create mode 100644 static/images/featured/0JS212183276.jpg
+ create mode 100644 static/images/featured/0JS213189704.jpg
+ create mode 100644 static/images/featured/0LeslieEvansJPG.jpg
+ create mode 100644 static/images/featured/0NicolaSturgeon1248JPG.jpg
+ create mode 100644 static/images/featured/1028612816127396329343988751877535538956564n.jpg                                                                     
+ create mode 100644 static/images/featured/1288769.jpg
+ create mode 100644 static/images/featured/1290239.jpg
+ create mode 100644 static/images/featured/1291817.jpg
+ create mode 100644 static/images/featured/1292371.jpg
+ create mode 100644 static/images/featured/1CGPLEN100320RICHARDLEONARD001JPG.jpg
+ create mode 100644 static/images/featured/2020-The-Majority-Year-in-Review.jpg 
+ create mode 100644 static/images/featured/20200606BRD0010.jpg
+ create mode 100644 static/images/featured/2JS197499439.jpg
+ create mode 100644 static/images/featured/301802440imagea311593431478250.jpg   
+ create mode 100644 static/images/featured/3JS212682588.jpg
+ create mode 100644 static/images/featured/5ed62e3862560-b25lY21zOjE2YzRkZDFmLWU2NjUtNDZmYi04ZjNkLTlkYmUzYmMxNTc3Zjo0NjQ5ODQ3MS0wZDVhLTRkZDctYWNkYy0wMWE5YjFkZDI4Yjg.jpg                                                                        
+ create mode 100644 static/images/featured/A-Matter-of-Gravity-3.jpg
+ create mode 100644 static/images/featured/A-Scotsmas-Carol.jpg
+ create mode 100644 static/images/featured/Abolish-Holyrood-Interview.jpg       
+ create mode 100644 static/images/featured/Abolish-Holyrood.jpg
+ create mode 100644 static/images/featured/Act-of-Union.jpg
+ create mode 100644 static/images/featured/All-Seeing-Eye.jpg
+ create mode 100644 static/images/featured/Andrew-Wilson-The-Intellectual.jpg   
+ create mode 100644 static/images/featured/Anti-Nationalists-are-the-Majority.jpg                                                                               
+ create mode 100644 static/images/featured/Anti-Unionist-Vaccine.jpg
+ create mode 100644 static/images/featured/Are-We-The-Baddies.jpg
+ create mode 100644 static/images/featured/Are-we-there-yet.jpg
+ create mode 100644 static/images/featured/Ban-Secession-Now-1.jpg
+ create mode 100644 static/images/featured/Be-The-Pig-Text.jpg
+ create mode 100644 static/images/featured/Beating-a-dead-horse.jpg
+ create mode 100644 static/images/featured/Beer-Garden.jpg
+ create mode 100644 static/images/featured/Better-together-Campigning.jpeg      
+ create mode 100644 static/images/featured/Bigger-Richer-Smarter.jpg
+ create mode 100644 static/images/featured/Billy-Connolly-1.jpg
+ create mode 100644 static/images/featured/Billy-Connolly.jpg
+ create mode 100644 static/images/featured/Blackford-in-Commons.jpg
+ create mode 100644 static/images/featured/Blame-Game.jpg
+ create mode 100644 static/images/featured/Boris-no-to-indyref.jpg
+ create mode 100644 static/images/featured/Brain-in-a-cage-header.jpg
+ create mode 100644 static/images/featured/Buchanan-Street-Glasgow.jpg
+ create mode 100644 static/images/featured/Buid-That-Wall.jpg
+ create mode 100644 static/images/featured/Burn-The-National-Fake-News.jpg      
+ create mode 100644 static/images/featured/COVID-Protestors-Glitch.jpg
+ create mode 100644 static/images/featured/Cabertosser.jpg
+ create mode 100644 static/images/featured/Campsie-Glen.png
+ create mode 100644 static/images/featured/Canadian-Separatists.jpg
+ create mode 100644 static/images/featured/Celtic-Yes-Supporters-e1592948713254.jpeg                                                                            
+ create mode 100644 static/images/featured/Charles-II.jpg
+ create mode 100644 static/images/featured/Citizens-Assembly.jpg
+ create mode 100644 static/images/featured/Clarity-signpost.jpg
+ create mode 100644 static/images/featured/Covid-Crisis-boost-Indy.png
+ create mode 100644 static/images/featured/Crab-on-the-shorejpg.jpg
+ create mode 100644 static/images/featured/David-Cameron-Black-e1620074021335.jpg                                                                               
+ create mode 100644 static/images/featured/David-Griffiths-A4A-ROundel-e1595984853592.jpg                                                                       
+ create mode 100644 static/images/featured/David-hume.jpg
+ create mode 100644 static/images/featured/Deep-Dark-Secrets.jpg
+ create mode 100644 static/images/featured/Demographics-isnt-Destiny.jpg        
+ create mode 100644 static/images/featured/Domino-Effect.jpg
+ create mode 100644 static/images/featured/Douglas-Ross-Apples-Oranges.jpg      
+ create mode 100644 static/images/featured/Douglas-Ross-Monty-Python-Run-Away-No-text.jpg                                                                       
+ create mode 100644 static/images/featured/Douglas-Ross-and-Family-1.jpg        
+ create mode 100644 static/images/featured/Dr-Jekyll-and-Indy-Hyde.jpg
+ create mode 100644 static/images/featured/Edinburgh-Agreement-NIcola-Sturgeon-Signature.jpg                                                                    
+ create mode 100644 static/images/featured/Empty-vessels-2.jpg
+ create mode 100644 static/images/featured/England-Out-Of-Scotland-Banner.jpg   
+ create mode 100644 static/images/featured/F-the-tories.png
+ create mode 100644 static/images/featured/Federaism-The-nationalist-worf-in-sheeps-clothing.jpg                                                                
+ create mode 100644 static/images/featured/Fingers-crossed-behind-back.jpeg     
+ create mode 100644 static/images/featured/Fishing-boat.jpg
+ create mode 100644 static/images/featured/Fragile-Header-2.jpg
+ create mode 100644 static/images/featured/From-Russia-Wih-Love.jpg
+ create mode 100644 static/images/featured/Fundraising-1-Wide.jpg
+ create mode 100644 static/images/featured/GOGO-Media-Ad-Van-Side-1-14-Years-of-Failure-Majority-Media-Limited.jpg                                              
+ create mode 100644 static/images/featured/Galloway-Clan-Chief.jpg
+ create mode 100644 static/images/featured/Galloway-Straight-Answers.jpg        
+ create mode 100644 static/images/featured/Galloway-Transcript.jpg
+ create mode 100644 static/images/featured/George-Galloway-Live.jpg
+ create mode 100644 static/images/featured/George-Galloway-New-Lanark.jpg       
+ create mode 100644 static/images/featured/George-Galloway-in-Ayr.jpg
+ create mode 100644 static/images/featured/George-Galloway.jpg
+ create mode 100644 static/images/featured/GettyImages1215549869scaled.jpg      
+ create mode 100644 static/images/featured/GettyImagesSNP.jpg
+ create mode 100644 static/images/featured/Giving-wings-the-boot.jpg
+ create mode 100644 static/images/featured/Greg-Smith-Chief-Medical-Officer.jpg 
+ create mode 100644 static/images/featured/Homer-Simpson-Parliament.jpg
+ create mode 100644 static/images/featured/Hostage.jpg
+ create mode 100644 static/images/featured/How-Nationalists-Manipulate-polls.jpg
+ create mode 100644 static/images/featured/Humza-Yousaf-before-the-Tsunami.png  
+ create mode 100644 static/images/featured/Humza-Yousaf-mandate.jpg
+ create mode 100644 static/images/featured/I-dont-lIke-Mondays-e1616443410951.jpg                                                                               
+ create mode 100644 static/images/featured/Illegal-referendum.jpg
+ create mode 100644 static/images/featured/Independent-Dumfries-and-Galloway-Sign.jpg                                                                           
+ create mode 100644 static/images/featured/Jackson-Carlaw-pointing.jpg
+ create mode 100644 static/images/featured/Jamie-Blacket-e1605798166834.jpg     
+ create mode 100644 static/images/featured/Jamie-Blackett-Thumbs-Up.jpg
+ create mode 100644 static/images/featured/Jamies-Election-Diary-4.jpg
+ create mode 100644 static/images/featured/Jamies-Election-Diary-5.jpg
+ create mode 100644 static/images/featured/Jamies-Election-Diary-6.jpg
+ create mode 100644 static/images/featured/Jamies-Election-Diary.jpg
+ create mode 100644 static/images/featured/Janey-Godley-Bully.jpg
+ create mode 100644 static/images/featured/Jean-Freeman.jpg
+ create mode 100644 static/images/featured/Jenga-Tower-Falling.jpg
+ create mode 100644 static/images/featured/Kids-Parliament.jpg
+ create mode 100644 static/images/featured/Kier-Hardie-Union-Flag.jpg
+ create mode 100644 static/images/featured/KimJongNicola.png
+ create mode 100644 static/images/featured/Lady-Macbeth-Sturgeon-Final.jpg      
+ create mode 100644 static/images/featured/Leslie-Evans-Knee-BLM-1.jpg
+ create mode 100644 static/images/featured/Leslie-Evans-Knee-BLM.jpg
+ create mode 100644 static/images/featured/Lost.jpg
+ create mode 100644 static/images/featured/Man-in-church.jpg
+ create mode 100644 static/images/featured/Mary-Devlin-A4U-Speech-Thumbnail-Small.jpg                                                                           
+ create mode 100644 static/images/featured/Michelle-Ballantyne-Nigel-Farage-Reform-Party-Scotland.jpg                                                           
+ create mode 100644 static/images/featured/NINTCHDBPICT000561547942-scaled.jpg  
+ create mode 100644 static/images/featured/National-Monument-Calton_Hil-Edinburgh.jpg                                                                           
+ create mode 100644 static/images/featured/Nationalist-Rhapsody.jpg
+ create mode 100644 static/images/featured/Nicola-Five-Failures-Cover.jpg       
+ create mode 100644 static/images/featured/Nicola-FootRub-Flag.jpg
+ create mode 100644 static/images/featured/Nicola-Sturgeon-Control-Freak.jpg    
+ create mode 100644 static/images/featured/Nicola-Sturgeon-piloting-the-SNP-Express.jpg                                                                         
+ create mode 100644 static/images/featured/Nicola-in-Mirror.jpg
+ create mode 100644 static/images/featured/Nicolas-Book-Club-Cover.jpg
+ create mode 100644 static/images/featured/Orwell-atrocities.jpg
+ create mode 100644 static/images/featured/PA25574543.jpg
+ create mode 100644 static/images/featured/Peoples-Front-of-Caledonai.jpg       
+ create mode 100644 static/images/featured/Pier-bagpiers.jpg
+ create mode 100644 static/images/featured/Piggy-Bank.jpg
+ create mode 100644 static/images/featured/Pincer-Movement.jpg
+ create mode 100644 static/images/featured/Potemkin-Sturgeon-Header.jpg
+ create mode 100644 static/images/featured/Premiereship.jpg
+ create mode 100644 static/images/featured/Puerto-Rico.jpg
+ create mode 100644 static/images/featured/Pulling-Down-Sturgeons-Statue-3.jpg  
+ create mode 100644 static/images/featured/RUxNODcyOTA3MDc-scaled.jpg
+ create mode 100644 static/images/featured/Rabbit-in-hat-header.jpg
+ create mode 100644 static/images/featured/Rat-in-a-corner.jpg
+ create mode 100644 static/images/featured/Reasons-to-be-Cheerful.jpg
+ create mode 100644 static/images/featured/Richard-Leonard-Brigadoon-cropped.jpg
+ create mode 100644 static/images/featured/Rip-Van-Winkle-Header.jpg
+ create mode 100644 static/images/featured/Robert-Hugh-Thumbnail.jpg
+ create mode 100644 static/images/featured/SNP-Councils-are-rubbish-Twitter-2-.jpg                                                                              
+ create mode 100644 static/images/featured/Salmond-IM-Jolly-Majority.jpg        
+ create mode 100644 static/images/featured/Salmond-Sturgeon-Boxing.jpg
+ create mode 100644 static/images/featured/Salmond-Sturgeon-stake-through-heart.jpg                                                                             
+ create mode 100644 static/images/featured/Salmond-Sturgeon.jpg
+ create mode 100644 static/images/featured/Salmond.jpg
+ create mode 100644 static/images/featured/Sarah-Smith.jpg
+ create mode 100644 static/images/featured/Scapegoat.jpg
+ create mode 100644 static/images/featured/Scexit-Files-Mummy.jpg
+ create mode 100644 static/images/featured/Scexit-Files-Sex-itjpg.jpg
+ create mode 100644 static/images/featured/Scotland-Map.jpg
+ create mode 100644 static/images/featured/Scotland-Matters-Poll-93-Vote-Tactically-.jpg                                                                        
+ create mode 100644 static/images/featured/Scotland-Needs-work.jpg
+ create mode 100644 static/images/featured/Scotlands-Devolution-Disaster-Final.jpg                                                                              
+ create mode 100644 static/images/featured/Scotlands-Devolution-Disaster-Part-2-Power-Grabs-Waste-Scandal.jpg                                                   
+ create mode 100644 static/images/featured/Scotlands-Devolution-Disaster-Part-3-Reform-or-Abolish.jpg                                                           
+ create mode 100644 static/images/featured/Scottish-Gnome.jpg
+ create mode 100644 static/images/featured/Scottish-School-Despair.jpg
+ create mode 100644 static/images/featured/Scottish-Separatist-Independence-Cult-scaled.jpg                                                                     
+ create mode 100644 static/images/featured/ScottishLabour.jpg
+ create mode 100644 static/images/featured/Shadow-salute-Remembrance.jpg        
+ create mode 100644 static/images/featured/Shooting-yourself-in-the-foot.jpg    
+ create mode 100644 static/images/featured/Socialist-Republic-of-Scotland.jpg   
+ create mode 100644 static/images/featured/Stop-Wasting-Our-Money-Fire-Full-size.jpg                                                                            
+ create mode 100644 static/images/featured/Stop-lying-about-GERS.jpg
+ create mode 100644 static/images/featured/Stuck-with-devolution-chains.jpg     
+ create mode 100644 static/images/featured/Sturgeo-covid.jpg
+ create mode 100644 static/images/featured/Sturgeon-Aged.jpg
+ create mode 100644 static/images/featured/Sturgeon-Corona.jpg
+ create mode 100644 static/images/featured/Sturgeon-Leadership-Famine-Edinburgh-burning.jpg                                                                     
+ create mode 100644 static/images/featured/Sturgeon-Sinn-Fein.jpg
+ create mode 100644 static/images/featured/Sturgeon-Stay-at-Home.jpg
+ create mode 100644 static/images/featured/Sturgeon.jpg
+ create mode 100644 static/images/featured/Sturgeons-Stepping-Stones.jpg        
+ create mode 100644 static/images/featured/Sun-Tzu-Golden-Bridge.jpg
+ create mode 100644 static/images/featured/Sunak-Sturgeon.jpg
+ create mode 100644 static/images/featured/Tactical-voting.jpg
+ create mode 100644 static/images/featured/The-Biggest-SNP-Losers.jpg
+ create mode 100644 static/images/featured/The-Golden-Grievance-Battle.jpg      
+ create mode 100644 static/images/featured/The-Lives-of-Others.jpg
+ create mode 100644 static/images/featured/The-Majority-Ad-Van-Side-Slide-1-Believe.jpg                                                                         
+ create mode 100644 static/images/featured/The-Majority-Resign-Sturgeon-2023-campaign.jpg                                                                       
+ create mode 100644 static/images/featured/The-Majority-Resign-Sturgeon-Final.jpg                                                                               
+ create mode 100644 static/images/featured/The-Majority-Show-Ad-Mary.jpg        
+ create mode 100644 static/images/featured/The-Majority-Where-We-Stand.jpg      
+ create mode 100644 static/images/featured/The-National-Bully-the-Majoritys-Writers.png                                                                         
+ create mode 100644 static/images/featured/The-National-Indy-Myths-Fake-news-Newsquest.jpg                                                                      
+ create mode 100644 static/images/featured/The-SNPs-Rusty-bike-.jpg
+ create mode 100644 static/images/featured/The-Silent-Majority.jpg
+ create mode 100644 static/images/featured/The-Thin-Red-Line.jpg
+ create mode 100644 static/images/featured/The-quest.jpg
+ create mode 100644 static/images/featured/There-is-no-Union-Dividend.jpg       
+ create mode 100644 static/images/featured/This-is-fine.jpg
+ create mode 100644 static/images/featured/Time-Appeasement-Division.jpg        
+ create mode 100644 static/images/featured/Tory-Scum-Out-1.jpg
+ create mode 100644 static/images/featured/Trojan-horse.jpg
+ create mode 100644 static/images/featured/Trump-Make-Scotland-Independent-Again.jpg                                                                            
+ create mode 100644 static/images/featured/Update.jpg
+ create mode 100644 static/images/featured/Upset-doctor-and-nurse.jpg
+ create mode 100644 static/images/featured/Useful-Idiots-1.jpg
+ create mode 100644 static/images/featured/Vote-Indy-Get-Tory.jpg
+ create mode 100644 static/images/featured/Walter-Scott-Got-His-Head-Chopped-Off.jpg                                                                            
+ create mode 100644 static/images/featured/Welcome-To-Albania.jpg
+ create mode 100644 static/images/featured/Whataboutery.jpg
+ create mode 100644 static/images/featured/When-leaders-lie.jpg
+ create mode 100644 static/images/featured/When.jpg
+ create mode 100644 static/images/featured/Where-are-our-leaders-thumbnail-wide.jpg                                                                             
+ create mode 100644 static/images/featured/Whirlpool.jpeg
+ create mode 100644 static/images/featured/Who-Wants-Devolution.jpg
+ create mode 100644 static/images/featured/Wings-Over-Scotland-RIP.jpg
+ create mode 100644 static/images/featured/Wings-UDI-and-Taylor-Swift.jpg       
+ create mode 100644 static/images/featured/You-wont-be-welcome-in-Scotland.png  
+ create mode 100644 static/images/featured/Zombie-Hordes.jpg
+ create mode 100644 static/images/featured/airport.png
+ create mode 100644 static/images/featured/b25lY21zOjEyODk2MGI0LTU4NDEtNDkwNS04MjA5LTA3YjgyNjkzMDU0ZDo2ZTVkNTE4MC0zNTgyLTQyZTktODI1My00YmU5OWJmYzI2ZjQ.jpg      
+ create mode 100644 static/images/featured/b25lY21zOjFiMThmMjg0LWVhZDgtNDRiNy1hYjE5LWFhMmE3ZGI3NTJmNDo0OGJlODk4OS1hYjdlLTQwZDMtYjM0Zi1jNTY5ZjBjYzhiYWE.jpg      
+ create mode 100644 static/images/featured/biscuitfactory.png
+ create mode 100644 static/images/featured/boris-johnson.jpg
+ create mode 100644 static/images/featured/care-home.jpg
+ create mode 100644 static/images/featured/edinburgh-childrens-hospital-1.jpg   
+ create mode 100644 static/images/featured/gettyimages875682364.jpg
+ create mode 100644 static/images/featured/hospital.jpg
+ create mode 100644 static/images/featured/humza-yousaf.jpg
+ create mode 100644 static/images/featured/img4978.jpg
+ create mode 100644 static/images/featured/indyref-batman.jpg
+ create mode 100644 static/images/featured/kc26327jpgJS273166625-scaled.jpg     
+ create mode 100644 static/images/featured/livingstone.png
+ create mode 100644 static/images/featured/meme-definition.jpg
+ create mode 100644 static/images/featured/nicola-sturgeon-glasgow-rally.jpg    
+ create mode 100644 static/images/featured/patel.jpg
+ create mode 100644 static/images/featured/pjimage20200604T170448.375.jpg       
+ create mode 100644 static/images/featured/police-on-fire.jpg
+ create mode 100644 static/images/featured/scotland-1166192_1920.jpg
+ create mode 100644 static/images/featured/screenshot20200506at12.34.04.png     
+ create mode 100644 static/images/featured/social-distanced-schoolchildren.jpg  
+ create mode 100644 static/images/featured/sturgeon1.jpg
+ create mode 100644 static/images/featured/tobermory.jpg
+ create mode 100644 static/images/featured/tory-scum-out.jpg
+ create mode 100644 themes/majority/static/images/favicon.svg
+ delete mode 100644 update-hugo.ps1
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_cmd">
+<details><summary>Tool use: **command** • Run command: git push</summary>
+
+```bash
+git push
+```
+
+```
+PS C:\Users\spark\OneDrive\Desktop\DEV\static-sites&gt; git push
+Enumerating objects: 2040, done.
+Counting objects: 100% (2040/2040), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (962/962), done.
+Writing objects: 100% (1229/1229), 1.61 MiB | 1.74 MiB/s, done.
+Total 1229 (delta 686), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (686/686), completed with 350 local objects.     
+To https://github.com/sparkzilla/themajority.git
+   f40a9bc..e51eaca  main -&gt; main
+```
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+
+Committed and pushed the changes.
+
+**Summary:**
+- **Commit:** "Rename restored images directory to featured and remove non-production scripts"
+- **Files changed:** 1,249 files
+- **Changes:**
+  - Updated 176 article files to use `images/featured/` instead of `images/restored/`
+  - Deleted 23 non-production PowerShell scripts
+  - Renamed image directory from `restored` to `featured`
+  - Added new files (featured images, workflow files, etc.)
+
+**Push status:** Successfully pushed to `main` branch on GitHub
+
+All changes are now in the remote repository. The production build should work with the new image paths.
+
+---
+

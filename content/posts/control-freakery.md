@@ -11,9 +11,7 @@ aliases = ["/blog/2020/10/20/control-freakery/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1318293732597399559
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1318293732597399559" >}}
 
 
 

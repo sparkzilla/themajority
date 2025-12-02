@@ -97,9 +97,11 @@
     <div class="article-content">
         <p>Yesterday, Fiona Hyslop, Scottish Cabinet Secretary for Economy, Fair Work and Culture, was asked in Holyrood about when the 28,000 green jobs, that were promised by Alex Salmond in 2010, would be delivered. She answered, “When we have the powers of ‘independence’.”&nbsp;</p>
 <p>In other words, the SNP-controlled Scottish Government has been unable to create the jobs they promised, but, somehow, will be magically free to create them after Scotland separates from the rest of the UK.</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/mgoldenmsp/status/1308465183057158145
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/mgoldenmsp/status/1308465183057158145?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>I spent several years working for three of the world’s largest corporations in London and Tokyo, and many more years as a successful entrepreneur, founding, building and running companies in Japan, USA and now in the UK. Unlike the SNP, I have created many jobs and made many investment decisions, and I know that “Independence” is a surefire jobs killer for Scotland.</p>
 <p>When companies and investors look at where to set up or expand their businesses and create jobs, they evaluate current and future requirements, benefits and risks of that country or place. These days, in Scotland, those benefits and risks are unknown because of the ‘neverendum’ -&nbsp; the threat of ‘independence’.</p>
 <p>How can companies invest in Scotland when so many fundamental business questions about a possible ‘independent’ Scotland remain unanswered? Questions about the general political and economic stability, economic growth rates, exchange rate stability, general health of the banking system, interest rates, currency, borders and tariffs, higher taxation.</p>
@@ -287,13 +289,28 @@ https://twitter.com/mgoldenmsp/status/1308465183057158145
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -302,7 +319,6 @@ https://twitter.com/mgoldenmsp/status/1308465183057158145
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

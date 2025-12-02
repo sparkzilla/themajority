@@ -27,9 +27,7 @@ aliases = ["/blog/2021/04/26/the-magic-is-gone/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/GordonMcKee_/status/1385935122038415360
-</div></figure>
+{{< tweet url="https://twitter.com/GordonMcKee_/status/1385935122038415360" >}}
 
 
 
@@ -45,9 +43,7 @@ https://twitter.com/GordonMcKee_/status/1385935122038415360
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/BBCPolitics/status/1386252221529169922
-</div></figure>
+{{< tweet url="https://twitter.com/BBCPolitics/status/1386252221529169922" >}}
 
 
 
@@ -55,9 +51,7 @@ https://twitter.com/BBCPolitics/status/1386252221529169922
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/BBCPolitics/status/1386250665614352387
-</div></figure>
+{{< tweet url="https://twitter.com/BBCPolitics/status/1386250665614352387" >}}
 
 
 

@@ -47,9 +47,7 @@ aliases = ["/blog/2020/09/03/will-ye-go-laddie-go/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/helendc1esq/status/1280922746323636227
-</div></figure>
+{{< tweet url="https://twitter.com/helendc1esq/status/1280922746323636227" >}}
 
 
 
@@ -105,9 +103,7 @@ https://twitter.com/helendc1esq/status/1280922746323636227
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/JamesKellyLab/status/1301054516213755904
-</div></figure>
+{{< tweet url="https://twitter.com/JamesKellyLab/status/1301054516213755904" >}}
 
 
 
@@ -123,9 +119,7 @@ https://twitter.com/JamesKellyLab/status/1301054516213755904
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/DJohnsonMSP/status/1301057135506329601
-</div></figure>
+{{< tweet url="https://twitter.com/DJohnsonMSP/status/1301057135506329601" >}}
 
 
 
@@ -157,9 +151,7 @@ https://twitter.com/DJohnsonMSP/status/1301057135506329601
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nickeardleybbc/status/1301529370281095169
-</div></figure>
+{{< tweet url="https://twitter.com/nickeardleybbc/status/1301529370281095169" >}}
 
 
 

@@ -31,9 +31,7 @@ aliases = ["/blog/2020/09/04/the-moral-low-ground/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AgentP22/status/1254141253903683584
-</div></figure>
+{{< tweet url="https://twitter.com/AgentP22/status/1254141253903683584" >}}
 
 
 

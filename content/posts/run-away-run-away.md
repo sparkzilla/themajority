@@ -421,9 +421,7 @@ https://www.youtube.com/watch?v=TnOdAT6H94s
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/Jacob_Rees_Mogg/status/1333780480294981632
-</div></figure>
+{{< tweet url="https://twitter.com/Jacob_Rees_Mogg/status/1333780480294981632" >}}
 
 
 

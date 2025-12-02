@@ -97,9 +97,11 @@
     <div class="article-content">
         <p>Once thing is certain: the polls were wrong, again. There was no Blue Wave. There was no Biden landslide. Despite being a 'racist', Trump increased his vote among Latinos and Blacks.</p>
 <p>One would think that the media would know better by now. In 2016, <em>The New York Times'</em> favourite pollster, Nate Silver, famously predicted that there was only an 8% chance of Trump winning. It was in the bag for Clinton.</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nytimes/status/789083772205600768
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/nytimes/status/789083772205600768?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p><a href=""></a>We all know how that turned out.</p>
 <p>People like polls. Who doesn’t want to know the future? But we also like astrology too. Both sell newspapers.</p>
 <p>Do you think that Trump is disliked in America? Sure, if you listen to Democrats and the mostly Democrat-biased media. But that’s like getting an approval rating on Boris Johnson from Jeremy Corbyn. In fact, before this election, Trump had a <a href="https://news.gallup.com/poll/203198/presidential-approval-ratings-donald-trump.aspx">95% approval rating among Republicans.</a></p>
@@ -312,13 +314,28 @@ https://twitter.com/nytimes/status/789083772205600768
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -327,7 +344,6 @@ https://twitter.com/nytimes/status/789083772205600768
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

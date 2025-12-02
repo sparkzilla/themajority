@@ -360,9 +360,7 @@ aliases = ["/blog/2021/09/08/wheres-my-apology-janey/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/STattisconie/status/1435618759490875392
-</div></figure>
+{{< tweet url="https://twitter.com/STattisconie/status/1435618759490875392" >}}
 
 
 

@@ -12,9 +12,7 @@ aliases = ["/blog/2020/12/02/sturgeons-stepping-stones/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/addicted2newz/status/1332995168727928832
-</div></figure>
+{{< tweet url="https://twitter.com/addicted2newz/status/1332995168727928832" >}}
 
 
 

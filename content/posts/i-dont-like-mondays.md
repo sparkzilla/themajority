@@ -28,9 +28,7 @@ aliases = ["/blog/2021/03/22/i-dont-like-mondays/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/CraigMurrayOrg/status/1373994208902647813
-</div></figure>
+{{< tweet url="https://twitter.com/CraigMurrayOrg/status/1373994208902647813" >}}
 
 
 

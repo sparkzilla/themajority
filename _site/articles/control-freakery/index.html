@@ -96,9 +96,11 @@
     
     <div class="article-content">
         <p>Last night, I published a video I had been forwarded of a group chat in which Nicola Sturgeon’s sister says that although Nicola is very tired she won’t delegate to her deputy because she is a ‘total control freak’.</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1318293732597399559
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/themajorityscot/status/1318293732597399559?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <blockquote class="wp-block-quote"><p>Personally, I think she needs a day or two off, and hand it over to her Deputy. But that's not Nicola, she's a total control freak. She wouldn't do that.</p></blockquote>
 <p>This video confirms rising concern by both Sturgeon’s opponents and admirers that her Government has become a one-woman show.</p>
 <p>The prime example of her control freakery is her daily media briefings. There is simply no need for the First Minister to be hosting these broadcasts herself. They should be handled by the Health Minister and her scientific advisers. But when your Health Minister is the inept Jeane Freeman, a minister responsible for sending hospital patients with COVID into health care homes, then what can you do?</p>
@@ -286,13 +288,28 @@ https://twitter.com/themajorityscot/status/1318293732597399559
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -301,7 +318,6 @@ https://twitter.com/themajorityscot/status/1318293732597399559
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

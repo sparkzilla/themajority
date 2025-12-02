@@ -27,9 +27,7 @@ aliases = ["/blog/2021/02/15/the-ulsterisation-of-scotland/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1354882469175185411
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1354882469175185411" >}}
 
 
 

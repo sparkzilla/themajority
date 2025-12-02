@@ -106,9 +106,11 @@
 <p>And now we come to Scotland, the inquiry into the Scottish Government’s botched Alex Salmond harassment claims and Nicola Sturgeon.</p>
 <p>Nicola Sturgeon is a&nbsp;<a href="https://themajority.scot/2021/01/14/a-wounded-and-desperate-party/">vital asset to the SNP</a>. No-one could ever hope to replace her and maintain her level of support. Credit where credit is due, she is a skilled, if limited, politician and has become a good communicator. She knows how to play a situation to her advantage. She is undoubtedly a charismatic authority figure, but while she built the SNP into what we see today, it survives only as long as she remains at the helm, untarnished and trusted.&nbsp;</p>
 <p>Throughout this whole sorry saga of the Salmond inquiry, we have seen intentional and outrageous contempt for the commission's investigative mandate and shameless treatment of the Scottish public and its elected officials. We have seen the SNP pull out every possible excuse to delay and disrupt the inquiry to the point that the inquiry has been forced to invoke powers never used before by the Scottish parliament. As one SNP MP put it, it's difficult to imagine this happening at Westminster without the whole country going berserk about it.&nbsp;</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AngusMacNeilSNP/status/1352192148515532800
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/AngusMacNeilSNP/status/1352192148515532800?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>It seems, however, that things are changing. Inquiry members are becoming more forceful in their demands. The press is finally paying attention as more and more shocking revelations are made. The old adage of "if it bleeds, it leads" will mean ever more lurid headlines as the knives are plunged further in.</p>
 <p>So why, you may ask, is the SNP tarnishing its reputation with such actions? The answer is simple. Nicola Sturgeon is their charismatic leader. She, not them, is the good communicator, the trusted figure, and the one who has been on their screens for the past nine months. It is she who has come to represent their movement and their ideas. It is she who inspires her followers to trust her. It's her public personality that represents the SNP, and no one else can come close.&nbsp;</p>
 <p>Charismatic authority and leadership are strong forces, but their fundamental weakness is their reliance on a single individual who, when removed by circumstance or by treachery, results in the entire movement's collapse.&nbsp;</p>
@@ -283,13 +285,28 @@ https://twitter.com/AngusMacNeilSNP/status/1352192148515532800
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -298,7 +315,6 @@ https://twitter.com/AngusMacNeilSNP/status/1352192148515532800
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

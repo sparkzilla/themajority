@@ -100,9 +100,11 @@
 <p>The SNP are attempting to turn public opinion in England against them, as representatives of Scotland, so that the English will get fed up and want us gone, to gain a bit of peace and respite from the constant antagonism and division.</p>
 <p>That’s why the SNP have turned parliamentary debates into fanatical speeches on Scottish secession, are working to undermine the credibility and image of the UK both domestically and abroad, and have endeavoured to ensure that whatever course the English electorate may choose, they must choose it under constant threat of aggravating another grievance.</p>
 <p>Recently on Twitter, I saw a clip from a BBC comedy sketch in which an Englishman complained about his dealings with a Scot saying that "no matter how much I give him, and no matter how generous the terms, he will claim to be hard done by and go on about it forever" and "William Wallace died in 1305, when will you let it go? At this rate you will still be going on about him in the next millennium".</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1352006173055217664
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/themajorityscot/status/1352006173055217664?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>In retort, the Scot said what could stand as a script for Ian Blackford's next parliamentary speech, noting how Scots are in "permanent occupation of the moral high ground". The sketch was well received by the audience and got many laughs. As all great comedy does, it reflects and satirises real life. Many viewers will have seen, and felt, exactly the same as the characters did in the show.</p>
 <p>However, to me, it was not funny. It was painful. Painful because in this humour I saw the cutting edge of the SNP's policy towards the English, to turn them against the Scottish by being a perpetual bore and grievance, to permanently, yet undeservedly, claim the moral high ground and to project themselves as inferior, rejected, and somehow lesser in all things: A perspective which some SNP affiliated personalities have made repeatedly clear in the most embarrassing attempts at exceptionalism I have seen after decades studying nationalism.</p>
 <p>The SNP want to break a bond that goes back well beyond the Act of Union. A bond formed by centuries of friendship, love and family. A bond formed by a common interest, and common reward. A bond tempered in countless conflicts which cost us all countless lives.</p>
@@ -280,13 +282,28 @@ https://twitter.com/themajorityscot/status/1352006173055217664
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -295,7 +312,6 @@ https://twitter.com/themajorityscot/status/1352006173055217664
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

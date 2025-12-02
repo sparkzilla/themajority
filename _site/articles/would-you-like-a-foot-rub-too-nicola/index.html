@@ -96,13 +96,17 @@
     
     <div class="article-content">
         <p>When will the opposition parties in Scotland learn to fight? Today I was appalled to see yet another weak and compliant message from Jackson Carlaw, leader of the Scottish Conservatives, praising the Nationalists for their response to COVID-19.&nbsp;</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1278663688346570753
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/themajorityscot/status/1278663688346570753?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>This comes on the heels of an earlier tweet where he did the same:</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1247056001079095296
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/ScotTories/status/1247056001079095296?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Confidence in the First Minister? W.T.A.F.</p>
 <p>Jackson, a wee clue: they are not your friends. They are Nationalists who are destroying our country. Every move they make, every breath they take, is designed to further their ugly Nationalist goal of separation. Everything they do causes division.&nbsp;</p>
 <p>It’s not like you don’t have material. Nicola Sturgeon's COVID response has been awful. She let hundreds of people die in care homes. She covered up the early Nike outbreak. She’s grandstanded all over the TV for months, and in the past few days she’s managed to destroy the Scottish tourist industry with her border insanity.</p>
@@ -295,13 +299,28 @@ https://twitter.com/ScotTories/status/1247056001079095296
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -310,7 +329,6 @@ https://twitter.com/ScotTories/status/1247056001079095296
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

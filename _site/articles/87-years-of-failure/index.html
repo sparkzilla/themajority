@@ -96,9 +96,11 @@
     
     <div class="article-content">
         <p>Since the founding of the SNP 87 years ago, in 1934, they have had the ambition of breaking Scotland away from the rest of the UK, even during the darkest days of the Second World War. That seems hard to believe, given that Nicola Sturgeon admitted, less than two weeks ago, that she and the SNP still have <a href="https://www.scotsman.com/news/politics/figures-backing-economic-argument-for-independence-out-of-date-says-nicola-sturgeon-3202614">no plan for the economic consequences of what would happen after a successful vote for separation</a>. She gave no plan or vision for how her separated Scotland would manage its affairs, other than vague and completely ludicrous statements. She has no answers on border control, currency and defence or to other quite important questions that voters might ask.&nbsp;</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/C4Ciaran/status/1382801138207047680
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/C4Ciaran/status/1382801138207047680?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Listening to these incomprehensible ramblings I cannot help but ask myself, "what on earth have you all been doing for the past 87 years?”</p>
 <p>87 years is a very long time. When you consider that the average life expectancy for a man in <a href="https://www.glasgowlive.co.uk/news/average-healthy-life-expectancy-glasgow-19693673">Glasgow</a> is, thanks in no small part to the SNP, now as low as 54.6 years (considerably lower than places like <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN?locations=SO">Somalia</a> or <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=MN">Mongolia)</a>, it’s almost TWO lifetimes! It’s multiple generations. Yet, in all that time, the SNP still hasn’t figured out what their sacred political objective will look like. They can’t even agree on basic issues that can be modelled now, such as which currency to use.</p>
 <p>Not only have they had 87 years, but the SNP have also now had 14 years in power with access to all the organisational and forecasting institutions that come with it. But they still haven’t produced an accurate, adequate or agreed-upon prospectus (the less said about The White Paper, the better).</p>
@@ -278,13 +280,28 @@ https://twitter.com/C4Ciaran/status/1382801138207047680
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -293,7 +310,6 @@ https://twitter.com/C4Ciaran/status/1382801138207047680
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

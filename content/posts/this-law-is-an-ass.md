@@ -63,9 +63,7 @@ aliases = ["/blog/2020/11/02/this-law-is-an-ass/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ruth_wishart/status/1297777980748566532
-</div></figure>
+{{< tweet url="https://twitter.com/ruth_wishart/status/1297777980748566532" >}}
 
 
 

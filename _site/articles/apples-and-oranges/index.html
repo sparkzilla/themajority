@@ -105,18 +105,22 @@
 <p>Which brings me to Douglas Ross’ performance yesterday...</p>
 <p>Just after I started the Majority, I was so appalled at Jackson Carlaw’s continuing praise for Nicola Sturgeon’s handling of the COVID epidemic that I wrote an article ‘<a href="https://themajority.scot/2020/07/02/would-you-like-a-foot-rub-too-nicola/">Would you like a foot rub too Nicola?</a>’</p>
 <p>Perhaps it made a difference. Another straw to break the camel’s back. In any case, a few days later, Carlaw was gone, replaced by Ross. Just a few weeks before, Ross had shown some promise at Westminster, by questioning the SNP’s ‘power grab’ narrative, and his early statements showed a willingness to confront Nationalism.&nbsp;</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/douglas4moray/status/1009052199865987074
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/douglas4moray/status/1009052199865987074?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>But, Scottish Leavers were sceptical. Ever since the Brexit referendum they have been left out in the cold by the Scottish Tories. They saw a glimmer of hope when the UK party realigned, but the Scottish party, and Ross, remained Remainers.</p>
 <p>Ruth Davidson is often praised, but she is responsible for much of today’s Nationalist narrative. She foolishly backed Remain, knowing it put her on the side of the SNP. Yet, despite no Scottish party leader advocating for Leave, over one million Scots still voted to Leave the EU. Just think what that number would have been if someone had been arguing for Leave.</p>
 <p>Every time you hear the SNP say ‘Scotland voted to stay in Europe’ you should think ‘Thanks Ruth!’</p>
 <p>In the years since the Brexit referendum, she never reached out to Leavers. She fought against Boris Johnson’s nomination, as did Jackson Carlaw. And that led to the demonisation of Boris in Scotland (more on this in a moment).</p>
 <p>Now, after years of struggle to implement the largest democratic vote in the UK, and Brexit almost done, Ross, <a href="https://www.dailyrecord.co.uk/news/politics/brexit-delivery-undermined-union-says-22943293">in a speech to the Policy Exchange,</a> said:</p>
 <blockquote class="wp-block-quote"><p>Brexit has been damaging to support for the UK because it undermined, in the eyes of many, those common values shared across our nations.</p></blockquote>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1323217438062878720
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/ScotTories/status/1323217438062878720?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Leaving to the side that we are <em>one </em>nation, why is Ross saying this? Surely, at this late stage, instead of talking Brexit down, he should be touting the potential benefits of Brexit to Scots?</p>
 <p>By siding with those who think Brexit is damaging, Ross has further alienated all of those Leave voters who were already frozen out. One million potential Scottish voters, just left there, with no support. Demonised. Condescended to. Subverted. Ignored.</p>
 <p>You’d think he'd be smarter: By promising to deliver Brexit, Boris Johnson delivered <em>an 80 seat Tory majority.</em></p>
@@ -125,9 +129,11 @@ https://twitter.com/ScotTories/status/1323217438062878720
 <blockquote class="wp-block-quote"><p>I think most objective people would say  is a more effective communicator than the Prime Minister.</p></blockquote>
 <p>And, when asked if Boris Johnson was harmful to the case for Scotland staying in the UK, said:</p>
 <blockquote class="wp-block-quote"><p>We can’t say that the people of Scotland are absolutely wrong with their ratings on their various leaders, so we’ve got to reflect on that, and the Prime Minister reflects on it.</p></blockquote>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/PeterAdamSmith/status/1323305526466383874
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/PeterAdamSmith/status/1323305526466383874?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Carlaw got binned for less than this. Nationalists have demonised Boris from the beginning. Yet few Scottish Tories have ever stood up for him. Now that lack of support is coming back to haunt them.&nbsp;</p>
 <p>On Twitter someone said to me, ‘Ross is right because Boris Johnson is a terrible PM. The sooner he is gone, the quicker we can get on with defeating the Nationalists.’</p>
 <p>But Nationalists will just demonise the next leader. It’s what they do. You think Sunak is safe? Not a chance. They demonise Conservatives. They demonise Labour. They demonise Brexit. The demonise the UK. They demonise Boris. They'll demonise the next PM and will continue to demonise everything they are against.&nbsp;</p>
@@ -310,13 +316,28 @@ https://twitter.com/PeterAdamSmith/status/1323305526466383874
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -325,7 +346,6 @@ https://twitter.com/PeterAdamSmith/status/1323305526466383874
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

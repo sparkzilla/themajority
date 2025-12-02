@@ -44,9 +44,7 @@ aliases = ["/blog/2020/11/24/the-uncomfortable-power-of-precedent/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/nicolasturgeon/status/1202616357910695941
-</div></figure>
+{{< tweet url="https://twitter.com/nicolasturgeon/status/1202616357910695941" >}}
 
 
 

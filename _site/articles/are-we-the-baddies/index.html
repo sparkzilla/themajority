@@ -127,9 +127,11 @@ https://www.youtube.com/watch?v=hn1VxaMEjRU
 <blockquote class="wp-block-quote"><p>So as I said, you don’t need to be a nationalist or an SNP supporter to back independence.</p></blockquote>
 <p>Wait a minute. So, <em>after all that</em> you’re still going to vote for ‘independence’? But Neil, what is the vehicle for ‘independence' if it’s not the SNP? Where is this magical non-Nationalist party that will deliver your dreams?</p>
 <p>The point Mackay, Gerry Hassan, Robin McAlpine, and other so-called socialist commentators seem to be blind to is that <strong>when they view politics through the eyes of a nation that is, by definition, Nationalism. </strong>Simply claiming not to be a Nationalist when everything they do and write supports Nationalism isn’t going to wash any more.</p>
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1307371489646256128
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/themajorityscot/status/1307371489646256128?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>Despite their claims, they're no socialists. They voted for and supported ALL OF THE ABOVE, because they selfishly value <em>the idea of a nation</em> more than reality of our health, education, economy, and the poor. They enabled centralisation, intolerance to questioning and party secrecy. They enabled racist nutters at the border.</p>
 <p>If they were  socialists, they would have rejected all these things. Socialism is about pooling and sharing of resources, internationalism and equality. Nationalism is about none of those things. It’s an ideology based on selfishness and greed.</p>
 <p><strong>They can’t have it both ways.</strong> It's not possible to be both a Nationalist and a Socialist (and if you are for both, we all know where ‘National Socialism’ ends up).&nbsp;You either own it completely, or you disavow it completely.</p>
@@ -307,13 +309,28 @@ https://twitter.com/themajorityscot/status/1307371489646256128
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -322,7 +339,6 @@ https://twitter.com/themajorityscot/status/1307371489646256128
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

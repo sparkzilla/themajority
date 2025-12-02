@@ -12,9 +12,7 @@ aliases = ["/blog/2024/05/12/we-are-not-stuck-with-devolution/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AnasSarwar/status/1789621341777178825
-</div></figure>
+{{< tweet url="https://twitter.com/AnasSarwar/status/1789621341777178825" >}}
 
 
 
@@ -110,9 +108,7 @@ https://twitter.com/AnasSarwar/status/1789621341777178825
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/afneil/status/1789220009853485082
-</div></figure>
+{{< tweet url="https://twitter.com/afneil/status/1789220009853485082" >}}
 
 
 
@@ -130,9 +126,7 @@ https://twitter.com/afneil/status/1789220009853485082
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AgentP22/status/1789187395461554209
-</div></figure>
+{{< tweet url="https://twitter.com/AgentP22/status/1789187395461554209" >}}
 
 
 

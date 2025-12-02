@@ -31,9 +31,7 @@ aliases = ["/blog/2024/02/19/in-search-of-the-golden-grievance/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/BillDunblane/status/1756741096418185668?s=20
-</div></figure>
+{{< tweet url="https://twitter.com/BillDunblane/status/1756741096418185668?s=20" >}}
 
 
 
@@ -41,9 +39,7 @@ https://twitter.com/BillDunblane/status/1756741096418185668?s=20
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/DougChapmanSNP/status/1756739202325094743
-</div></figure>
+{{< tweet url="https://twitter.com/DougChapmanSNP/status/1756739202325094743" >}}
 
 
 
@@ -59,9 +55,7 @@ https://twitter.com/DougChapmanSNP/status/1756739202325094743
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AUOBNOW/status/1515262791199899649?s=20
-</div></figure>
+{{< tweet url="https://twitter.com/AUOBNOW/status/1515262791199899649?s=20" >}}
 
 
 
@@ -131,9 +125,7 @@ https://twitter.com/AUOBNOW/status/1515262791199899649?s=20
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/RaggedTP/status/1646822468517081088?s=20
-</div></figure>
+{{< tweet url="https://twitter.com/RaggedTP/status/1646822468517081088?s=20" >}}
 
 
 
@@ -161,9 +153,7 @@ https://twitter.com/RaggedTP/status/1646822468517081088?s=20
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/iccjock06/status/1089567216457187328?s=20
-</div></figure>
+{{< tweet url="https://twitter.com/iccjock06/status/1089567216457187328?s=20" >}}
 
 
 

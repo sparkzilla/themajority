@@ -27,9 +27,7 @@ aliases = ["/blog/2021/01/20/lets-annoy-the-english/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1352006173055217664
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1352006173055217664" >}}
 
 
 

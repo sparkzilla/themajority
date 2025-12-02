@@ -76,9 +76,7 @@ aliases = ["/blog/2022/04/18/the-golden-bridge/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/theSNP/status/1511032230012928006
-</div></figure>
+{{< tweet url="https://twitter.com/theSNP/status/1511032230012928006" >}}
 
 
 
@@ -122,9 +120,7 @@ https://twitter.com/theSNP/status/1511032230012928006
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1513946883013713920
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1513946883013713920" >}}
 
 
 
@@ -132,9 +128,7 @@ https://twitter.com/themajorityscot/status/1513946883013713920
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1513872300596203521
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1513872300596203521" >}}
 
 
 
@@ -202,9 +196,7 @@ https://twitter.com/themajorityscot/status/1513872300596203521
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/themajorityscot/status/1507378075473960966
-</div></figure>
+{{< tweet url="https://twitter.com/themajorityscot/status/1507378075473960966" >}}
 
 
 

@@ -11,9 +11,7 @@ aliases = ["/blog/2021/01/26/the-dishonesty-of-nationalist-memes/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ChrisLawSNP/status/1347319507803648001
-</div></figure>
+{{< tweet url="https://twitter.com/ChrisLawSNP/status/1347319507803648001" >}}
 
 
 

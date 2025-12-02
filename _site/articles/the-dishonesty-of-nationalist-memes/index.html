@@ -96,9 +96,11 @@
     
     <div class="article-content">
         <p>It seems that there are no depths to which the SNP and other separatist propaganda groups will not sink. Lies and chicanery are their customary <em>modus operandi</em>. One of the most recent comes from Chris Law, an SNP MP for Dundee, who has tweeted: ‘The Barnett Formula Myth Destroyed – it does not subsidise Scotland’.&nbsp;</p>
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ChrisLawSNP/status/1347319507803648001
-</div></figure>
+<blockquote class="twitter-tweet" data-theme="light">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/ChrisLawSNP/status/1347319507803648001?ref_src=twsrc%5Etfw"></a>
+  </p>
+</blockquote>
 <p>He bases this on <a href="https://newscotland.news.blog/2020/02/26/the-barnett-formula-myth-destroyed-it-does-not-subsidise-scotland/">a blog post</a> by Gordon Macintyre-Kemp, leader of ‘Business for Scotland’, the sham business organisation which is nothing more than an SNP propaganda front. </p>
 <figure class="wp-block-image size-large"><img src="/images/posts/Barnett2.png" alt="" class="wp-image-8300"/></figure>
 <p>It raises the question, yet again: if a separate Scotland would be so wonderful, why do <a href="https://themajority.scot/2020/12/10/if-separation-is-so-great-why-must-you-lie-about-it/">Nationalists have to tell such blatant lies about it?&nbsp;</a></p>
@@ -318,13 +320,28 @@ https://www.youtube.com/watch?v=mSvocvvj7rg
             }
         })();
     </script><script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('figure.wp-block-embed-twitter, figure.wp-block-embed.is-provider-twitter').forEach(function(figure) {
+                const wrapper = figure.querySelector('.wp-block-embed__wrapper');
+                if (!wrapper) return;
+                const url = wrapper.textContent.match(/https?:\/\/twitter\.com\/\w+\/status\/\d+/);
+                if (url) {
+                    const blockquote = document.createElement('blockquote');
+                    blockquote.className = 'twitter-tweet';
+                    blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url[0] + '?ref_src=twsrc%5Etfw"></a></p>';
+                    figure.parentNode.replaceChild(blockquote, figure);
+                }
+            });
+        });
+        
+        
         window.addEventListener('load', function() {
             if (window.twttr && window.twttr.ready) {
                 window.twttr.ready(function() {
                     window.twttr.widgets.load();
                 });
             } else {
-                
                 var checkTwitter = setInterval(function() {
                     if (window.twttr && window.twttr.ready) {
                         clearInterval(checkTwitter);
@@ -333,7 +350,6 @@ https://www.youtube.com/watch?v=mSvocvvj7rg
                         });
                     }
                 }, 100);
-                
                 setTimeout(function() { clearInterval(checkTwitter); }, 5000);
             }
         });

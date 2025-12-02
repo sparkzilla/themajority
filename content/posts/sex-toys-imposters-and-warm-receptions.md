@@ -39,9 +39,7 @@ aliases = ["/blog/2021/05/04/sex-toys-imposters-and-warm-receptions/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/georgegalloway/status/1388097854602842113
-</div></figure>
+{{< tweet url="https://twitter.com/georgegalloway/status/1388097854602842113" >}}
 
 
 

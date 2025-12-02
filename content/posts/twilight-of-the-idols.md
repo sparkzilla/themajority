@@ -51,9 +51,7 @@ aliases = ["/blog/2021/01/25/twilight-of-the-idols/"]
 
 
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/AngusMacNeilSNP/status/1352192148515532800
-</div></figure>
+{{< tweet url="https://twitter.com/AngusMacNeilSNP/status/1352192148515532800" >}}
 
 
 

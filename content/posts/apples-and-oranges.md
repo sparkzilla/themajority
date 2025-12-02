@@ -47,9 +47,7 @@ aliases = ["/blog/2020/11/03/apples-and-oranges/"]
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/douglas4moray/status/1009052199865987074
-</div></figure>
+{{< tweet url="https://twitter.com/douglas4moray/status/1009052199865987074" >}}
 
 
 
@@ -77,9 +75,7 @@ https://twitter.com/douglas4moray/status/1009052199865987074
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/ScotTories/status/1323217438062878720
-</div></figure>
+{{< tweet url="https://twitter.com/ScotTories/status/1323217438062878720" >}}
 
 
 
@@ -115,9 +111,7 @@ https://twitter.com/ScotTories/status/1323217438062878720
 
 
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/PeterAdamSmith/status/1323305526466383874
-</div></figure>
+{{< tweet url="https://twitter.com/PeterAdamSmith/status/1323305526466383874" >}}
 
 
 
