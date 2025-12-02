@@ -1,4 +1,4 @@
-baseURL = 'https://sparkzilla.github.io/'
+baseURL = 'https://sparkzilla.github.io/themajority/'
 languageCode = 'en-us'
 title = 'The Majority'
 theme = 'majority'
