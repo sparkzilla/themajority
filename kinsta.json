@@ -1,5 +1,5 @@
 {
-  "buildCommand": "hugo --minify && powershell -ExecutionPolicy Bypass -File generate-search-index.ps1",
+  "buildCommand": "hugo --minify && node generate-search-index.js",
   "outputDirectory": "_site",
   "devCommand": "hugo server -D",
   "installCommand": "echo 'No dependencies to install'"
