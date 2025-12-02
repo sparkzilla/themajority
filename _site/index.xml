@@ -51,13 +51,6 @@
       <description>This page lists all articles sorted by date, oldest first, to help identify early articles for deletion.</description>
     </item>
     <item>
-      <title>Delete Articles</title>
-      <link>http://localhost:1313/delete-articles/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/delete-articles/</guid>
-      <description>Select articles to mark for deletion, then download and run the generated script.</description>
-    </item>
-    <item>
       <title>Stop lying about GERS</title>
       <link>http://localhost:1313/articles/stop-lying-about-gers/</link>
       <pubDate>Sat, 31 Aug 2024 18:39:23 +0000</pubDate>
