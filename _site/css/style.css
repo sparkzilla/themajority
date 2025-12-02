@@ -74,6 +74,59 @@ h1, h2, h3, h4, h5, h6,
     top: 100px; /* Below header */
 }
 
+.social-media-panel {
+    background: var(--bg-white);
+    border: 2px solid var(--primary-blue);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.social-media-title {
+    font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-blue);
+    text-align: center;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    color: var(--primary-blue);
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background: transparent;
+    flex: 0 0 auto;
+}
+
+.social-icon:hover {
+    background: var(--primary-blue);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 133, 194, 0.3);
+}
+
+.social-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
 .sidebar-title {
     font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 24px;
