@@ -1,5 +1,5 @@
 {
-  "buildCommand": "hugo --minify && node generate-search-index.js",
+  "buildCommand": "curl -L https://github.com/gohugoio/hugo/releases/latest/download/hugo_extended_Linux-64bit.tar.gz -o hugo.tar.gz && tar -xzf hugo.tar.gz hugo && chmod +x hugo && ./hugo --minify && node generate-search-index.js",
   "outputDirectory": "_site",
   "devCommand": "hugo server -D",
   "installCommand": "npm install || echo 'No npm dependencies needed'"
